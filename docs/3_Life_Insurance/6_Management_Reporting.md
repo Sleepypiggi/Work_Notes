@@ -173,6 +173,13 @@ $$
 
     * **Valuation Cashflows**: Policy perspective
     * **Profit Cashflows**: Shareholder perspective (Includes change in reserve and investment return)
+  
+Prem
+Exp (Comm, fixed + var, init + ren)
+Ben (Death, Surr, Mat)
+- RI Prem (Pay to RI)
++ RI Rec (Claims that can be ceded to RI)
++ RI Comm (Paid to the Direct company, to cover the underwriting and acq costs associated with the policy, since the RI themselves did not acquire business)
 
 If reserves are calculated on the **same basis** as the projection, then there will be **NO profit** as the terms will **cancel** each other out:
 
