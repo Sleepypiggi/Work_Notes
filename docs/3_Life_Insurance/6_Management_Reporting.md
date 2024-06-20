@@ -65,7 +65,7 @@ Although the required capital is owned by shareholders, it is **locked** into th
 * However, since it is locked into the company, it can only **earn an investment return** based on the assets that it can be invested in
 * Furthemore, since the investment income is earned by the company, it is **subject to tax**
 
-!!! Note
+!!! Info
 
     In most regulations, required capital must be held in **low risk** assets which thus generate **low returns**.
 
@@ -78,6 +78,39 @@ $$
     \text{PVCoC} &= \text{PV(Cost of Capital)}
 \end{aligned}
 $$
+
+### **Required Capital**
+
+Actual RC not calculated within cashflow projection software because there are non-cashflow related components of RC
+
+C1: Insurance related
+C2: Asset related, Interest Mismatched linked to liabilities, others are not
+ORR: Non asset related
+
+Above is calculated at the fund level
+
+Need to replicate in projection software at the product level
+Done so by using a factor based approach to scale some metric inside the projetion to the RC AMOUNT
+most will use MCL
+ILP not suitable to use raw MCL because MCL tends to be 0 - thus another matric to consider is the equity shock
+
+Even for components calculated inside projection, need to have factors to diversify it
+
+IntMM
+Based on cashflows, need to do bottoms up approach to get change in liabilities
+Change in assets provided by a factor
+overall RC computed by comparing thesse two items
+Still need to diversify it, factor based
+
+Subfund diversification
+In RBC2 world, there is only par fund and non-par fund, all other cuts are arbitrary
+When attribute it to the individual funds/products and add up, there will be some problem
+
+sum of sqrt(c1^2 + c2^2) not equal to \sqrt(sum c1^2 + sum c2^2)
+Need to use a factor to gross up to their reported amount
+
+Split at the fund level - products in the fund use the same factors
+Total assets (RC+MCL) then split into components using SAA, calculate the RC, repeat until equilibrium
 
 ### **Value in Force**
 
@@ -101,6 +134,10 @@ $$
     \text{RDR}_\text{Equity}
     = \text{RFR} + \beta \cdot (\text{Market Return} - \text{RFR}) 
 $$
+
+BEta should reflect underlying risk
+Industry and geographical location
+How to choose represrnative companies? Market weight? by what index?
 
 !!! Note
 
@@ -129,6 +166,13 @@ $$
     &+ \text{Investment Return(t)} - \text{Increase in Reserve(t)}
 \end{aligned}
 $$
+
+!!! Note
+
+    Notice the similarities between the above cashflows and the ones used for valuation:
+
+    * **Valuation Cashflows**: Policy perspective
+    * **Profit Cashflows**: Shareholder perspective (Includes change in reserve and investment return)
 
 If reserves are calculated on the **same basis** as the projection, then there will be **NO profit** as the terms will **cancel** each other out:
 

@@ -259,11 +259,11 @@ In both cases, the upfront costs will be **recovered over time** as long the pol
 
 !!! Note
 
-	The period where surrender charges are applicable is typically known as a **Minimum or Initial Investment Period**.
+	The period where surrender charges are applicable is typically known as the **Minimum Investment Period** or **Surrender Charge Period**.
 
 	This is becaused it is assumed that the policyholder will not lapse during this period so as to avoid the surrender charge.
 
-In both cases, premium allocation rates tend to **increase above 100%** after a certain period, incentivising the policyholder to retain their policy to get the additional value. 
+In both cases, premium allocation rates tend to **increase above 100%** after a certain period, incentivising the policyholder to **retain their policy** to get the additional value. 
 
 The premium allocation schedule is typically **non-guaranteed**, but most insurers *floor* the allocation rates at 100%.
 
@@ -285,10 +285,10 @@ $$
 
 More generally, these charges come in one of two forms:
 
-* **Sales Charge**: front end load applied to the transaction volumes
+* **Sales Charge**: Front end load applied to the transaction volumes
 * **Bid-Offer Spread**: Difference between bid and offer prices
 
-Both items are typically represented as a **percentage** (~5%).
+Both items are typically represented as a **percentage** (EG. 5%).
 
 !!! Note
 
@@ -319,6 +319,14 @@ This self-sustaining nature of the policy means that if policyholders choose not
 
 If the policy is on premium holiday during the first 10 policy years, we will deduct a premium
 holiday charge on a monthly basis from the account value
+
+Premium holiday during MIP have charges
+Stop paying after grace period
+policy will not lapse immediately > Will enter premium holiday
+Provided that fund value is sufficient
+Cease after pay again
+but charges applicable during MIP
+
 -->
 
 
@@ -353,10 +361,10 @@ Insureds are allowed to split their investments into **multiple different funds*
 ### Bonus
 
 Welcome
-Loyalyu
+Loyalty
 
-
-
+Welcome Bonus hits the unallocated premium, negative unalloc prem
+Cost of bonuses
 
 
 Whenever there are charges posted to the policy, it will **sell units** to cover the charges. On top of the typical insurance related charges, they also contain **investment related charges** (Fund Management Charges, Expense Ratios etc).
