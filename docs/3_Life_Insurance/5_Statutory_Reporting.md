@@ -219,3 +219,35 @@ Surplus
 
 ILP/Non par = RFR
 PAR = ASSET + INv yield
+
+The Smith-Wilson method is part of the broader class of curve-fitting techniques. It is designed to fit a term structure of interest rates to observed market data, such as swap rates or government bond yields, and then extrapolate that term structure to longer maturities where market data may be sparse or unavailable
+
+The method starts by fitting the term structure to the observed market rates. It ensures that the term structure reproduces these rates accurately at the given maturities.
+
+For maturities beyond the available market data, the Smith-Wilson method extrapolates the term structure towards an ultimate forward rate (UFR). The UFR reflects the long-term equilibrium interest rate that the market expects.
+
+The extrapolated rates smoothly converge to the UFR as the maturity increases, ensuring a realistic and stable long-term projection.
+The extrapolation aligns with the prescribed UFR by the MAS, which reflects a long-term stable interest rate.
+
+This approach under RBC 2 helps ensure that the valuation of liabilities is robust and reflective of both current and expected future market conditions, thus contributing to the overall financial stability of the insurance sector.
+
+Always converge to UFR; LT spot rate is always the same
+
+The UFR represents the long-term equilibrium interest rate towards which the extrapolated yield curve is expected to converge. It reflects the long-term expectations of interest rates based on macroeconomic factors.
+
+Purpose: The parameter α (often referred to as the convergence speed or decay factor) controls the speed at which the yield curve converges to the UFR.
+Effect: A higher α value results in a faster convergence of the yield curve towards the UFR, while a lower α value means slower convergence.
+
+A high Alpha value will make the yield curve steep at shorter maturities, moving quickly towards the UFR, while a low Alpha value leads to a flatter curve, with the long end of the curve approaching the UFR more gradually.
+
+Exponential Decay: Alpha is associated with the exponential decay function in the Smith-Wilson framework. The function typically looks like e−αte−αt, where tt is time (or maturity). This decay function influences how much weight the extrapolated curve gives to the UFR as opposed to observed market data.
+
+The Matching Adjustment is intended to reduce the artificial volatility in an insurer’s balance sheet by recognizing the additional return that can be earned from holding illiquid assets over long periods, where the insurer's liabilities are also illiquid.
+
+It provides a way to reflect the insurer's ability to hold assets to maturity, thereby allowing the valuation of liabilities to more closely align with the expected returns on the corresponding assets.
+
+To apply the Matching Adjustment, the insurer must demonstrate that the assets are closely matched to the liabilities in terms of both timing and amount. The cash flows from the assets must closely match the expected cash flows from the insurance liabilities.
+
+The Matching Adjustment is calculated as the difference between the yield on the matching assets and a risk-free rate, adjusted for the cost of credit risk (often referred to as the Fundamental Spread).
+
+By using the Matching Adjustment, insurers can reduce the present value of their long-term liabilities, which in turn can reduce their capital requirements under the RBC 2 framework. This reflects the lower risk associated with holding matched assets and liabilities.
