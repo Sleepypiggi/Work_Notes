@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://example.com/3_Life_Insurance/5_Staturory_Reporting/">
+        <link rel="canonical" href="https://example.com/3_Life_Insurance/5_Statutory_Reporting/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
       
-        <title>**Risk Based Capital** (RBC) - Work Notes</title>
+        <title>Statutory Reporting - Work Notes</title>
       
     
     
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              **Risk Based Capital** (RBC)
+              Statutory Reporting
             
           </span>
         </div>
@@ -339,12 +339,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -421,11 +423,154 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../5_Statutory_Reporting.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Statutory Reporting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Statutory Reporting
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#background" class="md-nav__link">
+    Background
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risk-based-capital-2-rbc2" class="md-nav__link">
+    Risk Based Capital 2 (RBC2)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-solvency-ratios" class="md-nav__link">
+    1. Solvency Ratios
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-financial-resources" class="md-nav__link">
+    2. Financial Resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-risk-requirements" class="md-nav__link">
+    3. Risk Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Risk Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-c1-risk-requirement-insurance-risk" class="md-nav__link">
+    3.1 C1 Risk Requirement - Insurance Risk
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 C1 Risk Requirement - Insurance Risk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31a-pad-vs-c1" class="md-nav__link">
+    3.1a PAD vs C1
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-c2-risk-charge-asset-risk" class="md-nav__link">
+    3.2 C2 Risk Charge - Asset Risk
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-operational-risk-requirement" class="md-nav__link">
+    3.3 Operational Risk Requirement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-total-risk-requirement" class="md-nav__link">
+    3.4 Total Risk Requirement
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-discount-rates" class="md-nav__link">
+    4. Discount Rates
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Discount Rates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-smith-wilson-method" class="md-nav__link">
+    4.1 Smith Wilson Method
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-matching-adjustment-ill-liquidity-premium" class="md-nav__link">
+    4.2 Matching Adjustment &amp; Ill-liquidity Premium
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -966,6 +1111,23 @@ Policy type &gt; Par vs non par</p>
 Surplus</p>
 <p>ILP/Non par = RFR
 PAR = ASSET + INv yield</p>
+<p>The Smith-Wilson method is part of the broader class of curve-fitting techniques. It is designed to fit a term structure of interest rates to observed market data, such as swap rates or government bond yields, and then extrapolate that term structure to longer maturities where market data may be sparse or unavailable</p>
+<p>The method starts by fitting the term structure to the observed market rates. It ensures that the term structure reproduces these rates accurately at the given maturities.</p>
+<p>For maturities beyond the available market data, the Smith-Wilson method extrapolates the term structure towards an ultimate forward rate (UFR). The UFR reflects the long-term equilibrium interest rate that the market expects.</p>
+<p>The extrapolated rates smoothly converge to the UFR as the maturity increases, ensuring a realistic and stable long-term projection.
+The extrapolation aligns with the prescribed UFR by the MAS, which reflects a long-term stable interest rate.</p>
+<p>This approach under RBC 2 helps ensure that the valuation of liabilities is robust and reflective of both current and expected future market conditions, thus contributing to the overall financial stability of the insurance sector.</p>
+<p>Always converge to UFR; LT spot rate is always the same</p>
+<p>The UFR represents the long-term equilibrium interest rate towards which the extrapolated yield curve is expected to converge. It reflects the long-term expectations of interest rates based on macroeconomic factors.</p>
+<p>Purpose: The parameter α (often referred to as the convergence speed or decay factor) controls the speed at which the yield curve converges to the UFR.
+Effect: A higher α value results in a faster convergence of the yield curve towards the UFR, while a lower α value means slower convergence.</p>
+<p>A high Alpha value will make the yield curve steep at shorter maturities, moving quickly towards the UFR, while a low Alpha value leads to a flatter curve, with the long end of the curve approaching the UFR more gradually.</p>
+<p>Exponential Decay: Alpha is associated with the exponential decay function in the Smith-Wilson framework. The function typically looks like e−αte−αt, where tt is time (or maturity). This decay function influences how much weight the extrapolated curve gives to the UFR as opposed to observed market data.</p>
+<p>The Matching Adjustment is intended to reduce the artificial volatility in an insurer’s balance sheet by recognizing the additional return that can be earned from holding illiquid assets over long periods, where the insurer's liabilities are also illiquid.</p>
+<p>It provides a way to reflect the insurer's ability to hold assets to maturity, thereby allowing the valuation of liabilities to more closely align with the expected returns on the corresponding assets.</p>
+<p>To apply the Matching Adjustment, the insurer must demonstrate that the assets are closely matched to the liabilities in terms of both timing and amount. The cash flows from the assets must closely match the expected cash flows from the insurance liabilities.</p>
+<p>The Matching Adjustment is calculated as the difference between the yield on the matching assets and a risk-free rate, adjusted for the cost of credit risk (often referred to as the Fundamental Spread).</p>
+<p>By using the Matching Adjustment, insurers can reduce the present value of their long-term liabilities, which in turn can reduce their capital requirements under the RBC 2 framework. This reflects the lower risk associated with holding matched assets and liabilities.</p>
 
 
 
@@ -981,6 +1143,42 @@ PAR = ASSET + INv yield</p>
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../3_Modelling/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Modelling" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Modelling
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../6_Management_Reporting/" class="md-footer__link md-footer__link--next" aria-label="Next: Management Reporting" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Management Reporting
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

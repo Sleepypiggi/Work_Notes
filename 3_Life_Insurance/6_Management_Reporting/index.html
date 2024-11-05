@@ -425,7 +425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../5_Statutory_Reporting.md" class="md-nav__link">
+      <a href="../5_Statutory_Reporting/" class="md-nav__link">
         Statutory Reporting
       </a>
     </li>
@@ -497,6 +497,13 @@
           <li class="md-nav__item">
   <a href="#cost-of-capital" class="md-nav__link">
     Cost of Capital
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#required-capital" class="md-nav__link">
+    Required Capital
   </a>
   
 </li>
@@ -868,6 +875,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#required-capital" class="md-nav__link">
+    Required Capital
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#value-in-force" class="md-nav__link">
     Value in Force
   </a>
@@ -1074,8 +1088,8 @@
 <li>However, since it is locked into the company, it can only <strong>earn an investment return</strong> based on the assets that it can be invested in</li>
 <li>Furthemore, since the investment income is earned by the company, it is <strong>subject to tax</strong></li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
 <p>In most regulations, required capital must be held in <strong>low risk</strong> assets which thus generate <strong>low returns</strong>.</p>
 </div>
 <p>Thus, the above differences creates an <strong>opportunity cost</strong> for shareholders, known as the <strong>Cost of Capital</strong> that is reduced from the value of RC:</p>
@@ -1086,6 +1100,29 @@
     \text{PVCoC} &amp;= \text{PV(Cost of Capital)}
 \end{aligned}
 \]</div>
+<h3 id="required-capital"><strong>Required Capital</strong><a class="headerlink" href="#required-capital" title="Permanent link">&para;</a></h3>
+<p>Actual RC not calculated within cashflow projection software because there are non-cashflow related components of RC</p>
+<p>C1: Insurance related
+C2: Asset related, Interest Mismatched linked to liabilities, others are not
+ORR: Non asset related</p>
+<p>Above is calculated at the fund level</p>
+<p>Need to replicate in projection software at the product level
+Done so by using a factor based approach to scale some metric inside the projetion to the RC AMOUNT
+most will use MCL
+ILP not suitable to use raw MCL because MCL tends to be 0 - thus another matric to consider is the equity shock</p>
+<p>Even for components calculated inside projection, need to have factors to diversify it</p>
+<p>IntMM
+Based on cashflows, need to do bottoms up approach to get change in liabilities
+Change in assets provided by a factor
+overall RC computed by comparing thesse two items
+Still need to diversify it, factor based</p>
+<p>Subfund diversification
+In RBC2 world, there is only par fund and non-par fund, all other cuts are arbitrary
+When attribute it to the individual funds/products and add up, there will be some problem</p>
+<p>sum of sqrt(c1^2 + c2^2) not equal to \sqrt(sum c1^2 + sum c2^2)
+Need to use a factor to gross up to their reported amount</p>
+<p>Split at the fund level - products in the fund use the same factors
+Total assets (RC+MCL) then split into components using SAA, calculate the RC, repeat until equilibrium</p>
 <h3 id="value-in-force"><strong>Value in Force</strong><a class="headerlink" href="#value-in-force" title="Permanent link">&para;</a></h3>
 <p>The other component is known as the <strong>Value In Force</strong> (VIF), which is the <strong>present value of future profits</strong> from the in-force block of business.</p>
 <p>Profits in a company can either be <strong>reinvested</strong> back into the business or <strong>distributed to shareholders</strong> via dividends. VIF assumes that future profits are <strong>entirely distributed</strong> to shareholders, thus is counted towards EV.</p>
@@ -1100,6 +1137,9 @@
     \text{RDR}_\text{Equity}
     = \text{RFR} + \beta \cdot (\text{Market Return} - \text{RFR}) 
 \]</div>
+<p>BEta should reflect underlying risk
+Industry and geographical location
+How to choose represrnative companies? Market weight? by what index?</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>If Debt is allowed in some capacity, then the <strong>Weighted Average Cost of Capital</strong> (WACC) can be used instead:</p>
@@ -1123,6 +1163,20 @@
     &amp;+ \text{Investment Return(t)} - \text{Increase in Reserve(t)}
 \end{aligned}
 \]</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Notice the similarities between the above cashflows and the ones used for valuation:</p>
+<ul>
+<li><strong>Valuation Cashflows</strong>: Policy perspective</li>
+<li><strong>Profit Cashflows</strong>: Shareholder perspective (Includes change in reserve and investment return)</li>
+</ul>
+</div>
+<p>Prem
+Exp (Comm, fixed + var, init + ren)
+Ben (Death, Surr, Mat)
+- RI Prem (Pay to RI)
++ RI Rec (Claims that can be ceded to RI)
++ RI Comm (Paid to the Direct company, to cover the underwriting and acq costs associated with the policy, since the RI themselves did not acquire business)</p>
 <p>If reserves are calculated on the <strong>same basis</strong> as the projection, then there will be <strong>NO profit</strong> as the terms will <strong>cancel</strong> each other out:</p>
 <ul>
 <li><strong>Release of reserves</strong> to cover the expected** net benefit and expenses; offsetting the net premiums received in the period</li>
@@ -1476,7 +1530,7 @@ this is because the investment return on this item is expected to support the po
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../3_Modelling/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Modelling" rel="prev">
+        <a href="../5_Statutory_Reporting/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Statutory Reporting" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1485,7 +1539,7 @@ this is because the investment return on this item is expected to support the po
               <span class="md-footer__direction">
                 Previous
               </span>
-              Modelling
+              Statutory Reporting
             </div>
           </div>
         </a>
