@@ -1,5 +1,25 @@
 # **Insurance Overview**
 
+## **Basic Information**
+
+### **Definition**
+
+Insurance is a contract between an insurance company and customer, whereby the company will make a payout to a pre-specified beneficiary if a pre-specified event occurs.
+
+Key Terminologies:
+
+* Contract: Insurance Policy
+* Insurance Company: Insurer
+* Customer: Insured or Policyholder  
+
+### Broad Categories
+
+life Health Gi
+
+whereby the insurance company will make a payout to the c
+
+
+
 ## **Understanding Insurance**
 
 From an economic perspective, every individual owns several assets (wealth, health, wisdom etc) over their life cycle that they must manage to survive, which can be measured through their **financial value**.
