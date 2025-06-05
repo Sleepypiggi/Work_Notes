@@ -2,7 +2,7 @@
 
 ## **Background**
 
-The primary objective of insurance regulators is to ensure that insurance companies can fulfil their financial obligations to policyholders. In other words, they want to ensure that insurers are **solvent**, having more assets than liabilities.
+The primary objective of insurance regulators is to ensure that insurance companies can fulfil their financial obligations to policyholders. In other words, they want to ensure that insurers are **solvent**, having more assets than liabilities.    
 
 This is done by imposing a **minimum amount of capital** that insurers must hold in order to run the business. Depending on the extent that insurers fall below this minimum threshold, the regulators have the legal authority to require submission of action plans to restore their capital position or to take control of the company. 
 
@@ -12,9 +12,7 @@ In the past, capital requirements were fixed; every insurer was subjected to the
 
 Thus, **risk based** capital requirements were created, where companies had different capital requirements **in proportion to their size and risk**.
 
-!!! Note
 
-    https://content.naic.org/cipr-topics/risk-based-capital
 
 ## **Risk Based Capital 2 (RBC2)**
 

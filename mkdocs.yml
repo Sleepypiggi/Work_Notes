@@ -7,29 +7,16 @@ theme:
     scheme: slate
 
 nav:
-  - Actuarial:
-    - Actuarial Overview: 1_Actuarial/1_Actuarial_Overview.md
-    - Credentialling Process: 1_Actuarial/2_Credentialling_Process.md
-    - Career Advice: 1_Actuarial/3_Career_Advice.md
-  - Insurance:
-    - Insurance Overview: 2_Insurance/1_Insurance_Overview.md
-    - Insurance Concepts: 2_Insurance/2_Insurance_Concepts.md
-    - Insurance Stakeholders: 2_Insurance/3_Insurance_Stakeholders.md
-  - Life Insurance:
-    - Life Products: 3_Life_Insurance/1_Life_Products.md
-    - Product Features: 3_Life_Insurance/2_Product_Features.md
-    - Modelling: 3_Life_Insurance/3_Modelling.md
-    - Valuation: 3_Life_Insurance/4_Life_Valuation.md
-    - Statutory Reporting: 3_Life_Insurance/5_Statutory_Reporting.md
-    - Management Reporting: 3_Life_Insurance/6_Management_Reporting.md
-    - Financial Reporting: 3_Life_Insurance/7_Financial_Reporting.md
-    - Experience Studies: 3_Life_Insurance/8_Experience_Studies.md
-    - Expense Management: 3_Life_Insurance/9_Expense_Management.md
-    - Par Fund Management: 3_Life_Insurance/10_Par_Fund_Management.md
-  - Health Insurance:
-    - Health Products: 4_Health_Insurance/1_Health_Products.md
-  - Reinsurance:
-      - Overview: 5_Reinsurance/1_Reinsurance_Overview.md
+  - Life Insurance: Placeholder.md
+  - Products: Placeholder.md
+  - Valuation: Placeholder.md
+  - Solvency:
+    - Risk Based Capital: 3_SOLVENCY/0_RISK_BASED_CAPITAL.md
+  - Embedded Value: Placeholder.md
+  - IFRS17: Placeholder.md
+  - Distribution: Placeholder.md
+  - Health Insurance: Placeholder.md
+  - General Insurance: Placeholder.md
 
 markdown_extensions:
 
@@ -70,5 +57,4 @@ extra_css:
 
 extra_javascript:
   - config/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
