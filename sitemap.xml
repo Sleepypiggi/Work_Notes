@@ -2,112 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/1_Actuarial/1_Actuarial_Overview/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/0_INSURANCE/0_OVERVIEW/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/1_Actuarial/2_Credentialling_Process/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/0_INSURANCE/1_CONCEPTS/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/1_Actuarial/3_Career_Advice/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/1_PRODUCTS/0_TERM/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/2_Insurance/1_Insurance_Overview/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/1_PRODUCTS/1_WHOLE_LIFE/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/2_Insurance/2_Insurance_Concepts/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/1_PRODUCTS/2_ENDOWMENT/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/2_Insurance/3_Insurance_Stakeholders/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/1_PRODUCTS/3_PARTICIPATING/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/2_Insurance/Dump/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/1_PRODUCTS/4_UNIVERSAL_LIFE/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/10_Par_Fund_Management/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/1_PRODUCTS/5_INVESTMENT_LINKED/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/1_Life_Products/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/1_PRODUCTS/6_ANNUITIES/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/2_Product_Features/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/3_SOLVENCY/0_RISK_BASED_CAPITAL/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/3_Modelling/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/3_SOLVENCY/5_Statutory_Reporting/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/4_Valuation/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/1_Actuarial/1_Actuarial_Overview/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/5_Statutory_Reporting/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/1_Actuarial/2_Credentialling_Process/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/6_Management_Reporting/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/1_Actuarial/3_Career_Advice/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/7_Financial_Reporting/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/2_Insurance/1_Insurance_Overview/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/8_Experience_Studies/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/2_Insurance/2_Insurance_Concepts/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/98_Prophet/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/2_Insurance/3_Insurance_Stakeholders/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/99_Singapore_Insurance/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/2_Insurance/Dump/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_Life_Insurance/9_Expense_Management/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/3_Life_Insurance/10_Par_Fund_Management/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/4_Health_Insurance/1_Health_Products/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/3_Life_Insurance/1_Life_Products/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/5_Reinsurance/1_Reinsurance_Overview/</loc>
-         <lastmod>2024-11-05</lastmod>
+         <loc>https://example.com/Archive/3_Life_Insurance/2_Product_Features/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/3_Modelling/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/4_Valuation/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/6_Management_Reporting/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/7_Financial_Reporting/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/8_Experience_Studies/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/98_Prophet/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/99_Singapore_Insurance/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/3_Life_Insurance/9_Expense_Management/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/4_Health_Insurance/1_Health_Products/</loc>
+         <lastmod>2025-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/Archive/5_Reinsurance/1_Reinsurance_Overview/</loc>
+         <lastmod>2025-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
