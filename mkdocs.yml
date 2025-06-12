@@ -8,7 +8,13 @@ theme:
 
 nav:
   - Life Insurance: Placeholder.md
-  - Products: Placeholder.md
+  - Products:
+    - Term: 1_PRODUCTS/0_TERM.md
+    - Whole Life: 1_PRODUCTS/1_WHOLE_LIFE.md
+    - Endowment: 1_PRODUCTS/2_ENDOWMENT.md
+    - Participating: 1_PRODUCTS/3_PARTICIPATING.md
+    - Universal Life: 1_PRODUCTS/4_UNIVERSAL_LIFE.md
+    - Investment Linked: 1_PRODUCTS/5_INVESTMENT_LINKED.md
   - Valuation: Placeholder.md
   - Solvency:
     - Risk Based Capital: 3_SOLVENCY/0_RISK_BASED_CAPITAL.md
