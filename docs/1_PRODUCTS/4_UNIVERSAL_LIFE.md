@@ -20,6 +20,8 @@ The interest earned on the account is known as the **Crediting Rate**, which typ
 
 Universal Life is known for its **flexibility** as the policyholder can choose **how much premium** to pay each period as well as **adjust their benefit** post-inception (subject to underwriting).
 
+Given the above, the policyholder can effectively solve for the amount of premiums needed so that the resulting UL plan (assuming actual returns follow expected) mimics another kind of policy (Term, Endowment or WL).
+
 !!! Tip
 
     It is useful to think of UL as a YRT with an account value, where the cost of the YRT is deducted from the fund.
@@ -47,12 +49,18 @@ Thus, to avoid the above scenario, the death benefit will be **automatically inc
 
 ### **Target Premium**
 
-Since there are no premium requirements, policyholders have a high chance of under-paying the policy, causing it to lapse earlier than expected.
+Since there are no premium requirements, policyholders have a high chance of under-paying the policy, causing it to **lapse earlier** than expected.
 
-
-
-However, because there are no premium requirements, insureds are **more likely to lapse** their policies as they may end up paying too little or not at all. Insurers attempt to minimize this by providing a **target premium** that the insured should aim to pay each period to keep the policy adequately funded.
-
-> This target premium is also often the *maximum* premium that agents can earn the standard commission rate. Premiums paid in **excess of the target** earn lesser commissions. This incentivises agents to recommend the insured to pay *at least* the target premium. However, this method has **limited effectiveness** as the decision ultimately sits with the insured.
+Thus, the insurer usually recommends a premium amount that *SHOULD* keep the policy in-force for a specified number of years. There is **no guarantee** that the policy will, because of the uncertainty in the crediting rate.
 
 !!! Warning
+
+    UL is often marketed as a “whole life” product. However, this is misleading because there is no guarantee that the policy will remain in-force for that duration.
+    
+    This is contrary to other products where payment of the premium guarantees the coverage. Consumers who pay the target premium consistently might see their policy lapse and “cheated” by the insurance company as a result.
+
+### **No Lapse Guarantee**
+
+
+
+### **Premium Financing**
