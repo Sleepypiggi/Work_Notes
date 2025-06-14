@@ -64,3 +64,44 @@ Thus, the insurer usually recommends a premium amount that *SHOULD* keep the pol
 
 
 ### **Premium Financing**
+
+IUL is the most common variation as the risk is much lower compared to VUL
+UL is a high net worth focused product. Mainly comes in the form of SP policy
+
+Supported heavily by premium financing - bank interest is 2%, UL credited rate is more than 2.0%
+
+Policyholder essentially earn the spread
+
+High net worth means branding is very important. Rich ppl want good service, good brand name, want to be able to tell ppl that they dropped X in this company etc.
+
+Distribution must be able to reach these ppl to sell
+
+
+
+How does it make sense that interest rate is 2 but credit 2.5?
+
+If assets all in the same place, doesn’t make sense, high risk. If have global investment team, earned rate is higher than the borrowing cost
+
+Also cos investment could be in non debt assets, earning higher rate than credited
+
+Universal life COI is a yearly renewable term, not like WL coi which is fixed
+No prepayment
+Investment grow more than COI, free insurance essentially
+
+Premium financing borrow from bank buy par product
+Bundled product means can only buy if u but others
+
+
+From a projection perspective, for P/L Purposes, the Unit fund should have no surplus since it’s owned by the policyholder
+
+Surrender Charge is also a deterrence against bank run
+
+Need the funds to cover the future shortfall
+
+
+Potentially higher costs - VUL policies may be more expensive than other types of permanent insurance, such as Whole Life and traditional Universal Life. Volatility of cash surrender values, especially at late duration, can cause a "reverse dollar cost averaging" effect that results in higher costs of insurance charges. Proper funding of a contract may reduce this risk, but it cannot be completely eliminated.
+
+lock your money up in all kinds of strange ways and do not compensate you for the illiquidity.
+
+
+This makes a VL policy *potentially more attractive* than every other kind of policy. However, this is only true if the return on investments outpace both inflation and the investment return of the insurer. Although equity does earn substantially higher returns over a *long* period of time, **short term deviations** are inevitable and the policy value could drop substantially if the investments go bad.

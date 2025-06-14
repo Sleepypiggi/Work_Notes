@@ -1,5 +1,32 @@
 ## **Unit Linked**
 
+
+A **Unit-Linked** Policy is one that **invests the premiums** into **unit trusts** of professionally managed **mutual funds** of the policyholder's choice. This is why they are also commonly referred to as an **Investment-Linked Policies** (ILP).
+
+Each policy has a **unit account** that stores the purchased units. The account value is the **total NAV** of the units at the time.
+
+The unit account is conceptually similar to the cash account of a UL policy:
+
+1. Premiums are used to purchase units of chosen funds
+2. Units are sold to pay off any insurance or expense charges
+
+The account value can be accessed via a withdrawal or loan, through the **sale of the units** at the prevailing NAV. Similarly, if the account value **reduces to zero** due to poor market conditions, the policy will **lapse**.
+
+There are generally two types of ILPs, which determines how the death benefit is structured:
+
+<center>
+
+|         **Protection Focused**          |             **Investment Focused**              |
+| :-------------------------------------: | :---------------------------------------------: |
+|             Has sum assured             |            Does NOT have sum assured            |
+| Higher of account value and sum assured | Higher of account value and total premiums paid |
+
+</center>
+
+The key selling point of an ILP is that it is able to **generate high returns**, allowing it to **overcome inflation** which has typically plagued the other types of insurance policies. 
+
+Unlike all other forms of insurance, there are **NO investment guarantees**. The policyholder bears ALL the **investment risk**. If the underlying funds perform badly, the account value could decrease and result in a loss for the policyholder.
+
 This section will go over commonly found features in unit-linked products.
 
 ### **Premium Allocation**
@@ -91,6 +118,34 @@ Apart from the normal premium schedule, policyholders can make **adhoc top-ups**
 
 Top-ups are subject to premium allocation and premium charges, but may have a different rate compared to Single/Regular premiums.
 
+### Bonus
+
+Welcome
+Loyalty
+
+Welcome Bonus hits the unallocated premium, negative unalloc prem
+Cost of bonuses
+
+
+Whenever there are charges posted to the policy, it will **sell units** to cover the charges. On top of the typical insurance related charges, they also contain **investment related charges** (Fund Management Charges, Expense Ratios etc).
+
+ *Regardless* of the investment performance, the insurer will take a **fixed spread** from the investment.
+
+> Note that it is often difficult to determine the actual price of the units used for allocations or charges as there is often a delay due to processing. The transaction may only occur a few days later, thus using the unit price then rather than when it was initiated.
+
+The death benefit of the policy is the typically the **higher of the Account Value or a Capital Guarantee**, similar to Endowment Insurance. The NAAR of the policy is the Capital Guarantee less the Account Value. Thus, if the account value is sufficiently high, the **NAAR will be negative** and there will be **no mortality charges** on the policy.
+
+The surrender benefit of the policy is only the account value.
+
+$$
+\displaylines{
+Death~Benefit = Max (Account~Value, Capital~Guarantee) \\
+NAAR = Capital~Guarantee - Account~Value
+}
+$$
+
+
+
 ### **Mortality Charge**
 
 ### Annual Management Charge
@@ -134,3 +189,81 @@ The premium for this term policy is known as the **Cost of Insurance (COI)**. It
 $$
 Cost~Of~Insurance = COI~Rate * Net~Amount~At~Risk
 $$
+
+Regulation says can’t recognise negative reserve
+
+Par Non Par
+Reserve = Liability so must floor
+
+ILP
+Reserve = Unit + Non Unit Reserve (Liability)
+
+As long as total non negative, can already > Can recognise negative non unit reserve
+
+Strain is due to setting up reserves and expenses etc
+
+Because insurance is backend loaded, recover profits over time
+
+Worsened for modern ILP because most are super backended
+
+No allocated premium
+Minimal fee income in the first year
+
+But need pay out expenses reserve and bonus units etc
+
+ILP Bonus Unit
+Most common RP ILP these days should not have any COI
+
+GTD Benefit is 105% of premiums 
+Pay premium 
+Get welcome bonus
+Welcome bonus higher than 5%
+Thus SAR should be 0
+
+No COI, only got Policy Fee, FMC
+
+Negative reserve interaction with Capital is weird
+
+Negative reserve > Offset your capital > Don’t hold any capital > Investment Income is smaller > More frictional cost
+
+TER = AMC + Fund Expense
+
+True Return = Growth - Fund Expense
+AB > BD > AD > BB
+
+
+IE recognise profits earlier
+
+Higher NBEV, recover strain
+
+Deductions are charged based on fund value
+
+If premium holiday, fund value is smaller than expected
+Collect less fees
+Similar logic to SC, costs early on are high, need to recover
+
+Net asset growing due to sales
+But cash balance rapidly dropping
+Cash strain
+
+Due to high FY bonus unit, comm etc
+
+
+Insurers Prefer Unit-Linked Policies
+	Commissions for these unit linked policies are the highest – which incentivizes intermediaries to focus on them more compared to traditional products
+	These commissions are intentionally set by the company – this means that insurers are trying to sell more unit-linked products
+	This is possibly due to the lower risk borne by the insurer (No guaranteed benefits) which would subsequently reduce the regulatory requirements on the insurer
+	However, another view is that the product is much more complex and is harder to explain to clients which warrants a higher commission on the intermediary’s end
+Excessive charges
+	COnsidered investment securities and must be given a proespectus
+Must be sold by registered individuals who pass a financial exam
+
+BDAD BOP
+BB AB EOP
+
+
+Bid offer spread mechanicsd
+Dividend take out rate
+
+INV expense = Fund expense (lower than AMC) + OH
+Fund manager gives rebate based on AUM/discsussion

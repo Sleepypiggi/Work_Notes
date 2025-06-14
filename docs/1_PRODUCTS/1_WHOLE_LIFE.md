@@ -60,3 +60,44 @@ Typically lower than total premiums paid
 -->
 
 Note that the **surrender benefit must be smaller than the death benefit**, otherwise there would be no reason for the insured to keep the policy as they would earn more by surrendering it.
+
+Whole life insurance can provide a foundation to allow the household to spend more and still be able to provide a bequest, or to increase spending even further by using the cash value as a volatility buffer for the investment portfolio
+
+### **Whole Life**
+
+Whole Life policies offers permanent coverage for the **entire lifetime** of the insured.
+
+!!! Note
+
+	Technically speaking, there is an **upper limit** to the coverage, known as the **Maturity Age**:
+
+	* It is the age whereby the insurer **assumes all individuals will die** (EG. Age 120)
+	* If the insured survives till this age, then the policy will **mature** and benefit will be paid out to the insured
+	* This is because the product was priced based on the expectation that a payout would be made by this age. Thus, it is only fair that the insurer actually makes the payout
+
+Since **death is inevitable**, the insurer will **surely make a payout** on the policy. Thus, it is suited for individuals who **want to leave a bequest** for their beneficiaries. 
+
+!!! Info
+
+	Since the death payment is **guaranteed**, the face amount is referred to as the **Sum Assured**. This is why this type of policy is also known as a **Life Assurance**.
+
+The defining feature of a whole life policy is that it accumulates capital within the policy (similar to a savings account), known as the **Cash Value** of the policy. It can be accessed partially or in full via withdrawals, loans or a full surrender of the policy.
+
+The intended purpose of cash values was to create a **comprehensive financial product** with both an **insurance and savings component**, reducing the need to get each individually. It also offered a **structured approach** to saving as premiums must be paid routinely, **forcing** the insured to save.
+
+
+Buy term invest the rest
+The key idea is that you do not need to have coverage for your entire life – At some point, your dependents will grow up and become financially independent. They do not need the extra windfall from life insurance
+
+Another reason is that the payoffs from Par Products or ILPs are generally poor – if you invested the additional money you paid for those products vs Term Insurance in a market index fund, you would get much better results
+
+A decent amount of the premiums in the first few years goes towards commission for the intermediaries – which means that the compounding effect kicks in much later
+
+However, for people who can’t be bothered to learn simple investing or do not have the discipline to invest, insurance investments may not be a bad choice
+
+
+Although our dependents may become financially independent, most would like to leave a something behind for their children once they are gone, thus they would like to be covered till the very end
+
+Another key reason is that the policyholder only needs to go through Medical Underwriting ONCE. If your health worsens later on in life, it will not negatively affect premiums, and everything will still be covered. Thus, it is good to buy whole life insurance while you are young & healthy
+This is in contrast to a case whereby you purchase cheap term insurance for X years, but after X years your health deteriorates, and you would like to renew but it suddenly becomes very expensive
+Flexibility comes at a cost
