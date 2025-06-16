@@ -43,7 +43,9 @@ The premiums for a YRT plan **increase every year**, reflecting the increasing m
 
 The key difference is that the level premium approach essentially **pre-pays** the premium ahead of time, allowing them to **accumulate with interest** to cover the high mortality costs at later ages, requiring only a reasonably small level premium.
 
-This is in contrast to YRT requires the individual to pay **equal to their mortality cost for that year**. At later ages, most individuals have little to no income, making them unable to afford coverage, forcing them to **lapse the policy when they are most at risk** of death. This is why YRTs are never sold in practice.
+This is in contrast to YRT requires the individual to pay **equal to their mortality cost for that year**. At later ages, most individuals have little to no income, making them unable to afford coverage, forcing them to **lapse the policy when they are most at risk** of death.
+
+In the beginning of life insurance, YRTs were commonly used. However, due to affordability issues, they were phased out in favour of the **smoother level premium** approach that helped with persistency.
 
 !!! Note
 
@@ -56,6 +58,12 @@ A **lapse supported** product is one where higher than expected lapses result in
 !!! Warning
 
     The **timing of lapse** is important. Life insurance policies typically have **high acquisition costs**, that are gradually recovered over the life of the policy. If the lapse occurs too early, the insurer would not have recovered these costs and might result in a loss instead.
+    
+    Thus, when investigating lapse supportability, it is usually the **ultimate lapse rate** that is of interest; shocking the entire lapse rate downwards might see some offsetting effect from lower lapses.
+
+!!! Note
+
+    Lapse supportability mainly applies to regular premium products. For single premium or limited premium, **lapse rates should be zero** (in the absence of cash values) once the policy becomes paid-up, preventing any possible lapse profit.
 
 Lapse supportability is most prevalent in term insurance given that it has **no cash values**; nothing is returned on lapse. The extent of lapse supportability is dependent on the **size of the front load**. **Term-to-100** is the common example of a highly lapse supported product, due to the high mortality costs at the tail end of life that are front loaded.
 
@@ -63,17 +71,23 @@ Lapse supportability is most prevalent in term insurance given that it has **no 
 
     Lapse supportability still exists for whole life insurance as the **cash values paid are often smaller than the front load**, still resulting in profits to the insurer. The extent is dependent on the relative size of the cash value and the front load.
 
-**Lapse supported pricing** refers to **projecting lapses** during pricing, where the insurer expects to earn lapse profits. Policies that are projected to lapse are **subsidizing** those that remain in-force, resulting in an overall **lower cost** for the entire portfolio, allowing them to charge **lower premiums**.
+**Lapse supported pricing** refers to **projecting lapses** during pricing, where the insurer **expects to earn lapse profits**. Policies that are projected to lapse are **subsidizing** those that remain in-force, resulting in an overall **lower cost** for the entire portfolio, allowing them to charge **lower premiums**.
 
-The key risk of such an approach is that the lapse experience emerges to be **much less than expected**. This is a likely outcome, as assuming a high lapse rate results in lower premiums, which **increases the perceived value of coverage** which in turn **should lower lapse rates**.
+The key risk is that this method recognizes profits that have **yet to be earned**. If actual lapse experience emerges (typically much later on) to be **much less than expected**, the profits will never materialize, leading a large **shortfall in reserves**, possibly leading to large losses or insolvency.
 
-Actual credible experience will only emerge many years later, at which there will be a **large shortfall in reserve**, potentially leading to large losses or insolvency. To combat this, some insurers offer the lapse supported premiums as **non-guaranteed**, allowing them to increase the premiums if lapses do not emerge as expected.
+Unfortunately, lapse supported premiums tend to be lower, which **increases the perceived value of coverage** which in turn **should lower lapse rates**, working against the  high lapse rates assumed to achieve the lower premiums in the first place.
+
+!!! Note
+
+    For whole life policies, non-forfeiture features typically discourage lapses, which drives lapses lower.
+    
+    Additionally, the presence of the secondary market may drive it even lower than expected. Rather than lapse their policy, policyholders may sell their policy to a third party for higher cash value.
 
 !!! Note
 
     Companies cannot simply assume high lapses during pricing; they need **actual historical experience to back the assumption**. Thus, lapses should not be viewed negatively; some degree of lapse support is necessary to remain competitive.
 
-Generally speaking, lapse supportability is a sort of **taboo topic** due to the **bad optics**; it involves the insurer gaining at the expense of the policyholder.
+Although lapse supportability results in lower premiums, it represents a **conflict of interest** - policyholders aim to retain coverage while insurers gain from lapses. It is generally deemed unethical to design a product that induces lapses. Thus, it is generally viewed as a **taboo topic** among life insurers.
 
 ## **Non-Level Benefits**
 

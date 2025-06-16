@@ -1,4 +1,64 @@
-## **Whole Life**
+# **Whole Life Insurance**
+
+## **Overview**
+
+The natural progression following a term contract would be one that offers **permanent coverage** throughout their lifetime, known as **Whole Life Insurance**. Since death is **inevitable**, the policy **WILL make a payout** to beneficiaries at some point.
+
+Although the coverage is meant to be for the insured’s entire life, there is an upper limit known as the **Maturity Age** (EG. 100 or 120). If the insured survives till this age, the benefit will be paid out to them.
+
+!!! Note
+
+    The reason is because the insurer expects that all individuals would **die by this age**. In the past, most died by age 100 but due to increasing life expectancy, some have raised their estimates to 120.
+    
+    The insurer designed the policy with the intent that all individuals will die by this age. Thus, even if the policyholder survives till then, the insurer will make the payout.
+    
+Whole life insurance is typically suited for individuals who have financial obligations but also want to **leave a bequest** to their beneficiaries.
+
+## **Cash Value**
+
+The defining feature of whole life insurance is that it also offers a guaranteed **Cash Value**. Instead of a death benefit, the insurer can **surrender** (lapse) their policy to obtain the cash value, also known as the **surrender benefit**.
+
+Recall that under a level premium approach, the policyholder pre-pays for their future cost which is then **invested (saved)** to cover future costs. The cash value can thus be thought of as a **savings component** that reflects the above pre-payment.
+
+In practice, the **full amount is not made available** to the policyholder as it accounts for expenses, profits and other considerations. Cash values are typically **low for the first few years** (reflecting new business strain) and gradually increases to be **equal to the death benefit by the maturity age**.
+
+!!! Warning
+
+    Intuitively, cash values can never be higher than the death benefit. If the cash values were higher, the policyholder would gain more from surrendering than keeping the policy in-force, defeating the purpose of the coverage in the first place.
+    
+!!! Note
+
+    Cash values described above which are low initially are said to be **Front Loaded** because the insurers strain expenses are charged upfront to the cash value.
+    
+The amount provided is up to the discretion of the insurer. However, certain jurisdictions (such as the US) might have regulation surrounding them.
+
+The intended purpose of cash values was to create a **comprehensive financial product** with both an **insurance and savings component**, allowing it to compete with other savings products in the market. However, it **excels at neither** - it is too expensive as insurance and provides too little ROI as a form of savings.
+
+### **Buy Term Invest the Rest**
+
+Rather than going for a whole life policy that combines both components, better results can be achieved by splitting them up:
+
+* **Insurance Component**: Term Plan
+* **Saving/Investment Component**: Index fund or other alternative
+
+Most individuals do NOT truly need insurance coverage for their entire life. At some point, your dependents will grow up and become financially independent. Thus, a term policy can be purchased as a much **lower cost**.
+
+!!! Note
+
+    Apart from the lower cost arising from shorter coverage period, term policies tend to have lower commissions and expenses, which also contribute to the lower premium/poorer results of whole life.
+
+By investing the monies saved from “downgrading” to a term policy, it is likely to generate a **much higher return** than the cash value of the policy that is typically also more **easily accessible**.
+
+However, the returns on a DIY approach are **not guaranteed** and thus prone to external market forces. Additionally, one would need to have the **expertise** to invest and have the **discipline** to routinely do so. Whole life insurance thus provides a **hands off solution**, typically tailored towards the mass market.
+
+!!! Note
+
+    Another interesting perspective is that whole life insurance is also a form of **forced saving** for those who have poor saving habits.
+
+## Reduced Paid Up
+
+## Policy Loan
+
 
 ### **Nonforfeiture Options**
 
@@ -32,69 +92,15 @@ Most policies also contain an **Automatic Premium Loan (APL)** feature - whereby
 
 <!-- Encourages persistency -->
 
-<!--
-Cash value = Reserve?
-Guaranteed vs Non Guaranteed Cash values
+<!-
 
-Front End Load > Cash value build up after specified period
+
 Bakc end load > Cash value after awhile
 
-For investments in the General Account, the insurer earns the difference in investment returns between the amount credited to the cash value and the actual returns
 
-Understanding Cash Value
-	The purpose of Cash Value is to reduce the amount of money that the insurer has to pay when you die. You can only get either the Surrender Value or the Death Benefit. If you die, your beneficiaries only get the Death Benefit while the Surrender Value goes to the insurer, which is used to offset the cost of the death benefit to the insurer
-	At the beginning of the policy, the Cash Value is low, which means that the risk to the insurer is high. Thus, the premiums mostly go towards paying for the insurance (Mortality charge)
-	
-Cash Value & New Business Strain
-	A more proper way to think about Cash Value is that it is the Net Premium Reserve
-	Reserves cover future claims – Death OR Surrender Benefit (Cash Value)
-	As alluded to earlier, in the early years of a policy, the premium collected is insufficient to cover Expenses, Insurance Charges and the Regulatory Reserve required
-	Insurers thus have to fork out their own capital to fulfil the reserve requirement, immediately taking a loss, known as the New Business Strain
-	NBS=Initial Cash Outlow-Cash Inflow
-	If the insurer does not have enough capital, writing too much new business can significantly impact their financial standing
-	But writing more business also improves long term financial standing
-	As more premiums are collected, the reserve will slowly build up and the insurer will recoup their loss & building up Cash Value as well
-	Since the reserves are meant to cover future claims, the maximum amount in the reserve is the Death Benefit. Since the Reserve is the Cash Value as well, the Cash Value will never exceed the Death Benefit
 
-Typically lower than total premiums paid
--->
-
-Note that the **surrender benefit must be smaller than the death benefit**, otherwise there would be no reason for the insured to keep the policy as they would earn more by surrendering it.
 
 Whole life insurance can provide a foundation to allow the household to spend more and still be able to provide a bequest, or to increase spending even further by using the cash value as a volatility buffer for the investment portfolio
-
-### **Whole Life**
-
-Whole Life policies offers permanent coverage for the **entire lifetime** of the insured.
-
-!!! Note
-
-	Technically speaking, there is an **upper limit** to the coverage, known as the **Maturity Age**:
-
-	* It is the age whereby the insurer **assumes all individuals will die** (EG. Age 120)
-	* If the insured survives till this age, then the policy will **mature** and benefit will be paid out to the insured
-	* This is because the product was priced based on the expectation that a payout would be made by this age. Thus, it is only fair that the insurer actually makes the payout
-
-Since **death is inevitable**, the insurer will **surely make a payout** on the policy. Thus, it is suited for individuals who **want to leave a bequest** for their beneficiaries. 
-
-!!! Info
-
-	Since the death payment is **guaranteed**, the face amount is referred to as the **Sum Assured**. This is why this type of policy is also known as a **Life Assurance**.
-
-The defining feature of a whole life policy is that it accumulates capital within the policy (similar to a savings account), known as the **Cash Value** of the policy. It can be accessed partially or in full via withdrawals, loans or a full surrender of the policy.
-
-The intended purpose of cash values was to create a **comprehensive financial product** with both an **insurance and savings component**, reducing the need to get each individually. It also offered a **structured approach** to saving as premiums must be paid routinely, **forcing** the insured to save.
-
-
-Buy term invest the rest
-The key idea is that you do not need to have coverage for your entire life – At some point, your dependents will grow up and become financially independent. They do not need the extra windfall from life insurance
-
-Another reason is that the payoffs from Par Products or ILPs are generally poor – if you invested the additional money you paid for those products vs Term Insurance in a market index fund, you would get much better results
-
-A decent amount of the premiums in the first few years goes towards commission for the intermediaries – which means that the compounding effect kicks in much later
-
-However, for people who can’t be bothered to learn simple investing or do not have the discipline to invest, insurance investments may not be a bad choice
-
 
 Although our dependents may become financially independent, most would like to leave a something behind for their children once they are gone, thus they would like to be covered till the very end
 
