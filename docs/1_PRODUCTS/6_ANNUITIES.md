@@ -41,3 +41,21 @@ o	Males have lower Longevity Risk and pay lower annuity premiums
 
 annuity is chaging longevity for credit risk
 because the insurer must be solvent throughout that period to receive the payments
+
+
+Leveraged annuities
+Policy loan from annuity to buy another protection product
+Second policy will make monthly payout afterwards to cover the interest cost of the policy loan
+Balance will be used as free cashflow
+Policy payout is flat but the interest is variable, typically SORA plus spread
+
+Singapore overnight rate average
+Volume weighted average of the overnight rate banks charge
+
+This is where most people can only speak theoretically at least for those who still not old enough to physically experience or be cognisant to changes in interest rates. And maybe investment environment completely different as it wasn’t as accessible as it is today.
+
+Since 2009/10, interest rates have been low. Prior to that it is much higher that’s why no mad rush for private properties, because hdb loan rates better than bank loans.
+
+Hence that’s why in 2011/12, we have a tiny “housing bubble” that cooling measures must be introduced.
+
+Either way, the RM definitely talking out of his/her league when she says that about things going south. This is where I don’t like. Nothing will ever go wrong, it’s so safe, etc. but people still got rug pulled by hyflux/Lehman brothers

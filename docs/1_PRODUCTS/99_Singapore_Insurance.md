@@ -40,3 +40,9 @@ o	There are some other minimum requirements for each plan as well as some differ
 o	Inflation risk → Payments provided are not inflation protected
 o	Interest Rate Risk → Rates provided are not guaranteed (Subject to market)
 o	Longevity Risk → Payments till a fixed age only, no support past that age
+
+
+Retirement age is he age that your employer can legally 
+Retire you, employee is free to retire any age that they want
+Raising retirement age is beneficially for employee
+Problem is that CPF withdrawal age is often tied to reitemenr age, raising age means later payout outs 

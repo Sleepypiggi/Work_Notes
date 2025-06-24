@@ -47,9 +47,11 @@ By investing the monies saved from “downgrading” to a term policy, it is lik
 
 !!! Note
 
-    Another interesting perspective is that whole life insurance is also a form of **forced saving** for those who have poor saving habits.
+    Although BTIR is mathematically superior, some may still opt for whole life or its variants as it is a form of forced saving/investment.
+    
+    Additionally, not all individuals understand capital markets and would rather let a financial institution (insurer) handle the investments.
 
-The key advantage of whole life insurance is that the insured only needs to go through **medical underwriting once**, and the rates are locked in at the time of purchase. Regardless of how the health of the insured deteriorates, the policy will remain in-force at the same premium rate. This is in contrast to purchasing term insurance and then renewing it later in life, where the premium rates would increase substantially. Naturally, this privilege is unfortunately only available to those who can afford the high cost of whole life insurance at a young age.
+The key advantage of whole life insurance is that the insured only needs to go through **medical underwriting once**, and the rates are locked in at the time of purchase. Regardless of how the health of the insured deteriorates, the policy will remain in-force at the same premium rate. This is in contrast to purchasing term insurance and then renewing it later in life, where the premium rates would increase substantially. Naturally, this privilege is **unfortunately only available to those who can afford the high cost of whole life insurance** at a young age.
 
 ### **Policy Loan**
 
@@ -68,6 +70,10 @@ The key idea was to provide an alternative method of **accessing their cash valu
     * **Emergency Fund**: To cover short-term financial shocks
     * **Interest Abitrage**: To make arbitrage between policy loan rates and market interest rates
     * **Alternative Funding**: To use an an alternate source of credit when others are used up or not available
+
+!!! Note
+
+    If the policy loan take up rate is too high, insurers would have to keep a significant amount of their assets in relatively liquid investments with low yields, limiting their return.
 
 ### **Partial Surrender**
 
