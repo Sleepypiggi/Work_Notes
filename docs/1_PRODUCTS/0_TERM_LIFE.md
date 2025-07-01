@@ -131,6 +131,8 @@ This feature is used to **attract customers** who view term insurance as a **was
 
     From an ROI perspective, a ROP feature is actually **loss to the policyholder** as they could have earned interest on the amount had they not paid the premiums in first place.
 
+Life insurance is bought in the unfortunate event that the insured dies during the coverage period. ROP is bought in case the insured survives the coverage period. Thus, ROP as a feature is trying to cover both sides of the mortality-longevity risk. However, if longevity risk is the concern, then it is much better to purchase a **product that specializes in it rather than ROP**.
+
 ## **Guaranteed Convertability**
 
 Term plans can also offer the option to convert the term policy into **any type of whole life policy** within a specified time frame. The conversion is guaranteed, **regardless of the health** of the insured at the time of conversion. 

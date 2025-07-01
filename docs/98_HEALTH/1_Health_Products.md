@@ -107,7 +107,16 @@ Health Insurance insights
 •	Health insurance is something everybody feels they don’t need it until they do. But by the time you realise it, your illness will no longer be covered or too expensive to cover
 •	Thus, get health insurance when you are young and healthy – Premiums are bound to go up over time as you age and fall sick, but at least you are covered
 
+Medishield LIfe
+covers everything, but got limits on the payout
+anything above we need to pay ourselves
+Private insurance provides as charge cover for the excess
+however, we are responsible for about 5-10% of the payment subject to a cap
 
+Health not like other insurance because you visit multiple times a year, with unknown costs each time
+
+Need to have personal insurance because relying on just company insurance is bad
+Ties you to the company, cant quit unless u got job etc, they can threaten to cut etc
 
 
 

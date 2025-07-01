@@ -31,3 +31,6 @@ In Singapore, they typically come in one of two variations:
 |   **Selling Point**   | Capital Guaranteed | Prospect of high returns |
 
 </Center>
+
+Term with cash value/mat value?
+However the lower cost (accessibilioyu) of term is much more attractive

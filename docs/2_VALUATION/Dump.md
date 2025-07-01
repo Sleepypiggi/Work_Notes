@@ -496,3 +496,10 @@ If got surrender benefit, then need see relative size of surrender benefit
 Master Product
 Expression
 Picks up variables according to the expressions
+
+Overriding comm hard to model because it depends on the distribution structure
+Agent -> Manager
+Maneger -> Head
+Agent -> Head
+
+Usually MPF no granulaity

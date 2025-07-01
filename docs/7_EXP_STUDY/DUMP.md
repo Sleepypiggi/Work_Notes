@@ -99,3 +99,6 @@ Consulting bid for clients
 
 Asset Liability Strategy Library
 
+
+Lapse is highly specific to companies and proiduct design
+Premium payment term is a key factor - longer PPP tends to experience higher lapses as the impact of lost premium is lower
