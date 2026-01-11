@@ -1,5 +1,7 @@
 # **Singapore RBC2**
 
+## Solvency Overview
+
 oVERALL Framework
 Stress Testing
 ORSA
@@ -7,6 +9,97 @@ CAR
 
 Local valuation basis >> MCL
 CAR, FSR
+
+## **RBC2 Overview**
+
+## **Management Ratios**
+
+The key metric for RBC2 is known as the **Capital Adequacy Ratio** (CAR):
+
+* **Financial Resource** (FR) - Available capital
+* **Total Risk Requirement** (TRR) - Required capital
+
+$$
+\begin{aligned}
+    \text{Capital Adequacy Ratio} = \frac{\text{Financial Resource}}{\text{Total Risk Requirement}}
+\end{aligned}
+$$
+
+There are two prescribed intervention levels for RBC2:
+
+<center>
+
+| **Prescribed Capital Requirement (PCR)** | **Minimum Capital Requirement (MCR)** |
+| :--------------------------------------: | :-----------------------------------: |
+|   Calibrated at 99.5% VaR over 1 year    |   Calibrated at 90% VaR over 1 year   |
+|           1 in 200 years event           |          1 in 10 year event           |
+|  Implied investment grade credit rating  |      Implied credit rating of B-      |
+|         Capital restoration plan         |           MAS intervention            |
+
+</center>
+
+!!! Note
+
+    It is known within the industry that MAS has internal, publicly undisclosed capital targets for each insurer.
+
+## **Risk Requirements**
+
+There are three components to risk requirements:
+
+* **Component 1** (C1): Insurance Risk
+* **Component 2** (C2): Asset Risk
+* **Operational Risk** (ORR)
+
+$$
+    \text{Total Risk Requirements} = \sqrt{\text{Diversified C1}^{2} + \text{Diversified C2}^{2}} + \text{Operational Risk}
+$$
+
+It is assumed that C1 and C2 risks are **independent** and thus is **unlikely to occur concurrently** in full force. Thus, there is no need to hold capital to cover both risks completely; there is a **"diversification benefit"** that can be reconized between the two (based on the sum of squares method).
+
+It can be shown that the **maximum diversification** benefit that can be recognized is **about 30%** of the sum of the two components, which occurs when the two risks are **exactly equal**. The larger the difference between the two, the smaller the diversification benefit:
+
+<!-- Self Made -->
+![TRR_C1_C2_DIVERSIFICATION](Assets/1_SG_RBC2.MD/TRR_C1_C2_DIVERSIFICATION.png){.center}
+
+### **Component 1: Insurance Risk**
+
+Component 1 of the TRR represents the **insurance related risks** undertaken by the insurer by writing policies. Majority of them are calculating by applying the prescribed shock on the best-estimation assumptions
+
+|    C1 Risk    |      Description       |         Application          |
+| :-----------: | :--------------------: | :--------------------------: |
+|   Mortality   |     Higher deaths      |  +20% Multiplicative Shock   |
+|   Longevity   | Lower deaths (Annuity) |  -20% Multiplicative Shock   |
+| Dread Disease | Higher dreader disease | +30/40% Multiplicative Shock |
+|     Lapse     |    Biting Scenario     | +30/40% Multiplicative Shock |
+
+Different portfolios react differently to lapses, thus the lapse risk requirement is the **highest** of the following three:
+
+* **Lapse Up Scenario**: +50% multiplicative shock to lapses
+* **Lapse Down Scenario**: -50% multiplicative shock to lapses
+* **Mass Lapse Scenario**: Immediate 30% shock of the entire portfolio ()
+
+Similarly, the different sub-components of C1 are **unlikely to occur concurrently in full force**. Thus, there is a diversification benefit to be recognized, based on the prescribed correlations between the various sub-components:
+
+* **Positive Correlation**: Likely to occur together (Lowest diversification) 
+* **No Correlation**: Unlikely to occur together
+* * **Negative Correlation**: Cannot happen together (Highest diversification)
+
+Correlation factor of 1 or -1 represents the extreme case of no diversification and fully diversified respectively. Thus, the **magnitude represents the extent** to which the events are likely/unlikely to occur together.
+
+$$
+\begin{aligned}
+    \text{Diversified C1}
+    &= \sqrt{X^{2} + Y^{2} + Z^{2} + 2AXY + 2BXZ + 2CZY} 
+\end{aligned}
+$$
+
+### **Component 2: Market Risk**
+
+### **Operational Risk**
+
+### **Diversification**
+
+## Financial Resources
 
 Component 1
 Component 2
