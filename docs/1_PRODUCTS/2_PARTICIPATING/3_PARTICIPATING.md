@@ -1,54 +1,4 @@
-## **Participating**
 
-A **Participating Policy** is one that **participates in profit sharing** with the insurer. As such, they are also commonly referred to as a "With-Profits" policy.
-
-The premiums from all participating policies are pooled together into a **Participating Fund** managed by the insurer. The fund is used to support the operations of the policies (expenses and benefits), where the remaining balance is invested with the goal of generating **stable long-term returns**.
-
-Every year, the health of the participating fund is measured based on its ability to support future benefit payments and profit sharing. The excess can be understood as the "Profit" of the participating fund, which is shared with policyholders in the form of a **Bonus**.
-
-Bonuses are often referred to as **Non-Guaranteed** benefits as the performance of the participating fund is not guaranteed.
-
-The key selling point of a participating policy is that there are **limited downside risks**:
-
-* Guaranteed benefits will be received **regardless** of the performance of the par fund
-* Declared bonuses are guaranteed and will be received **regardless of the future performance** of the par fund
-* Bonus declaration can only be positive; losses are NOT shared
-
-### **Guaranteed & Non-Guaranteed Elements**
-
-**Non-Guaranteed Elements (NGE)** are benefits or charges in the policy that are not fixed and can thus be changed at the **discretion of the insurer**, depending on *expectations about future experience*. For instance, the credited interest rate and expenses are typically non-guaranteed elements as they depend on market conditions at the time.
-
-However, insurers also provide **Guaranteed Elements** in the policy to limit the variance of the NGE. This comes in the form of guaranteed **minimum benefits** or **maximum charges** for the non-guaranteed elements. The insurer has the discretion to change the NGE within the bounds of their guarantees.
-
-These non-guaranteed elements allows the insured to **share the experience** of the insurer, which may allow them to be better off compared to an otherwise all guaranteed policy.
-
-### Policyholder Reasonable Expectation
-
-Projecting the maximum illustrated assumed interest rates (generally, 12%), using current (or assumed) administrative expenses and current costs of insurance, without showing the prospective client several other assumed rates of return, creating a Blue Sky problem.
-
-The divisible surplus will then be **split among all par policies** in an equitable way, depending on how much they contributed to the surplus. The mechanics of this split will be covered in the section on In Force Management.
-
-Naturally, dividends are a **NGE** as they are dependent on the *past experience* of the insurer. Despite being non-guaranteed, insureds often feel cheated if what they receive is **significantly different** from what was advertised on the policy illustration. While the insurers were not at fault, this has caused reputational issues in the past thus it is in the insurers best interest to payout dividends at a rate **close to what was advertised**.
-
-Insurers accomplish this by **smoothing** the dividends over time, avoiding large fluctuations. When the surplus is above the advertised rate, the excess may be held back to compensate for potential years where the surplus falls short.
-
-A participating policy (**par policy**) is one that **participates profit sharing**, making them entitled to a portion of the insurers profits, known as **Dividends/Bonus**. The proportion of profits that must be distributed is known as the **Divisible Surplus**, which is dependent on regulation. In Singapore, the ratio is 9:1 - for every $9 given to insureds, the insurer is able to take $1 as profit.
-
-<!-- Add point on why they must share the profits - it was the insureds capital? -->
-
-
-
-The Dividend can then be passed on to the insurer in one of a few ways:
-
-* **Cash** - Paid to the policyholder
-* **Premium Reduction** - Offsets the premiums for the period/future periods
-* **Accumulate at Interest** - Held with the insurer and earns compound interest; value is added to the benefit of the policy
-* **Purchase Paid Up Additions (PUA)** - Used as a single premium to purchase as much paid up permanent insurance as it can, adding to the overall coverage of the policy; PUAs can be par, allowing them to **earn additional dividends**
-
-In Singapore, most dividends **accumulate at interest** with the insurer. It usually comes in two components:
-
-* **Reversionary Bonus (RB)** - Credited annually to the insured at a rate based on the SA of the policy. Most policies also allow it to compound; allowing previously earned bonuses to earn interest as well.
-* **Terminal Bonus (TB)** - *Residual surplus* left after all reversionary bonuses have been paid. It is paid out as a **lump sum** when the policy terminates, on top of the Death/Surrender/Maturity benefit as a percentage of the SA.
 
 The amount of any terminal
 bonus payable depends on how long you have had your
@@ -97,10 +47,6 @@ If you make medium size changes each year, then year on year the movement is rel
 But if make small changes each year only, then if shit hits the fan will have to make big changes
 Bonus setting very much an art due to the flexibility
 
-PRE is usually benchmarked against what we share with the PH in the prod spec
-
-As well as what the other competitors are doing
-
 If everyone is having a good year, cannot be that only our company is having a bad year
 
 Logic is that given the size of the par fund, there are only so few investment options - there is still a range of outcomes but largely remains the same
@@ -127,7 +73,7 @@ Under SG regulation, no point having an Estate because the only way that Shareho
 
 Thus, keep Estate also no point - just declare to policyholder.
 
-Asset Share is used to determine how much bonus to declare. Thus, some companies will gross up the Asset Share to the Estate amount, effectively zerozing the estate.
+
 
 Other regulations not as strict, allow for withdrawal of some part or all of the estate, which is why it is a concept for them.
 
@@ -214,7 +160,6 @@ Death surrender got different proportion of RB/TB, surrender usually less
 
 BSR
 
-Asset Share as at today = EPV(Future Cashflows only, excl investment income)
 
 BSR = IRR (Cashflows)
 
@@ -304,35 +249,7 @@ But if you favour a certain group, that cannot be charged to par fund
 
 Cash bonus is paid BOM
 
-# Asset Share
 
-The asset share is effectively the accumulated of premiums with investment returns less any deductions.
-
-The asset share of a policy in force is the share of the insurer's assets attributable to that policy. Here, expenses, interest, mortality and so forth are calculated based on the insurer's experience for similar policies over the period.
-
-Asset shares define the notion of how quickly a policy builds policy values (assets) and hence profits.
-
-
-The Asset Share represents the retrospective accumulation of premiums, investment return, claims payments for regular withdrawals and part surrenders, and the charges payable by the policyholder as specified by the policy terms and conditions.
-Asset share is the value which the company holds till date i.e. the actual deposits in respect of a policy. However, (Prospective) Reserves are something which the company should hold to meet all its liabilities.
-
-Asset shares directly depends on what has actually happened in the past (ignoring any smoothing, adjustments) whereas Reserves are something which is based on the assumptions about the future and will largely depend on the actuary's views about the future.
-
-Reserves are targetted to meet just the benefit payments over time, so if everything happens as assumed, reserves will be equal to zero at the end of the term whereas the asset share would be greater than zero, the remainder representing the profits to the company.
-
-
-Asset share is the value which the company holds till date i.e. the actual deposits in respect of a policy. However, (Prospective) Reserves are something which the company should hold to meet all its liabilities.
-
-Asset share is the value which the company holds till date i.e. the actual deposits in respect of a policy. However, (Prospective) Reserves are something which the company should hold to meet all its liabilities.
-
-The payout on WP contracts is often the smoothed asset share. The terminal bonus is effectively the balancing item to achieve this.
-
-Given that we are aiming to pay out approximately the asset share, we need to make sure that the regular bonuses aren't too large, ie we don't want the guarantees to be bigger than the asset share at maturity. One way to achieve this is to set regular bonuses equal to the bonus earning capacity (BEC). To calculate the BEC we project the asset share to maturity (today's asset share plus premiums less cost of claims less expenses plus investment return) and equate it to the payout (current guarantees plus future regular bonuses plus an allowance for terminal bonus). The BEC is the rate of regular bonus that ensures equality betwee the projected asset share and the projected benefits.
-
-1. Asset shares are fundamental to the way that with-profits works, but you're right that they are much less useful for without-profits. However, the difference between the asset share and the payout is one way to measure the profit made on the contract.
-
-Asset Share is essentially the cumulative actual profits of a policy, retrospectively based on actual experience
-It can be calculated for all kinds of products, but it is mostly used with Par Products
 
 Par Product Crash Course
 - all Par policies are written inside the Par fund, owned by the policyholders
@@ -344,24 +261,7 @@ Par Product Crash Course
 -- Once declared, the bonus is considered guaranteed ("Vested"), which increases MCL, risk requirement etc
 --- Reversionary
 
-Asset share has its own set of assumptions - Why? Does it represent actual? No right
 
-There are two methods for Asset Share:
-* Rolling Method: Take the actual AS for the year and roll it one year forward
-* Backcasted Method: Project the AS for all previous years
-
-Income does the backcasted method. Rightfully, it should represent the actual experience for each year. However, only the INV return represents the actual. All other assumptions are as at BE
-
-Since Income does not use the actual experience, we will gross up the total asset share to the true asset share amount, that is tracked by FN/other departments. Problem is that they need to know the AS at the product level to set bonuses
-
-This gross up/gross down amount is weighted based on the preliminary asset share calculated and distributed to each product. Then that is the final true asset share amount
-
-Asset share is the share of the insurer's assets attributable to that policy
-It is similar to reserve but is different
-Reserve/Liability represents the amount that the insurer needs to have
-Asset share represents the amount that the insurer actually has
-
-Asset Share should equal to the Policy Assets
 
 Estate > Does not belong to any policyholder in the par fund
 PA-PL > Should be close to each other?

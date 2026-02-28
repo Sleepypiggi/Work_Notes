@@ -18,7 +18,6 @@ Given the above, the policyholder can effectively solve for the amount of premiu
 
     It is useful to think of UL as a YRT with an account value, where the cost of the YRT is deducted from the fund.
 
-
 ### **Sum at Risk**
 
 There are typically **two kinds** of Universal Life plans:
@@ -36,15 +35,17 @@ The policy will pay out either the death benefit or the account value. Thus, the
 
 **Option A** universal life is a plan where the sum at risk changes based on the account value. In an ideal scenario where the account value is growing, option A results in a **decreasing SAR** over time. If the SAR reaches 0, then there is essentially NO insurance coverage provided, thus the policy is **no longer considered an insurance contract** and hence does not enjoy the typical statutory benefits.
 
-Thus, to avoid the above scenario, the death benefit will be **automatically increased** once the account value catches up to it. The amount that the death benefit is increased is known as the **Corridoor**. It is defined as a **proportion** of the account value, typically the minimum amount of SAR that is needed to be considered an insurance contract.
+Thus, to avoid the above scenario, the death benefit will be **automatically increased** once the account value catches up to it. The amount that the death benefit is increased is known as the **Corridoor**. It is defined as a **proportion** of the account value, typically the **minimum amount of SAR** that is needed to be considered an insurance contract.
 
 **Option B** universal life is much simpler, where the death benefit is a combination of the account value and the sum assured. The death benefit scales proportionally with the account value, resulting in a **constant SAR**.
 
-### **Target Premium**
+### **Planned Premium**
 
-Since there are no premium requirements, policyholders have a high chance of under-paying the policy, causing it to **lapse earlier** than expected. 
+Since there are no premium requirements, policyholders have a high chance of under-paying the policy, causing it to **lapse earlier** than expected. Thus, the insurer usually recommends a premium amount that *SHOULD* keep the policy in-force to achieve a certain target (EG. Endow at age 100) based on their best estimate assumptions.
 
-Thus, the insurer usually recommends a premium amount that *SHOULD* keep the policy in-force to achieve a certain target (EG. Endow at age 100). However, there is **no guarantee** that the policy will, because of the uncertainty in the crediting rate.
+It is common to require the policyholder to pay at least the planned premium on inception.
+
+However, there is **no guarantee** that the policy will achieve said target even if the planned premium is paid, as the actual crediting rate may be lower than assumed in certain years.
 
 !!! Note
 
@@ -52,19 +53,45 @@ Thus, the insurer usually recommends a premium amount that *SHOULD* keep the pol
 
 !!! Warning
 
-    UL is often marketed as a “whole life” product. However, this is misleading because there is no guarantee that the policy will remain in-force for that duration.
+    UL is often marketed as a “whole life” product. However, this is misleading because there is no guarantee that the policy will remain in-force for life due to potentially lower than assumed crediting rates.
     
-    This is contrary to other products where payment of the premium guarantees the coverage. Consumers who pay the target premium consistently might see their policy lapse and “cheated” by the insurance company as a result.
+    This is contrary to other products where payment of the premium guarantees the coverage. Consumers who pay the planned premium consistently might see their policy lapse and “cheated” by the insurance company as a result.
+
+### **Target & Excess Premium**
 
 Since premiums are variable, so are the corresponding commissions. Thus, there is a risk that distributors might encourage policyholders to pay large amounts in order for them to earn higher commissions. To overcome this, premium paid **above the target premium** typically earns commission at a **reduced rate**.
 
 Premium persistency rate
 
+### **Crediting Rate**
+
+Premiums are paid into the **General Account** of the policy and the crediting rate applied to this account is known as the **General Crediting Rate** (GCR).
+
+The GCR is determined mainly based on the insurer’s investment performance over the period with some other consideration for smoothing and competitiveness.
+
+!!! Note
+
+    This is very similar to determining the Bonus for a Participating product.
+
+In order to attract new business, insurers often offer a guaranteed crediting rate for a fixed duration, known as the **Ratelock Crediting Rate**.
+
+Ratelocks are prospective. Thus, the rates offered are based on what assets are available to the insurer at the time of offering, with considerations for competitiveness as well.
+
+Operationally, each policy will have two notional accounts:
+
+* **General Account** - earns General Crediting Rate
+* **Ratelock Account** - earns Ratelock Crediting Rate
+
+If a Ratelock was offered at the time of inception, the **initial premiums** are allocated to the Ratelock Account. At the end of the Ratelock period, the amounts are re-allocated into the general account.
+
+All subsequent premiums (regular premium or top-ups) are allocated into the General Account; or directly to begin with if there was no Ratelock offered.
+
+<—- Insert self made diagram —>
+
 ### **Surrender Charge**
 
 ### **No Lapse Guarantee**
 
-O 
 ### **Premium Financing**
 
 Premium financing is a method of purchasing a single premium insurance policy where a bank **loans a large proportion** of the required premium (typically 70-80%).
@@ -96,13 +123,13 @@ gains realised only at the end
 
 Indexed Universal Life (IUL) is a variant of UL whose crediting rate follows the return of a specified underlying index (EG. S&P500). The extent to which the crediting rate follows the index is known as the **participation rate**.
 
-It is possible to have different weights in different indexes, where the crediting rate will be **weighted average** of the combined return. Some also provide the option to invest in the general account as well, similar to a traditional UL policy.
+Most insurers offer a range of possible indices, thus policyholders can typically allocate funds into one or more indices. In such cases, the credited interest will be the sum of the interest earned in each index sub account.
+
+Apart from indices, allocation into the General Account (used for traditional UL policies) is also allowed. Thus, IULs can also be used to replicate a traditional UL policy by simply choosing to allocate 100% of the funds into the GA.
 
 !!! Note
 
     IUL tends to be the most popular variation of UL as it tends to provide higher returns than traditional UL and less risk than variable UL.
-
-Most IULs also allow the option for the crediting rate to be applied monthly rather than yearly, achieving a “dollar cost averaging” like effect
 
 ### **Hedging**
 
@@ -130,7 +157,25 @@ The leftover cash after the purchase of the bond together with the account charg
     This allows IUL to have **minimum downside risk while having amplified upside risk**.
     
     Interestingly, this mechanism allows for indices with  relatively lower returns to still provide a high crediting rate.
-    
+   
+### **Segmentation**
+
+Interest is typically credited on a yearly basis. It is typical to use the point-to-point return of the index for a fixed day, but each insurer might have their own internal methodology.
+
+For simplicity, policies that incept in the same month typically use the same reference day. Thus, a call spread will need to be **purchased each month** to generate the return.
+
+Each tranche of options purchased each month is typically referred to as a Segment:
+
+<—- Insert Image —>
+
+Most modern IUL policies also have the option to spread the premiums across each month, achieving a **Dollar Cost Averaging** effect.
+
+In this case, premiums are broken down into equal monthly amounts and are **invested into each monthly segment**, as opposed to entirely in one of the segments. The total interest credited will be the sum of the returns generated from the past 12 segments each policy anniversary.
+
+!!! Note
+
+    The relevant caps and floors will apply for each segment, not the 12 month rolling view.
+
 ### **Volatility Controlled Indexes**
 
 Volatility Controlled Indexes (VCI) are synthetic indexes  that **automatically adjusts** the weight between an underlying specified index and a **low volatility asset class** (EG. Cash, Gold or Fixed Income) to achieve a target volatility level.

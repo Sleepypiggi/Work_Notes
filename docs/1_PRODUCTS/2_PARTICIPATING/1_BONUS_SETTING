@@ -1,0 +1,101 @@
+# **Par Fund Management**
+
+## **Overview**
+
+Par fund management differs significantly from jurisdiction to jurisdiction depending on the level of regulation.
+
+Par funds in Singapore are **highly regulated**, which requires a “Gated Par Fund” where par fund assets are **strictly ring fenced** from all other assets in the company.
+
+In order to **safeguard policyholder’s interest**, shareholders **may NOT freely transfer any surplus** from the par fund to the shareholder owned funds to recognize as profit.
+
+Whenever bonus is declared, insurers can also transfer a **maximum of 1/9** of that amount to the shareholder fund, known as a **Shareholder Transfer**. This effectively ensures there is **at least a 90:10 profit sharing ratio** between policyholders and the insurer.
+
+Thus, the insurer is incentivized to declare as much as possible, with considerations for the sustainability of the fund.
+
+## **Policyholder’s Reasonable Expectation**
+
+Within the sales illustration, policyholders were shown an expected bonus that the company aims to declare. Despite disclaimers that the amount is non-guaranteed, policyholders typically **form an expectation** that this is the bonus they should expect to receive. This is known as **policyholder’s reasonable expectation** (PRE).
+
+!!! Note
+
+    There are many aspects other than the sales illustration which contribute to PRE - such as the general economic environment, practices by other companies etc.
+
+Due to PRE, policyholders may feel cheated if the amount differs too much from what they expect. This has caused significant reputational issues in the past, thus insurers generally try to declare bonuses to meet PRE to avoid such issues.
+
+This is accomplished by **Bonus Smoothing**, where surplus above the PRE is held back in “good” years to offset shortfalls in “bad” years. This minimizes large fluctuations in the bonuses declared, allowing insurers to meet PRE.
+
+## **Asset Shares**
+
+The par fund is typically managed in tranches, where similar policies are grouped together. Thus, the monitoring of surplus and declaration of bonus is done at this level as well.
+
+In order to determine the amount of available surplus, the amount of assets and liabilities are required of each block is required:
+
+* Liability is typically valued at the policy level, thus the liability of a group of polices is simply the sum of the liabilities of each policy.
+ 
+* Assets are held in separate instruments and are NOT attributable to specific policies. Thus, there is a need to estimate each policies share of the overall fund’s assets, known as the **Asset Share**.
+
+| Policy Liability | Asset Share |
+| :-: | :-: |
+| Prospective Valuation | Retrospective Valuation |
+| Estimate future cost | Estimate current position |
+| What insurer should hold | What insurer actually holds |
+
+The asset share is effectively the accumulated value (based on actual investment experience) of the premiums received and any deductions (expenses, benefits etc):
+
+
+$$
+\begin {aligned}
+    \text{Asset Share}(t)
+    &= (\text{Asset Share}(t-1) + \text{Premium}(t) -\text{Expenses} - \text{Benefits}) \cdot (1+i(t))
+\end{aligned}
+$$
+
+!!! Note
+
+    Asset Shares are a general concept that can be applied to any kind of policy. However, they are typically only useful in a par context for bonus setting.
+
+However, the sum of all asset shares is rarely exactly equal to the total assets in the par fund. This could be 
+
+
+Asset Share is used to determine how much bonus to declare. Thus, some companies will gross up the Asset Share to the Estate amount, effectively zerozing the estate.
+
+Asset Share as at today = EPV(Future Cashflows only, excl investment income)
+
+
+
+
+Asset shares define the notion of how quickly a policy builds policy values (assets) and hence profits.
+
+Reserves are targetted to meet just the benefit payments over time, so if everything happens as assumed, reserves will be equal to zero at the end of the term whereas the asset share would be greater than zero, the remainder representing the profits to the company.
+
+Asset share is the value which the company holds till date i.e. the actual deposits in respect of a policy. However, (Prospective) Reserves are something which the company should hold to meet all its liabilities.
+
+The payout on WP contracts is often the smoothed asset share. The terminal bonus is effectively the balancing item to achieve this.
+
+Given that we are aiming to pay out approximately the asset share, we need to make sure that the regular bonuses aren’t too large, ie we don’t want the guarantees to be bigger than the asset share at maturity. One way to achieve this is to set regular bonuses equal to the bonus earning capacity (BEC). To calculate the BEC we project the asset share to maturity (today’s asset share plus premiums less cost of claims less expenses plus investment return) and equate it to the payout (current guarantees plus future regular bonuses plus an allowance for terminal bonus). The BEC is the rate of regular bonus that ensures equality betwee the projected asset share and the projected benefits.
+
+1. Asset shares are fundamental to the way that with-profits works, but you’re right that they are much less useful for without-profits. However, the difference between the asset share and the payout is one way to measure the profit made on the contract.
+
+Asset Share is essentially the cumulative actual profits of a policy, retrospectively based on actual experience
+It can be calculated for all kinds of products, but it is mostly used with Par Products
+
+
+Asset share has its own set of assumptions - Why? Does it represent actual? No right
+
+
+
+Since Income does not use the actual experience, we will gross up the total asset share to the true asset share amount, that is tracked by FN/other departments. Problem is that they need to know the AS at the product level to set bonuses
+
+This gross up/gross down amount is weighted based on the preliminary asset share calculated and distributed to each product. Then that is the final true asset share amount
+
+
+Asset Share should equal to the Policy Assets
+
+
+
+Projecting the maximum illustrated assumed interest rates (generally, 12%), using current (or assumed) administrative expenses and current costs of insurance, without showing the prospective client several other assumed rates of return, creating a Blue Sky problem.
+
+The divisible surplus will then be **split among all par policies** in an equitable way, depending on how much they contributed to the surplus. The mechanics of this split will be covered in the section on In Force Management.
+
+Naturally, dividends are a **NGE** as they are dependent on the *past experience* of the insurer. Despite being non-guaranteed, insureds often feel cheated if what they receive is **significantly different** from what was advertised on the policy illustration. While the insurers were not at fault, this has caused reputational issues in the past thus it is in the insurers best interest to payout dividends at a rate **close to what was advertised**.
+

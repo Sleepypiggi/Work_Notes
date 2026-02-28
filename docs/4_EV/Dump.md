@@ -252,7 +252,7 @@ NBEV = Sales * Margin
 NBEV = Total Sales * Sales Mix * Margin
 Margin is affected by Policy Mix & RFR/CoC
 
-NBEV due to Sales Volume = (Actual Sales - Budget Sales) * Budget Margin
+NBEV due to Sales Volume = (Total Actual Sales - Toal Budget Sales) * Budget Margin * Budget Mix
 NBEV due to Sales Mix = (Actual Mix - Budget Mix) * Total Actual Sales * Budget Margin
 
 *NBEV due to Policy Mix = (YE22 Actual Mix, RFR & COC - YE22 Budget Mix, RFR & COC) * Actual Sales 
