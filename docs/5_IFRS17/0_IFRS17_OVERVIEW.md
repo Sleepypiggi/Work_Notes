@@ -1,49 +1,49 @@
 # **IFRS17 Overview**
 
-International Financial Reporting Standards (IFRSs1), as issued by the International Accounting
-Standards Board (IASB), are intended to serve as guidance for developing general purpose
-financial statements and other financial reporting on a globally accepted basi
+## **Background**
+
+IFRS stands for the **International Financial Reporting Standard**, which is a financial reporting framework to bring **transparency and consistency** to financial statements worldwide. IFRS17 is the set of standards that specifically cover the treatment of **insurance contracts**.
+
+It is important to have a clear **distinction** between the two common types of reporting:
+
+* **Financial Reporting** - Provide **accurate and objective** information about the company in a **consistent** format to **external stakeholders** to facilitate their decision making.
+* **Statutory Reporting** - Provide information about the company to **government authorities** to prove **compliance with relevant regulations**. Certain simplifications are allowed for operational ease. Given that Solvency is a primary concern, a more **conservative lens** is taken.
+
+Another broad concept to understand is that IFRS17 is a **Principle Based** framework. It outlines the **intended outcomes** of the framework, giving insurers the **flexibility to choose the method** in which they achieve the outcome. As such, there are **no prescriptive methods or amounts** outlined as they view them as creating arbitrage opportunities.
+
+## **Insurance & Investment Components**
+
+IFRS17 adopts the view that an insurance should be treated as both a **Financial Instrument** and a **Service Contract**:
+
+* If it were only treated as a financial instrument, it should be valued at its **fair value** (to be consistent with existing IFRS frameworks); the price it would go for if it would be sold in an orderly transaction. However, insurance contracts are rarely traded, making such approaches based on **hypothetical scenarios**.
+* Instead, insurance contracts are typically **held till expiry**, where insurers provide the stipulated benefits over time as agreed. Thus, it is also treated as a **service contract**, which is valued based on the **insurance services** provided over time. 
+
+Thus, the contract is typically split into two over-arching components:
+
+* **Insurance Component** - Flows into **Insurance Service Results** in the P&L
+* **Investment Component** - Flows into **Insurance Finance Income** in the P&L
+
+<!-- From FRG Risk -->
+![IFRS17_P&L](Assets/0_IFRS17_OVERVIEW.md/IFRS17_P&L.png){.center}
+
+## **Contractual Service Margin**
+
+An insurance contract should thus be measured as the **risk-adjusted present value** of the **Fulfilment Cashflows** of the contract. It must incorporate the following components:
+
+1. Unbiased estimate of the future cashflows (neither conservative nor optimistic)
+2. Adjustment for non-financial risk(s)
+3. Adjustment for time value of money & financial risk(s)
+
+The present value of the unbiased future cashflows is often referred to in the industry as the **Best Estimate Liability** (BEL). Note that "BEL" as a term is NOT officially defined in IFRS17; it is a term that is adopted from Solvency II.
+
+The adjustment for non-financial risk is officially defined as the **Risk Adjustment** (RA), which is the compensation required for bearing **uncertainty in the amount and timing of the cashflows**. It is *analagous* to the **Provisions for Adverse Deviation** (PAD) for insurance risks (EG. Mortality), which reflects the **inherent uncertainty** in the best estimate assumptions.
 
 
-## **Overview**
-
-IFRS stands for the **International Financial Reporting Standard**, which is a **global accounting framework** to bring transparency and consistency to financial statements worldwide. IFRS17 is the set of standards that specifically cover the treatment of **insurance contracts**.
-
-It is important to understand that as an accounting framework, the primary purpose of IFRS17 is to provide an accurate and realistic view of the portfolio, as opposed to statutory frameworks which are typically more conservative.
-
-There are a few key themes in IFRS17:
-
-1. Scope - which contracts should be considered under IFRS17?
-2. Measurement - How to value contracts?
-3. Aggregation - How to group contracts?
-4. Presentation - How to present the results?
 
 
 
-## History
 
-Wide variety of accounting practices under IFRS4, did not accurately capture the true financial positions
-Difficult for investors and analyst to understand and compare insurer results
-Need for a global insurance acocunting stunder
 
-Stat reporting focus is solvency, not really about financial reporting
-Stat reporting may have simplifications or jurisdiction specific
-
-Dont want to prescribe an amount for significance as it typically creates opportuiniries for arbitrage, thus no quantiative guidance/ principle baseds
-
-## Big Ideas
-
-Insurance is a financial instrument and service contract
-Insurance servcice
-Insaurance finance
-
-Most financial instruments use a fair value accounting - largely based on the marker value if it were sold/bought
-
-However, insurance is rarely sold and such approaches will be based on hypothetical transactions
-Thus valued in a way that reflects that it is about providing service to policyholders, rather than 
-
-IFRS13 - Fair Value
-IFRS15 - Service
 
 Recognize profit at the same time that services are provided with a risk adjustment
 
@@ -71,7 +71,24 @@ Liability for incurred claims
 
 Interest on CSM
 reflect that the price would reflectr the amount that the customer would have to pay in cash for the service when they receive the goods or service
-Locked in rate;l. 
+Locked in rate;l.
+
+## **Overview**
+
+=
+
+There are a few key themes in IFRS17:
+
+1. Scope - which contracts should be considered under IFRS17?
+2. Measurement - How to value contracts?
+3. Aggregation - How to group contracts?
+4. Presentation - How to present the results?
+
+
+
+
+
+ 
 
 ## Revenue
 
