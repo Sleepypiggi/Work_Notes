@@ -22,26 +22,37 @@ Within the sales illustration, policyholders were shown an expected bonus that t
 
 Due to PRE, policyholders may feel cheated if the amount differs too much from what they expect. This has caused significant reputational issues in the past, thus insurers generally try to declare bonuses to meet PRE to avoid such issues.
 
-This is accomplished by **Bonus Smoothing**, where surplus above the PRE is held back in “good” years to offset shortfalls in “bad” years. This minimizes large fluctuations in the bonuses declared, allowing insurers to meet PRE.
+This is accomplished by **Bonus Smoothing**, where surplus above the PRE is held back in “good” years to offset shortfalls in “bad” years, allowing them to consistently meet PRE. The fundamental assumption is that the economy moves in a cycle, thus the the market conditions **will eventually flip**.
+
+However, there is a risk that the market stays down for a **prolonged period**, fully exhausting any previously accumulated buffer, creating the **risk of loss**. On the other extreme end, passing on the fluctuations each year may fail to meet PRE, but has **no risk of losses**.
+
+Thus, bonus declaration methods typically sit somewhere in-between the two, depending on the company's risk appetite. It is very much **an art as it is a science**.
 
 ## **Asset Shares**
 
-The par fund is typically managed in tranches, where similar policies are grouped together. Thus, the monitoring of surplus and declaration of bonus is done at this level as well.
+The par fund is typically managed in **tranches**, where similar policies are grouped together. This is typically done at the product group level, as these policies would have **similar levels of profitability**. Thus, the monitoring of surplus and declaration of bonus is done at this level as well.
+
+!!! Note
+
+    Policies could be grouped together in a variety of methods, typically by plan or inception year.
 
 In order to determine the amount of available surplus, the amount of assets and liabilities are required of each block is required:
 
-* Liability is typically valued at the policy level, thus the liability of a group of polices is simply the sum of the liabilities of each policy.
+* Liability is typically **valued at the policy level**, thus the liability of a group of polices is simply the **sum of the liabilities** of each policy. This typically includes the **cost of guarantees** as well.
  
-* Assets are held in separate instruments and are NOT attributable to specific policies. Thus, there is a need to estimate each policies share of the overall fund’s assets, known as the **Asset Share**.
+* Assets are held in **separate instruments** and are NOT directly attributable to specific policies. Thus, there is a need to **estimate each policies share** of the overall fund’s assets, known as the **Asset Share**.
 
-| Policy Liability | Asset Share |
-| :-: | :-: |
-| Prospective Valuation | Retrospective Valuation |
-| Estimate future cost | Estimate current position |
+<center>
+
+|   **Policy Liability**   |       **Asset Share**       |
+| :----------------------: | :-------------------------: |
+|  Prospective Valuation   |   Retrospective Valuation   |
+|   Estimate future cost   |  Estimate current position  |
 | What insurer should hold | What insurer actually holds |
 
-The asset share is effectively the accumulated value (based on actual investment experience) of the premiums received and any deductions (expenses, benefits etc):
+</center>
 
+The asset share is effectively the **accumulated value** of the premiums received and any deductions (expenses, benefits etc) based on **actual experience** (financial and non-financial).
 
 $$
 \begin {aligned}
@@ -54,45 +65,41 @@ The above method is known as the **Backcasting** method as it involves projectin
 
 !!! Note
 
-    Asset Shares are a general concept that can be applied to any kind of policy. However, they are typically only useful in a par context for bonus setting.
+    Asset Shares are a **general concept** that can be applied to any kind of policy. However, they are most used in a par context for bonus setting.
 
-However, the sum of all asset shares is rarely exactly equal to the total assets in the par fund. This could be 
+    It is possible to also use asset shares to estimate the profits made on a per policy basis by taking the difference between the asset shares and the payout of the policy.
+
+Unfortunately, due to imperfections 
+
+In an ideal world, the asset share will be exactly equal to the total assets in the par fund. However, due to imperfections in estimation or actual past operations, some discrepency is expected. It is typical that the actual policy assets is larger than the asset shares.
+
 
 
 Asset Share is used to determine how much bonus to declare. Thus, some companies will gross up the Asset Share to the Estate amount, effectively zerozing the estate.
 
-Asset Share as at today = EPV(Future Cashflows only, excl investment income)
 
 
 
-
-Asset shares define the notion of how quickly a policy builds policy values (assets) and hence profits.
-
-Reserves are targetted to meet just the benefit payments over time, so if everything happens as assumed, reserves will be equal to zero at the end of the term whereas the asset share would be greater than zero, the remainder representing the profits to the company.
-
-Asset share is the value which the company holds till date i.e. the actual deposits in respect of a policy. However, (Prospective) Reserves are something which the company should hold to meet all its liabilities.
 
 The payout on WP contracts is often the smoothed asset share. The terminal bonus is effectively the balancing item to achieve this.
 
 Given that we are aiming to pay out approximately the asset share, we need to make sure that the regular bonuses aren’t too large, ie we don’t want the guarantees to be bigger than the asset share at maturity. One way to achieve this is to set regular bonuses equal to the bonus earning capacity (BEC). To calculate the BEC we project the asset share to maturity (today’s asset share plus premiums less cost of claims less expenses plus investment return) and equate it to the payout (current guarantees plus future regular bonuses plus an allowance for terminal bonus). The BEC is the rate of regular bonus that ensures equality betwee the projected asset share and the projected benefits.
 
-1. Asset shares are fundamental to the way that with-profits works, but you’re right that they are much less useful for without-profits. However, the difference between the asset share and the payout is one way to measure the profit made on the contract.
-
-Asset Share is essentially the cumulative actual profits of a policy, retrospectively based on actual experience
-It can be calculated for all kinds of products, but it is mostly used with Par Products
-
-
-Asset share has its own set of assumptions - Why? Does it represent actual? No right
-
-
-
-Since Income does not use the actual experience, we will gross up the total asset share to the true asset share amount, that is tracked by FN/other departments. Problem is that they need to know the AS at the product level to set bonuses
-
 This gross up/gross down amount is weighted based on the preliminary asset share calculated and distributed to each product. Then that is the final true asset share amount
 
+## **Bonus Supportable Rates**
 
-Asset Share should equal to the Policy Assets
 
+Par fund management
+
+BSR = Bonus Supported Rate
+Investment Return needed to support the current bonus assumptions
+
+Compare against the current BEIR assumption to determine if the bonus rate is sustainable
+
+Usually within some limit (+-1) of the BEIR is reasonable, no need to change
+
+BSR is used to drive Bonus related decisions
 
 
 Projecting the maximum illustrated assumed interest rates (generally, 12%), using current (or assumed) administrative expenses and current costs of insurance, without showing the prospective client several other assumed rates of return, creating a Blue Sky problem.

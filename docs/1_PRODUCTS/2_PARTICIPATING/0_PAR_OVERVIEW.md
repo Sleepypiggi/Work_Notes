@@ -24,11 +24,11 @@ The key selling point for par policies is **long-term growth with no downside ri
 
 There are three main types of bonuses:
 
-**Cash Bonus** (CB) - amount is paid to the policyholder in **cash**. Typically expressed as percentage of the underlying coverage.
+* **Cash Bonus** (CB) - amount is paid to the policyholder in **cash**. Typically expressed as percentage of the underlying coverage.
 
-**Reversionary Bonus** (RB) - amount is **added to the policy’s benefit**, to be paid upon relevant insured event. Once declared, the amount is **considered a guaranteed benefit**. Typically expressed as percentage of the underlying coverage and/or previously declared RB.
+* **Reversionary Bonus** (RB) - amount is **added to the policy’s benefit**, to be paid upon relevant insured event. Once declared, the amount is **considered a guaranteed benefit**. Typically expressed as percentage of the underlying coverage and/or previously declared RB.
 
-**Terminal Bonus** (TB) - amount is paid out **only upon termination** of the policy. Typically expressed as a percentage of the underlying coverage or total CB/RB declared.
+* **Terminal Bonus** (TB) - amount is paid out **only upon termination** of the policy. Typically expressed as a percentage of the underlying coverage or total CB/RB declared.
 
 Both RB and TB can also be surrendered, added to the surrender value. However, their surrender benefit will **typically be lower than the death benefit**, especially so in the early policy years. This is discourage policyholders from surrendering the policy to cash out on their bonuses.
 
@@ -73,3 +73,50 @@ These non-guaranteed elements allows the insured to **share the experience** of 
 
 
 
+# Paid Up Policies
+
+Option to policyholders to stop paying their premium by reducing their coverage to an amount proportional to the amount already paid
+
+Functionally equivalent to surrendering your current policy for its SV
+Using the value to buy a non-par policy for the remaining term with a reduced SA
+
+If the original policy is Par, the new PUP will not receive any future bonuses as they are non-par
+The TB rate used the rate as at the date of becoming paid up, since "surrender" the policy at that date will trigger that TB rate
+
+A few points:
+1. Although it is functionally equivalent to surrendering the policy, the formula used by income does not apply the SV factor on the surrendered RB/SB
+2. TB at the point of paid up is not treated as declaring the TB at that date, thus loss of a possible shareholder transfer at that point
+
+Paid up PSI cannot be more informative than normal PSI, because dont want the policyholder to become paid up
+Mid Term Add also need illustration
+
+The nature of recognizing the buffer allocated to shareholders must allow for two main considerations: Regulatory restrictions on profits distribution for the Participating Fund: Under Singapore Risk Based Capital (“RBC”) framework, profits from the Participating fund can only be distributed to shareholders through shareholder transfers. Consequently, the buffer allocated to shareholders as at the valuation date cannot be recognized in its entirety as it cannot be directly extracted as profits.
+
+
+## Surrender Value
+
+Income only gives SV for par
+Actuarial principle is that it is the PV of other benefits, net of expense
+Idea is to refund the benefits that would have been paid to the policyholder, u shld receive this amount
+
+
+In practice, SV rates are rather competitive because ppl tend to compare from illustration
+Take other peoples SV factor then tweak it to look better
+Look at key years because ppl generally look at key timepoints (EG. Y10, Y20) tweak ours to look slightly better at year 20
+
+Need to be actuarially sound as well > Compare the adjusted rates to the asset share, should be close to 100%
+Cannot give more than 100% because cannot give them more than what the policy owns
+Cannot give less because not fair
+
+Generally speaking, cannot give wholesale because different mortality assumption etc, not suitable
+Not so sciency
+
+Surrender Value is roughly equal to the reserve of the policy
+Maximum you can give without making a loss
+
+
+MAS320
+
+Everyone in the same channel, for things they are paid the same, can charge to par fund
+
+But if you favour a certain group, that cannot be charged to par fund
