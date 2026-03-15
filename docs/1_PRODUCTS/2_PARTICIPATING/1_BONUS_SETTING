@@ -50,6 +50,8 @@ $$
 \end{aligned}
 $$
 
+The above method is known as the **Backcasting** method as it involves projecting the asset share from inception of the policy. However, SAS SAP L03 allows a **simplified method** to calculate AS by **rolling forward** previously calculated AS with actual investment and claim experience.
+
 !!! Note
 
     Asset Shares are a general concept that can be applied to any kind of policy. However, they are typically only useful in a par context for bonus setting.
