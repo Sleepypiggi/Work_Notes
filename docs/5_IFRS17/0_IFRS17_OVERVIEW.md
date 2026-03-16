@@ -11,12 +11,13 @@ It is important to have a clear **distinction** between the two common types of 
 
 Another broad concept to understand is that IFRS17 is a **Principle Based** framework. It outlines the **intended outcomes** of the framework, giving insurers the **flexibility to choose the method** in which they achieve the outcome. As such, there are **no prescriptive methods or amounts** outlined as they view them as creating arbitrage opportunities.
 
-## **Insurance & Investment Components**
+## **Presentation**
 
 IFRS17 adopts the view that an insurance should be treated as both a **Financial Instrument** and a **Service Contract**:
 
-* If it were only treated as a financial instrument, it should be valued at its **fair value** (to be consistent with existing IFRS frameworks); the price it would go for if it would be sold in an orderly transaction. However, insurance contracts are rarely traded, making such approaches based on **hypothetical scenarios**.
-* Instead, insurance contracts are typically **held till expiry**, where insurers provide the stipulated benefits over time as agreed. Thus, it is also treated as a **service contract**, which is valued based on the **insurance services** provided over time. 
+* If it were only treated as a financial instrument, it should be valued at its **fair value** (to be consistent with existing IFRS frameworks); the price it would go for if it would be sold in an orderly transaction. However, insurance contracts are **rarely traded**, making such approaches based on **hypothetical scenarios**.
+
+* Instead, insurance contracts are typically **held till expiry**, where insurers provide the stipulated benefits over time as agreed. Thus, it is also treated as a **service contract**, which is valued based on the **insurance services provided** over time. 
 
 Thus, the contract is typically split into two over-arching components:
 
@@ -26,17 +27,44 @@ Thus, the contract is typically split into two over-arching components:
 <!-- From FRG Risk -->
 ![IFRS17_P&L](Assets/0_IFRS17_OVERVIEW.md/IFRS17_P&L.png){.center}
 
-This split allows external stakeholders
+This split allows external stakeholders to **better understand the different aspects** of the insurer's performance.
 
-## **Contractual Service Margin**
+## **Measurement**
 
-An insurance contract should thus be measured as the **risk-adjusted present value** of the **Fulfilment Cashflows** of the contract. It must incorporate the following components:
+### **Contractual Service Margin**
+
+An insurance contract should thus be measured as the **risk-adjusted present value** of the **Fulfilment Cashflows** (FCF) of the contract, which incorporates the following components:
 
 1. Unbiased estimate of the future cashflows (neither conservative nor optimistic)
 2. Adjustment for non-financial risk(s)
 3. Adjustment for time value of money & financial risk(s)
 
+$$
+    \text{FCF} = \text{BEL} + \text{RA} + \text{TVOG}
+$$
 
+On **Initial Measurement**, if the FCF is **negative**, the insurer expects a **net inflow**; the contract is expected to be **profitable**. In this case, the insurer will set up a positive **Contractual Service Margin** (CSM) equal to the FCF, such that the total liability of the contract is 0:
+
+$$
+    \text{LRC} = \text{FCF} + \text{CSM} = 0
+$$
+
+The CSM effectively represents the **excess of inflows over outflows** and is a measure of the **unearned profit** of the contract. It is set-up to ensure that the expected profit from the contract is **NOT recognized immediately**. This follows the principle of a **service**, where profit should be **recognized each period** based on the amount of service provided. Thus, the **CSM is amortized each period**, released into the insurance service results as revenue.
+
+!!! Note
+
+    IFRS17 uses the term *Measurement* when refering to the value of the contract. There are two key variations:
+
+    * **Initial Measurement**: Contract valued **at policy inception**
+    * **Subsequent Measurment**: Contract valued **post-inception**
+
+On Subsequent Measurement, the following effects must be accounted for:
+
+* 
+
+Interest on CSM
+reflect that the price would reflectr the amount that the customer would have to pay in cash for the service when they receive the goods or service
+Locked in rate;l.
 
 The present value of the unbiased future cashflows is often referred to in the industry as the **Best Estimate Liability** (BEL). Note that "BEL" as a term is NOT officially defined in IFRS17; it is a term that is adopted from Solvency II.
 
@@ -44,13 +72,16 @@ The adjustment for non-financial risk is officially defined as the **Risk Adjust
 
 The adjustment for non-financial risk typically refers to chNges
 
-The combined value of the contract is known as the **Contactual Service Margin** (CSM). It is a measure of the **deferred profit** of the contract.
+### **Loss Component**
 
-Following the principle that it is a service contract, profit arising from the contract is **NOT recognised immediately**. Instead, the CSM is **amortised each period** to the P&L, based on the expected amount of service provided in the period.
+### **Variations**
 
 
+## **Scope**
 
-Recognize profit at the same time that services are provided with a risk adjustment
+## **Aggregation**
+
+## **Reinsurance**
 
 
 Options also ahve time value ebcause they may be OTM now but ITM in the fuure
@@ -59,7 +90,7 @@ Options also ahve time value ebcause they may be OTM now but ITM in the fuure
 
 Initial
 CSM = Excess over risk adjusted PV of FCF
-Cannot recognize profit immediately
+
 
 Subsequent
 Changes in estimates to future service = Hit CSM
@@ -69,9 +100,7 @@ Changes in financial assumptions = Profit and loss
 Liability for remaining coverage
 Liability for incurred claims
 
-Interest on CSM
-reflect that the price would reflectr the amount that the customer would have to pay in cash for the service when they receive the goods or service
-Locked in rate;l.
+
 
 ## **Overview**
 
