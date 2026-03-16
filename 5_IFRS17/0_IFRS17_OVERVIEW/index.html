@@ -486,15 +486,63 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#insurance-investment-components" class="md-nav__link">
-    Insurance &amp; Investment Components
+  <a href="#presentation" class="md-nav__link">
+    Presentation
   </a>
   
 </li>
       
         <li class="md-nav__item">
+  <a href="#measurement" class="md-nav__link">
+    Measurement
+  </a>
+  
+    <nav class="md-nav" aria-label="Measurement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#contractual-service-margin" class="md-nav__link">
     Contractual Service Margin
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loss-component" class="md-nav__link">
+    Loss Component
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variations" class="md-nav__link">
+    Variations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope" class="md-nav__link">
+    Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aggregation" class="md-nav__link">
+    Aggregation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reinsurance" class="md-nav__link">
+    Reinsurance
   </a>
   
 </li>
@@ -521,7 +569,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#aggregation" class="md-nav__link">
+  <a href="#aggregation_1" class="md-nav__link">
     Aggregation
   </a>
   
@@ -558,11 +606,15 @@
 <li><strong>Statutory Reporting</strong> - Provide information about the company to <strong>government authorities</strong> to prove <strong>compliance with relevant regulations</strong>. Certain simplifications are allowed for operational ease. Given that Solvency is a primary concern, a more <strong>conservative lens</strong> is taken.</li>
 </ul>
 <p>Another broad concept to understand is that IFRS17 is a <strong>Principle Based</strong> framework. It outlines the <strong>intended outcomes</strong> of the framework, giving insurers the <strong>flexibility to choose the method</strong> in which they achieve the outcome. As such, there are <strong>no prescriptive methods or amounts</strong> outlined as they view them as creating arbitrage opportunities.</p>
-<h2 id="insurance-investment-components"><strong>Insurance &amp; Investment Components</strong><a class="headerlink" href="#insurance-investment-components" title="Permanent link">&para;</a></h2>
+<h2 id="presentation"><strong>Presentation</strong><a class="headerlink" href="#presentation" title="Permanent link">&para;</a></h2>
 <p>IFRS17 adopts the view that an insurance should be treated as both a <strong>Financial Instrument</strong> and a <strong>Service Contract</strong>:</p>
 <ul>
-<li>If it were only treated as a financial instrument, it should be valued at its <strong>fair value</strong> (to be consistent with existing IFRS frameworks); the price it would go for if it would be sold in an orderly transaction. However, insurance contracts are rarely traded, making such approaches based on <strong>hypothetical scenarios</strong>.</li>
-<li>Instead, insurance contracts are typically <strong>held till expiry</strong>, where insurers provide the stipulated benefits over time as agreed. Thus, it is also treated as a <strong>service contract</strong>, which is valued based on the <strong>insurance services</strong> provided over time. </li>
+<li>
+<p>If it were only treated as a financial instrument, it should be valued at its <strong>fair value</strong> (to be consistent with existing IFRS frameworks); the price it would go for if it would be sold in an orderly transaction. However, insurance contracts are <strong>rarely traded</strong>, making such approaches based on <strong>hypothetical scenarios</strong>.</p>
+</li>
+<li>
+<p>Instead, insurance contracts are typically <strong>held till expiry</strong>, where insurers provide the stipulated benefits over time as agreed. Thus, it is also treated as a <strong>service contract</strong>, which is valued based on the <strong>insurance services provided</strong> over time. </p>
+</li>
 </ul>
 <p>Thus, the contract is typically split into two over-arching components:</p>
 <ul>
@@ -571,35 +623,56 @@
 </ul>
 <!-- From FRG Risk -->
 <p><img alt="IFRS17_P&amp;L" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/IFRS17_P%26L.png" /></p>
-<h2 id="contractual-service-margin"><strong>Contractual Service Margin</strong><a class="headerlink" href="#contractual-service-margin" title="Permanent link">&para;</a></h2>
-<p>An insurance contract should thus be measured as the <strong>risk-adjusted present value</strong> of the <strong>Fulfilment Cashflows</strong> of the contract. It must incorporate the following components:</p>
+<p>This split allows external stakeholders to <strong>better understand the different aspects</strong> of the insurer's performance.</p>
+<h2 id="measurement"><strong>Measurement</strong><a class="headerlink" href="#measurement" title="Permanent link">&para;</a></h2>
+<h3 id="contractual-service-margin"><strong>Contractual Service Margin</strong><a class="headerlink" href="#contractual-service-margin" title="Permanent link">&para;</a></h3>
+<p>An insurance contract should thus be measured as the <strong>risk-adjusted present value</strong> of the <strong>Fulfilment Cashflows</strong> (FCF) of the contract, which incorporates the following components:</p>
 <ol>
 <li>Unbiased estimate of the future cashflows (neither conservative nor optimistic)</li>
 <li>Adjustment for non-financial risk(s)</li>
 <li>Adjustment for time value of money &amp; financial risk(s)</li>
 </ol>
+<div class="arithmatex">\[
+    \text{FCF} = \text{BEL} + \text{RA} + \text{TVOG}
+\]</div>
+<p>On <strong>Initial Measurement</strong>, if the FCF is <strong>negative</strong>, the insurer expects a <strong>net inflow</strong>; the contract is expected to be <strong>profitable</strong>. In this case, the insurer will set up a positive <strong>Contractual Service Margin</strong> (CSM) equal to the FCF, such that the total liability of the contract is 0:</p>
+<div class="arithmatex">\[
+    \text{LRC} = \text{FCF} + \text{CSM} = 0
+\]</div>
+<p>The CSM effectively represents the <strong>excess of inflows over outflows</strong> and is a measure of the <strong>unearned profit</strong> of the contract. It is set-up to ensure that the expected profit from the contract is <strong>NOT recognized immediately</strong>. This follows the principle of a <strong>service</strong>, where profit should be <strong>recognized each period</strong> based on the amount of service provided. Thus, the <strong>CSM is amortized each period</strong>, released into the insurance service results as revenue.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>IFRS17 uses the term <em>Measurement</em> when refering to the value of the contract. There are two key variations:</p>
+<ul>
+<li><strong>Initial Measurement</strong>: Contract valued <strong>at policy inception</strong></li>
+<li><strong>Subsequent Measurment</strong>: Contract valued <strong>post-inception</strong></li>
+</ul>
+</div>
+<p>On Subsequent Measurement, the following effects must be accounted for:</p>
+<ul>
+<li></li>
+</ul>
+<p>Interest on CSM
+reflect that the price would reflectr the amount that the customer would have to pay in cash for the service when they receive the goods or service
+Locked in rate;l.</p>
 <p>The present value of the unbiased future cashflows is often referred to in the industry as the <strong>Best Estimate Liability</strong> (BEL). Note that "BEL" as a term is NOT officially defined in IFRS17; it is a term that is adopted from Solvency II.</p>
 <p>The adjustment for non-financial risk is officially defined as the <strong>Risk Adjustment</strong> (RA), which is the compensation required for bearing <strong>uncertainty in the amount and timing of the cashflows</strong>. It is <em>analagous</em> to the <strong>Provisions for Adverse Deviation</strong> (PAD) for insurance risks (EG. Mortality), which reflects the <strong>inherent uncertainty</strong> in the best estimate assumptions.</p>
-<p>Recognize profit at the same time that services are provided with a risk adjustment</p>
-<p>Unbiased estimate of future CF
-Adjustment for time value and financial risk
-Adjustment for non-financial risk
-Compensation that the entity requires for bearing uncertainity about timing of cashflows</p>
-<p>Neither conservative nor optimistic
-Options also ahve time value ebcause they may be OTM now but ITM in the fuure</p>
+<p>The adjustment for non-financial risk typically refers to chNges</p>
+<h3 id="loss-component"><strong>Loss Component</strong><a class="headerlink" href="#loss-component" title="Permanent link">&para;</a></h3>
+<h3 id="variations"><strong>Variations</strong><a class="headerlink" href="#variations" title="Permanent link">&para;</a></h3>
+<h2 id="scope"><strong>Scope</strong><a class="headerlink" href="#scope" title="Permanent link">&para;</a></h2>
+<h2 id="aggregation"><strong>Aggregation</strong><a class="headerlink" href="#aggregation" title="Permanent link">&para;</a></h2>
+<h2 id="reinsurance"><strong>Reinsurance</strong><a class="headerlink" href="#reinsurance" title="Permanent link">&para;</a></h2>
+<p>Options also ahve time value ebcause they may be OTM now but ITM in the fuure</p>
 <h2 id="csm">CSM<a class="headerlink" href="#csm" title="Permanent link">&para;</a></h2>
 <p>Initial
-CSM = Excess over risk adjusted PV of FCF
-Cannot recognize profit immediately</p>
+CSM = Excess over risk adjusted PV of FCF</p>
 <p>Subsequent
 Changes in estimates to future service = Hit CSM
 Changes relating to current or past service = Hit P&amp;L
 Changes in financial assumptions = Profit and loss</p>
 <p>Liability for remaining coverage
 Liability for incurred claims</p>
-<p>Interest on CSM
-reflect that the price would reflectr the amount that the customer would have to pay in cash for the service when they receive the goods or service
-Locked in rate;l.</p>
 <h2 id="overview"><strong>Overview</strong><a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>=</p>
 <p>There are a few key themes in IFRS17:</p>
@@ -621,7 +694,7 @@ Time value of money
 Financial risk
 Inflation</p>
 <p>All in IFE or in OCI</p>
-<h2 id="aggregation">Aggregation<a class="headerlink" href="#aggregation" title="Permanent link">&para;</a></h2>
+<h2 id="aggregation_1">Aggregation<a class="headerlink" href="#aggregation_1" title="Permanent link">&para;</a></h2>
 <p>Issues a large number of similar contracts knowing that some will result in claims in a particular period and some will not
 Largenumber reduces the risk that it differs too greatly from the expected</p>
 <p>Dont want to allow misleading offsets &gt;&gt; Loss of information
