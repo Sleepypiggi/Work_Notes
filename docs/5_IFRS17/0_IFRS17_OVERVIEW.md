@@ -26,6 +26,8 @@ Thus, the contract is typically split into two over-arching components:
 <!-- From FRG Risk -->
 ![IFRS17_P&L](Assets/0_IFRS17_OVERVIEW.md/IFRS17_P&L.png){.center}
 
+This split allows external stakeholders
+
 ## **Contractual Service Margin**
 
 An insurance contract should thus be measured as the **risk-adjusted present value** of the **Fulfilment Cashflows** of the contract. It must incorporate the following components:
@@ -34,25 +36,23 @@ An insurance contract should thus be measured as the **risk-adjusted present val
 2. Adjustment for non-financial risk(s)
 3. Adjustment for time value of money & financial risk(s)
 
+
+
 The present value of the unbiased future cashflows is often referred to in the industry as the **Best Estimate Liability** (BEL). Note that "BEL" as a term is NOT officially defined in IFRS17; it is a term that is adopted from Solvency II.
 
 The adjustment for non-financial risk is officially defined as the **Risk Adjustment** (RA), which is the compensation required for bearing **uncertainty in the amount and timing of the cashflows**. It is *analagous* to the **Provisions for Adverse Deviation** (PAD) for insurance risks (EG. Mortality), which reflects the **inherent uncertainty** in the best estimate assumptions.
 
+The adjustment for non-financial risk typically refers to chNges
 
+The combined value of the contract is known as the **Contactual Service Margin** (CSM). It is a measure of the **deferred profit** of the contract.
 
-
-
+Following the principle that it is a service contract, profit arising from the contract is **NOT recognised immediately**. Instead, the CSM is **amortised each period** to the P&L, based on the expected amount of service provided in the period.
 
 
 
 Recognize profit at the same time that services are provided with a risk adjustment
 
-Unbiased estimate of future CF
-Adjustment for time value and financial risk
-Adjustment for non-financial risk
-Compensation that the entity requires for bearing uncertainity about timing of cashflows
 
-Neither conservative nor optimistic
 Options also ahve time value ebcause they may be OTM now but ITM in the fuure
 
 ## CSM
