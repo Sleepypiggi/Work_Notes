@@ -33,11 +33,29 @@ This split allows external stakeholders to **better understand the different asp
 
 ### **Contractual Service Margin**
 
-An insurance contract should thus be measured as the **risk-adjusted present value** of the **Fulfilment Cashflows** (FCF) of the contract, which incorporates the following components:
+An insurance contract should be measured based on the **Fulfilment Cashflows** (FCF) of the contract, which incorporates the following components:
 
-1. Unbiased estimate of the future cashflows (neither conservative nor optimistic)
-2. Adjustment for non-financial risk(s)
-3. Adjustment for time value of money & financial risk(s)
+* Unbiased estimate of the future cashflows (neither conservative nor optimistic)
+* Adjustment for the time value of money
+* Adjustment for non-financial risk(s)
+* Adjustment for financial risk(s)
+
+The above can then be regrouped into three key components:
+
+1. **Best Estimate Liability** (BEL) - Present value of the unbiased cashflows
+2. **Risk Adjustment** (RA) - Present value of adjustment for non-financial (insurance) risks. It reflects the risk that actual experience might deviate from the best estimates.
+3. **Time Value of Options & Guarantees** (TVOG) - Present value of the adjustment for financial risk. It reflects the risk that financial variables might cause embedded options and guarantees in the product becomes **in-the-money**.
+
+!!! Warning
+
+    Both BEL and TVOG are NOT officially defined terms under IFRS17; they were brought over from other valuation bases by the industry:
+
+    * **BEL** - Officially defined under Solvency II
+    * **TVOG** - Officially defined European and Market Consistent Embedded Values
+
+!!! Warning
+
+    Financial Risks are typically **accounted for implicitly** in the cashflows or discount rates. TVOG is typically the **only explicit adjustment**, hence it is emphasized above.
 
 $$
     \text{FCF} = \text{BEL} + \text{RA} + \text{TVOG}
@@ -61,23 +79,16 @@ The CSM effectively represents the **excess of inflows over outflows** and is a 
 On **Subsequent Measurement**, the following effects must be accounted for:
 
 * **CSM accretes interest** based on the **initial discount rate**. This is to reflect the price of the service **at the time it is fulfilled** (time value effect).
-
 * CSM is adjusted for **changes in non-financial assumptions**. Given the inherent uncertain nature of the business, this is to reflect the insurers **latest expectation** of the business.
-
-!!! Warning
-
-    Changes relating to financial assumptions (EG. Discount rate) are NOT reflected in the CSM. They will flow directly to the Insurance Finance Income line in the P&L.
+* Changes relating to **financial assumptions** (EG. Discount rate) are **NOT reflected in the CSM**. They will flow directly to the Insurance Finance Income line in the P&L.
     
-    Thus, the CSM of a contract is essentially calculated using only the **discount rate at inception**, commonly referred to as the **Locked-In Rate** (LIR).
+!!! Note
+    
+    The CSM of a contract is essentially calculated using only the **discount rate at inception**, commonly referred to as the **Locked-In Rate** (LIR).
 
 
-
-
-The present value of the unbiased future cashflows is often referred to in the industry as the **Best Estimate Liability** (BEL). Note that "BEL" as a term is NOT officially defined in IFRS17; it is a term that is adopted from Solvency II.
-
-The adjustment for non-financial risk is officially defined as the **Risk Adjustment** (RA), which is the compensation required for bearing **uncertainty in the amount and timing of the cashflows**. It is *analagous* to the **Provisions for Adverse Deviation** (PAD) for insurance risks (EG. Mortality), which reflects the **inherent uncertainty** in the best estimate assumptions.
-
-The adjustment for non-financial risk typically refers to chNges
+Liability for remaining coverage
+Liability for incurred claims
 
 ### **Loss Component**
 
@@ -85,65 +96,22 @@ If on initial measurement, the **FCF is positive**, then the insurer expects to 
 
 ### **Variations**
 
+The measurement above are all based on the defualt measurement method, known as the **General Measurement Approach**. However, there are two other measurement methods that may be used, should certain conditions be met:
+
+* **Variable Fee Approach**
+* **Premium Allocation Approach**
 
 ## **Scope**
 
-## **Aggregation**
+## Contract Boundary
 
-## **Reinsurance**
+Insurance contract definition >>
+Contract is an agreement between two or more parties with enforceable rights and obligations
 
+No longer required to provide coverage
+No right to renewal
 
-Options also ahve time value ebcause they may be OTM now but ITM in the fuure
-
-## CSM
-
-Initial
-CSM = Excess over risk adjusted PV of FCF
-
-
-Subsequent
-Changes in estimates to future service = Hit CSM
-Changes relating to current or past service = Hit P&L
-Changes in financial assumptions = Profit and loss
-
-Liability for remaining coverage
-Liability for incurred claims
-
-
-
-## **Overview**
-
-=
-
-There are a few key themes in IFRS17:
-
-1. Scope - which contracts should be considered under IFRS17?
-2. Measurement - How to value contracts?
-3. Aggregation - How to group contracts?
-4. Presentation - How to present the results?
-
-
-
-
-
- 
-
-## Revenue
-
-Depicts revenue based on the amount service they expect to provide in the period
-Excldue investment revenue
-
-Investment Component
-Amount that the entity is required to pay the policyholder even if the insured event does not occur
-If investment component is interlinked with an insurance component, both under IFRS17 rather than splitting
-Insurance component > additional amount that an entity would pay if an insured event occurs
-
-Insurance finance expenses
-Time value of money
-Financial risk
-Inflation
-
-All in IFE or in OCI
+Discount rates
 
 ## Aggregation
 
@@ -166,17 +134,7 @@ Onerousity test
 
 All within year
 
-## Contract Boundary
-
-Insurance contract definition >>
-Contract is an agreement between two or more parties with enforceable rights and obligations
-
-No longer required to provide coverage
-No right to renewal
-
-Discount rates
-
-# rch
+## **Reinsurance**
 
 Accounted seperately
 Because from a service stand point, RI does not reduce the amount it owes to the PH
@@ -190,3 +148,20 @@ RCH is usually an sset and paying toRI
 Adjust for recits risk of the insurer
 
 RI is an expense
+
+
+## Revenue
+
+Depicts revenue based on the amount service they expect to provide in the period
+
+Investment Component
+Amount that the entity is required to pay the policyholder even if the insured event does not occur
+If investment component is interlinked with an insurance component, both under IFRS17 rather than splitting
+Insurance component > additional amount that an entity would pay if an insured event occurs
+
+Insurance finance expenses
+Time value of money
+Financial risk
+Inflation
+
+All in IFE or in OCI
