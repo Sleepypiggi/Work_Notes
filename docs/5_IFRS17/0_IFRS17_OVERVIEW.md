@@ -58,13 +58,20 @@ The CSM effectively represents the **excess of inflows over outflows** and is a 
     * **Initial Measurement**: Contract valued **at policy inception**
     * **Subsequent Measurment**: Contract valued **post-inception**
 
-On Subsequent Measurement, the following effects must be accounted for:
+On **Subsequent Measurement**, the following effects must be accounted for:
 
-* 
+* **CSM accretes interest** based on the **initial discount rate**. This is to reflect the price of the service **at the time it is fulfilled** (time value effect).
 
-Interest on CSM
-reflect that the price would reflectr the amount that the customer would have to pay in cash for the service when they receive the goods or service
-Locked in rate;l.
+* CSM is adjusted for **changes in non-financial assumptions**. Given the inherent uncertain nature of the business, this is to reflect the insurers **latest expectation** of the business.
+
+!!! Warning
+
+    Changes relating to financial assumptions (EG. Discount rate) are NOT reflected in the CSM. They will flow directly to the Insurance Finance Income line in the P&L.
+    
+    Thus, the CSM of a contract is essentially calculated using only the **discount rate at inception**, commonly referred to as the **Locked-In Rate** (LIR).
+
+
+
 
 The present value of the unbiased future cashflows is often referred to in the industry as the **Best Estimate Liability** (BEL). Note that "BEL" as a term is NOT officially defined in IFRS17; it is a term that is adopted from Solvency II.
 
@@ -73,6 +80,8 @@ The adjustment for non-financial risk is officially defined as the **Risk Adjust
 The adjustment for non-financial risk typically refers to chNges
 
 ### **Loss Component**
+
+If on initial measurement, the **FCF is positive**, then the insurer expects to **make a loss** on the contract instead. In this scenario, the insurer will instead set-up a **Loss Component** (LC).
 
 ### **Variations**
 
@@ -137,6 +146,8 @@ Inflation
 All in IFE or in OCI
 
 ## Aggregation
+
+The fundamental principle of insurance is risk pooling - where the insurer issues a large number of similar contracts, where on average, the claims in any given period will be close to the expected value.
 
 Issues a large number of similar contracts knowing that some will result in claims in a particular period and some will not
 Largenumber reduces the risk that it differs too greatly from the expected
