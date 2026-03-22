@@ -521,6 +521,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#aggregation" class="md-nav__link">
+    Aggregation
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -536,13 +543,6 @@
         <li class="md-nav__item">
   <a href="#contract-boundary" class="md-nav__link">
     Contract Boundary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#aggregation" class="md-nav__link">
-    Aggregation
   </a>
   
 </li>
@@ -579,10 +579,23 @@
 <h1 id="ifrs17-overview"><strong>IFRS17 Overview</strong><a class="headerlink" href="#ifrs17-overview" title="Permanent link">&para;</a></h1>
 <h2 id="background"><strong>Background</strong><a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
 <p>IFRS stands for the <strong>International Financial Reporting Standard</strong>, which is a financial reporting framework to bring <strong>transparency and consistency</strong> to financial statements worldwide. IFRS17 is the set of standards that specifically cover the treatment of <strong>insurance contracts</strong>.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>There are two key IFRS standards for insurers:</p>
+<ul>
+<li><strong>IFRS17</strong> - Insurance Contracts (Liablities)</li>
+<li><strong>IFRS9</strong> - Financial Instruments (Assets)</li>
+</ul>
+<p>Both standards were designed to work in tandem with one another, thus they should be adopted together to prevent accounting mismatches between the two components.</p>
+</div>
 <p>It is important to have a clear <strong>distinction</strong> between the two common types of reporting:</p>
 <ul>
-<li><strong>Financial Reporting</strong> - Provide <strong>accurate and objective</strong> information about the company in a <strong>consistent</strong> format to <strong>external stakeholders</strong> to facilitate their decision making.</li>
-<li><strong>Statutory Reporting</strong> - Provide information about the company to <strong>government authorities</strong> to prove <strong>compliance with relevant regulations</strong>. Certain simplifications are allowed for operational ease. Given that Solvency is a primary concern, a more <strong>conservative lens</strong> is taken.</li>
+<li>
+<p><strong>Financial Reporting</strong> - Provide <strong>accurate and objective</strong> information about the company in a <strong>consistent</strong> format to <strong>external stakeholders</strong> to facilitate their decision making.</p>
+</li>
+<li>
+<p><strong>Statutory Reporting</strong> - Provide information about the company to <strong>government authorities</strong> to prove <strong>compliance with relevant regulations</strong>. Certain simplifications are allowed for operational ease. Given that Solvency is a primary concern, a more <strong>conservative lens</strong> is taken.</p>
+</li>
 </ul>
 <p>Another broad concept to understand is that IFRS17 is a <strong>Principle Based</strong> framework. It outlines the <strong>intended outcomes</strong> of the framework, giving insurers the <strong>flexibility to choose the method</strong> in which they achieve the outcome. As such, there are <strong>no prescriptive methods or amounts</strong> outlined as they view them as creating arbitrage opportunities.</p>
 <h2 id="presentation"><strong>Presentation</strong><a class="headerlink" href="#presentation" title="Permanent link">&para;</a></h2>
@@ -614,9 +627,15 @@
 </ul>
 <p>The above can then be regrouped into three key components:</p>
 <ol>
-<li><strong>Best Estimate Liability</strong> (BEL) - Present value of the unbiased cashflows</li>
-<li><strong>Risk Adjustment</strong> (RA) - Present value of adjustment for non-financial (insurance) risks. It reflects the risk that actual experience might deviate from the best estimates.</li>
-<li><strong>Time Value of Options &amp; Guarantees</strong> (TVOG) - Present value of the adjustment for financial risk. It reflects the risk that financial variables might cause embedded options and guarantees in the product becomes <strong>in-the-money</strong>.</li>
+<li>
+<p><strong>Best Estimate Liability</strong> (BEL) - Present value of the unbiased cashflows</p>
+</li>
+<li>
+<p><strong>Risk Adjustment</strong> (RA) - Present value of adjustment for non-financial (insurance) risks. It reflects the risk that actual experience might deviate from the best estimates.</p>
+</li>
+<li>
+<p><strong>Time Value of Options &amp; Guarantees</strong> (TVOG) - Present value of the adjustment for financial risk. It reflects the risk that financial variables might cause embedded options and guarantees in the product becomes <strong>in-the-money</strong>.</p>
+</li>
 </ol>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -633,11 +652,11 @@
 <div class="arithmatex">\[
     \text{FCF} = \text{BEL} + \text{RA} + \text{TVOG}
 \]</div>
-<p>On <strong>Initial Measurement</strong>, if the FCF is <strong>negative</strong>, the insurer expects a <strong>net inflow</strong>; the contract is expected to be <strong>profitable</strong>. In this case, the insurer will set up a positive <strong>Contractual Service Margin</strong> (CSM) equal to the FCF, such that the total liability of the contract is 0:</p>
+<p>On <strong>Initial Measurement</strong>, if the FCF is <strong>negative</strong>, the insurer expects a <strong>net inflow</strong>; the contract is expected to be <strong>profitable</strong>. In this case, the insurer will set up a positive <strong>Contractual Service Margin</strong> (CSM) under the LRC:</p>
 <div class="arithmatex">\[
     \text{LRC} = \text{FCF} + \text{CSM} = 0
 \]</div>
-<p>The CSM effectively represents the <strong>excess of inflows over outflows</strong> and is a measure of the <strong>unearned profit</strong> of the contract. It is set-up to ensure that the expected profit from the contract is <strong>NOT recognized immediately</strong>. This follows the principle of a <strong>service</strong>, where profit should be <strong>recognized each period</strong> based on the amount of service provided. Thus, the <strong>CSM is amortized each period</strong>, released into the insurance service results as revenue.</p>
+<p>The CSM effectively represents the <strong>excess of inflows over outflows</strong> and is a measure of the <strong>unearned profit</strong> of the contract. It is set-up to ensure that the expected profit from the contract is <strong>NOT recognized immediately</strong>. This follows the principle of a <strong>service</strong>, where profit should be <strong>recognized each period</strong> based on the amount of service provided. Thus, the <strong>CSM is amortized each period</strong>, released as <strong>revenue</strong> under the insurance service results.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>IFRS17 uses the term <em>Measurement</em> when refering to the value of the contract. There are two key variations:</p>
@@ -648,24 +667,71 @@
 </div>
 <p>On <strong>Subsequent Measurement</strong>, the following effects must be accounted for:</p>
 <ul>
-<li><strong>CSM accretes interest</strong> based on the <strong>initial discount rate</strong>. This is to reflect the price of the service <strong>at the time it is fulfilled</strong> (time value effect).</li>
-<li>CSM is adjusted for <strong>changes in non-financial assumptions</strong>. Given the inherent uncertain nature of the business, this is to reflect the insurers <strong>latest expectation</strong> of the business.</li>
-<li>Changes relating to <strong>financial assumptions</strong> (EG. Discount rate) are <strong>NOT reflected in the CSM</strong>. They will flow directly to the Insurance Finance Income line in the P&amp;L.</li>
+<li>
+<p><strong>CSM accretes interest</strong> based on the <strong>initial discount rate</strong>. This is to reflect the price of the service <strong>at the time it is fulfilled</strong> (time value effect). This is accounted for as an expense under investment results.</p>
+</li>
+<li>
+<p>CSM is adjusted for <strong>changes in non-financial assumptions</strong>. Given the inherent uncertain nature of the business, this is to reflect the insurers <strong>latest expectation</strong> of the business.</p>
+</li>
+<li>
+<p>Changes relating to <strong>financial assumptions</strong> (EG. Discount rate) are <strong>NOT reflected in the CSM</strong>. They will flow directly to the Insurance Finance Income line in the P&amp;L.</p>
+</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The CSM of a contract is essentially calculated using only the <strong>discount rate at inception</strong>, commonly referred to as the <strong>Locked-In Rate</strong> (LIR).</p>
 </div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If subsequent measurement would cause the CSM balance to <strong>become negative</strong>, the CSM is instead <strong>floored at 0</strong> and any excess is set-up as a loss component instead.</p>
+<p>CSM is NOT allowed to be negative, except for reinsurance contracts held.</p>
+</div>
+<!-- Obtained from IFRS Org -->
+<p><img alt="CSM_ROLL_FORWARD" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/CSM_ROLL_FORWARD.png" /></p>
 <p>Liability for remaining coverage
 Liability for incurred claims</p>
 <h3 id="loss-component"><strong>Loss Component</strong><a class="headerlink" href="#loss-component" title="Permanent link">&para;</a></h3>
-<p>If on initial measurement, the <strong>FCF is positive</strong>, then the insurer expects to <strong>make a loss</strong> on the contract instead. In this scenario, the insurer will instead set-up a <strong>Loss Component</strong> (LC).</p>
+<p>If on initial measurement, the <strong>FCF is positive</strong>, then the insurer expects to <strong>make a loss</strong> on the contract instead. In this scenario, the insurer will instead set-up a <strong>Loss Component</strong> (LC) in the LRC instead. Similar to CSM, the loss component is <strong>"amortized" (reversed)</strong> such that the <strong>LC becomes zero</strong> by the end of the contract.</p>
+<p>However, it is <strong>IMMEDIATELY</strong> recognized as an <strong>expense</strong> under the insurance service results. It is NOT a "negative CSM" that recognizes losses over time. This <strong>asymmetric</strong> treatment of profits and losses is a key concept in IFRS17.</p>
+<p>Unlike CSM, the reversal of the LC has <strong>NO impact on the total insurance service results</strong>, but is needed to ensure that the revenue and expenses presented are sensible. Without the reversal, the amounts will be overstated.</p>
+<ul>
+<li>The reversal reduces BOTH the revenue and expense (neutral impact)</li>
+<li>IFRS17 states that the reversal must be done <strong>systematically</strong>, with relation to the expected claims, expenses &amp; RA release (principle based)</li>
+</ul>
+<!-- Self Made -->
+<p><img alt="LC_REVERSAL" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/LC_REVERSAL.png" /></p>
 <h3 id="variations"><strong>Variations</strong><a class="headerlink" href="#variations" title="Permanent link">&para;</a></h3>
 <p>The measurement above are all based on the defualt measurement method, known as the <strong>General Measurement Approach</strong>. However, there are two other measurement methods that may be used, should certain conditions be met:</p>
 <ul>
 <li><strong>Variable Fee Approach</strong></li>
 <li><strong>Premium Allocation Approach</strong></li>
 </ul>
+<h3 id="aggregation">Aggregation<a class="headerlink" href="#aggregation" title="Permanent link">&para;</a></h3>
+<p>The fundamental principle of insurance is <strong>risk pooling</strong> - where the insurer issues a large number of <strong>similar contracts</strong>, where on average, the claims in any given period will be close to the expected value. Thus, contracts should be <strong>measured in groups</strong> to better reflect this.</p>
+<p>However, since profit and losses are treated <strong>asymetrically</strong>, it is important <strong>not to mix the two</strong> together as there might be offsetting effects where <strong>information is lost</strong>:</p>
+<ul>
+<li><strong>Onerous</strong> at recognition</li>
+<li><strong>Not onerous</strong> at recognition and <strong>no significant possibility</strong> of becoming onerous</li>
+<li><strong>Others</strong> - Not onerous but with possibility of becoming onerous</li>
+</ul>
+<p>In totality, there are <strong>three levels of aggregation</strong>:</p>
+<ul>
+<li><strong>Portfolio</strong> - Contracts with <strong>similar risks</strong> which are managed together (EG. Participating Whole Life, Universal Life)</li>
+<li><strong>Group</strong> - Contracts with similar levels of profitability</li>
+<li><strong>Cohort</strong> - Contracts <strong>issued within one year</strong> from one another, allowing <strong>changes in profitability</strong> of the business to be observed over time</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Once the contracts are aggregated at initial recognition, <strong>no changes</strong> to the level of aggregation of the contract may be made - even if the contract subsequently changes profitability.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For new business, contracts will be <strong>added to the cohort</strong> until one year from the issuance of the first policy - at which the cohort becomes <strong>closed</strong>.</p>
+</div>
+<!-- Self Made -->
+<p><img alt="IFRS17_LOA" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/IFRS17_LOA.png" /></p>
+<p>CSM measured at a group level
+FCF can be at any level, typically most granular</p>
 <h2 id="scope"><strong>Scope</strong><a class="headerlink" href="#scope" title="Permanent link">&para;</a></h2>
 <h2 id="contract-boundary">Contract Boundary<a class="headerlink" href="#contract-boundary" title="Permanent link">&para;</a></h2>
 <p>Insurance contract definition &gt;&gt;
@@ -673,19 +739,6 @@ Contract is an agreement between two or more parties with enforceable rights and
 <p>No longer required to provide coverage
 No right to renewal</p>
 <p>Discount rates</p>
-<h2 id="aggregation">Aggregation<a class="headerlink" href="#aggregation" title="Permanent link">&para;</a></h2>
-<p>The fundamental principle of insurance is risk pooling - where the insurer issues a large number of similar contracts, where on average, the claims in any given period will be close to the expected value.</p>
-<p>Issues a large number of similar contracts knowing that some will result in claims in a particular period and some will not
-Largenumber reduces the risk that it differs too greatly from the expected</p>
-<p>Dont want to allow misleading offsets &gt;&gt; Loss of information
-CSM measured at a group level
-FCF can be at any level, typically most granular</p>
-<p>Less profitable group would have lesser ability to withstand unfavourable changes and might become onerous faster than a more profitable group would</p>
-<p>Onerous at recognition
-Not onerous, no significant possibility
-All others</p>
-<p>Onerousity test</p>
-<p>All within year</p>
 <h2 id="reinsurance"><strong>Reinsurance</strong><a class="headerlink" href="#reinsurance" title="Permanent link">&para;</a></h2>
 <p>Accounted seperately
 Because from a service stand point, RI does not reduce the amount it owes to the PH
