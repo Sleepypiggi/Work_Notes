@@ -179,9 +179,11 @@ Discount rates
 
 ## **Reinsurance**
 
-Accounted seperately
-Because from a service stand point, RI does not reduce the amount it owes to the PH
-It is that RCH is giving indemnity
+IFRS17 typically covers the **entity that issues** the insurance contract; not the owner of the contract itself. Thus, Reinsurers also account for their reinsurance contracts using IFRS17 as they are the contract issuer. However, the **owners of reinsurance contracts** also have to account for them under IFRS17. These are known as **Reinsurance Contracts Held** (RCH).  
+
+RCH are considered **seperate contracts** from the underlying insurance contracts, thus are accounted for seperately from them as well. In other words, RCH **does NOT reduce the liability** of the underlying contract. The insurer is still **fully liable for the services provided to the policyholders**; RCH provide indemnity to the insurer for the services.
+
+
 
 RI premium
 RI Ceding Commission  - Expense allowance for UW etc
