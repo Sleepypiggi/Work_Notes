@@ -6,22 +6,10 @@ The expected minus actual bit there simply defines deviation grom expectations, 
 
 RA release can be defines differently from company to company, but it is typically an amount proportional to the amount of service provided in the period, which could be based off expected or actual claims. For example, if at initial recognition your PV(claims) = $100k and you have an RA of $10k, if you expected $5k of claims to be incurred over the past year, then your RA release would be $0.5k.
 
-
-Coverage units represent the amount of insurance coverage provided during each period. They reflect the expected pattern of release of the CSM over the coverage period. The concept ensures that the CSM is released in a way that aligns with the insurance service provided.
-
-
-
-Summary
-
-Coverage units are crucial for the appropriate recognition of the CSM, ensuring it aligns with the service provided over the life of the contract. This systematic allocation helps in reflecting the insurer’s performance and profitability accurately over time.
-
-
-
 Another problem of current insurance accounting is the “volatility” in profits
 Profits early and losses later
 IFRS17 smooths this by withholding the profit into a B/S item called CSM which sometimes the profit throughout the lifetime of the policy, removing this volatility
-Conversely if a contract is loss making from the get go, losses are recognized upfront into an item called Loss Component
-If a contract flips, there will be some reversal on both sides
+
 CSM is very different from EV due to different assumptions
 
 But mainly due to Teo large components

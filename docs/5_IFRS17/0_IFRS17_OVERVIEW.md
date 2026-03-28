@@ -21,28 +21,39 @@ It is important to have a clear **distinction** between the two common types of 
 
 Another broad concept to understand is that IFRS17 is a **Principle Based** framework. It outlines the **intended outcomes** of the framework, giving insurers the **flexibility to choose the method** in which they achieve the outcome. As such, there are **no prescriptive methods or amounts** outlined as they view them as creating arbitrage opportunities.
 
+Unless otherwise stated, all assessments and grouping of contracts under IFRS17 **only occur once at inception**, unless a modification to the contract have been made.
+
 ## **Scope**
 
-IFRS17 is only applicable to **Insurance Contracts** - where the issuer (insurer) accepts **significant insurance risk** from another party (policyholder).
+The main focus of IFRS17 are **Insurance Contracts** - Contract where the issuer accepts **significant insurance risk** from the policyholder by agreeing to compensate the policyholder if an **insured event** adversely affects the policyholder.
 
+* **Contract** - Agreement between two or more entities that creates legally enforceable rights and obligations
 
-There are a few key terms that need to be defined:
+* **Insurance Risk** - **Non-financial** risk that is **transferred** from the policyholder to the issuer. The risk must be **specific to the policyholder** and **already exist**; risk arising from the contract is NOT insurance risk.
 
-* Contract
+* **Insured Event** - **Uncertain** future event covered by an insurance contract that creates insurance risk. Uncertainty could be in the form of **probability/timing** of the event, or **how much** the insurer will need to pay if the event occurs
 
-* Insurance Risk
+* **Insurable Interest** - Notion that the policyholder is **adversely** affected by the insured event
 
-* Significant  
+!!! Warning
 
-Insurance contract definition >>
-Contract is an agreement between two or more parties with enforceable rights and obligations
+    There are contracts that may be legally considered insurance contracts, but do not fall under the above definition and thus are NOT covered under IFRS17.
 
-No longer required to provide coverage
-No right to renewal
+!!! Tip
 
-Discount rates
+    Risks such as Expense and Lapse risk that arise from the contract are typically NOT insurance risk. However, these are considered insurance risks for the purposes of a **reinsurance contract** as they already exist before the reinsurance contract.
 
-It is important to understand the **Contract Boundary** as well.
+Insurance is deemed as significant if there is a **scenario with commercial substance**, where on a **present value basis**, the insurer could **suffer a loss** or pay a **significantly more than** if the insured event did not occur.
+
+!!! Tip
+
+    This applies even if there **at least ONE scenario**, regardless of the likelihood of the event.
+
+One key exception is for Investment Contracts with **Discretionary Participating Features** (DPFs). An entity may account for these policies under IFRS17 if the entity also issues insurance contracts (for simplicity to avoid scope creep).
+
+* Discretionary amounts are expected to be a significant portion of all benefits
+* Timing or Amount of payments are at the discretion of the entity
+* Payments are linked to returns on a specified pool of contracts or assets, or the performance of the issuer
 
 ## **Presentation**
 
@@ -127,6 +138,8 @@ $$
 
 The below sections on CSM and LC will be based on the defualt measurement method, known as the **General Measurement Approach** (GMA). However, there are other measurement methods that may be used under certain conditions which will be covered after. Unless otherwise stated in those sections, the mechanism should follow the same as the GMA.
 
+### **Contract Boundary**
+
 ### **Liability**
 
 IFRS17 liability is split into two components:
@@ -161,6 +174,10 @@ The CSM effectively represents the **excess of inflows over outflows** and is a 
 
 <!-- Self Made -->
 ![CSM_DIAGRAM](Assets/0_IFRS17_OVERVIEW.md/CSM_RELEASE.png){.center}
+
+!!! Note
+
+    The amortization of CSM is based on the **Coverage Units** of the contract. It is quantitative measure of the insurance services provided each period, serving as a **systematic method** of CSM amortization.
 
 On **Subsequent Measurement**, the CSM is adjusted BEFORE any release:
 
@@ -212,11 +229,26 @@ Unlike CSM, the reversal of the LC has **NO impact on the total insurance servic
 
 ### **Variable Fee Approach**
 
-The Variable Fee Approach (VFA) is allowed for **Direct Participating Contracts**, which have the following three key characteristics:
+The **Variable Fee Approach** (VFA) is allowed for **Direct Participating Contracts**, which have the following three key characteristics:
 
 1. Contract **participates** in the return of a **clearly identified** pool of assets
-2. Policyholders are expected to receive a **substantial share of said return**
+2. Policyholders are expected to receive a **substantial share of the return**
 3. Policyholders are expected to receive a **substantial share of the variation** of any change in asset return
+
+Insurance contracts that pass the above criteria typically charge a fee that varies with the return on the underlying pool of assets, known as the **Variable Fee**. The remainder of the return is passed onto the policyholder.
+
+!!! Warning
+
+    The insurer does NOT need to hold the pool of assets themselves.
+
+    Note that an index is a reference benchmark and is NOT a pool of assets. Thus, indexed-linked products typically do not qualify for VFA.
+
+There are two major changes when using VFA:
+
+1. **Changes in financial variables** flow adjust the CSM, rather than flowing to insurance finance expenses
+2. CSM **no longer accretes interest** since the latest discount rate will be reflected in (1)
+
+The above changes reflect that the value of contracts under VFA **depend heavily on financial variables**, which is why they are now included in the CSM. This is also **reduces volatility** of earnings as changes in financial variables are capitalized rather than flowing through to the income statement immediately.
 
 ### **Modified General Measurment Approach**
 
@@ -224,26 +256,22 @@ IFRS17 typically covers the **entity that issues** the insurance contract; not t
 
 RCH are considered **seperate contracts** from the underlying insurance contracts, thus are accounted for seperately from them as well. In other words, RCH **does NOT reduce the liability** of the underlying contract. The insurer is still **fully liable for the services provided to the policyholders**; RCH provide indemnity to the insurer for the services.
 
-IFRS1
+Reinsurance is typically an **asset** to the direct insurer with a cost attached to it. As such, RCH is to be measured using GMA, with the exception that **CSM can be negative**:
 
-RI premium
-RI Ceding Commission  - Expense allowance for UW etc
+* Negative CSM reflects part of the **deferred profit ceded** to the reinsruer
+* RCH contracts **cannot be onerous**; it is viewed as either a **net cost** or net gain
 
-RCH is usually an sset and paying toRI
+!!! Warning
 
-Adjust for recits risk of the insurer
+    RCH contracts CANNOT be measured using VFA. They may be allowed to use PAA - but the eligibility is determined seperately from the underlying contracts.
 
-RI is an asset w recoverable
-negative CSM
-reflecting ceded the deferred profit to the RI
-RI is an expense
-
-Reinsurance contracts held cannot be onerous
-Views them as a net cost or gain when buying insurance
+Additionally, RCH cashflows must consider **expected credit losses**. This is because there is a risk that the reinsurer **default or dispute** the payments. For the purposes of CSM, the credit rating of the reinsurer is considered a **financial variable**, thus any future changes will directly flow to insurance finance expenses.
 
 ### **Premium Allocation Approach**
 
-### Aggregation
+TBC
+
+### **Aggregation**
 
 The fundamental principle of insurance is **risk pooling** - where the insurer issues a large number of **similar contracts**, where on average, the claims in any given period will be close to the expected value. Thus, contracts should be **measured in groups** to better reflect this.
 
