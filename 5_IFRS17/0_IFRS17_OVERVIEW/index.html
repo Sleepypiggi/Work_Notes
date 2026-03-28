@@ -486,6 +486,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#scope" class="md-nav__link">
+    Scope
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#presentation" class="md-nav__link">
     Presentation
   </a>
@@ -499,6 +506,13 @@
   
     <nav class="md-nav" aria-label="Measurement">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#liability" class="md-nav__link">
+    Liability
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#contractual-service-margin" class="md-nav__link">
@@ -515,8 +529,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#variations" class="md-nav__link">
-    Variations
+  <a href="#variable-fee-approach" class="md-nav__link">
+    Variable Fee Approach
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modified-general-measurment-approach" class="md-nav__link">
+    Modified General Measurment Approach
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premium-allocation-approach" class="md-nav__link">
+    Premium Allocation Approach
   </a>
   
 </li>
@@ -530,34 +558,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scope" class="md-nav__link">
-    Scope
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contract-boundary" class="md-nav__link">
-    Contract Boundary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reinsurance" class="md-nav__link">
-    Reinsurance
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#revenue" class="md-nav__link">
-    Revenue
-  </a>
   
 </li>
       
@@ -594,10 +594,17 @@
 <p><strong>Financial Reporting</strong> - Provide <strong>accurate and objective</strong> information about the company in a <strong>consistent</strong> format to <strong>external stakeholders</strong> to facilitate their decision making.</p>
 </li>
 <li>
-<p><strong>Statutory Reporting</strong> - Provide information about the company to <strong>government authorities</strong> to prove <strong>compliance with relevant regulations</strong>. Certain simplifications are allowed for operational ease. Given that Solvency is a primary concern, a more <strong>conservative lens</strong> is taken.</p>
+<p><strong>Statutory Reporting</strong> - Provide information about the company to <strong>government authorities</strong> to prove <strong>compliance with relevant regulations</strong>. Certain simplifications or materiality considerations are allowed for operational ease. Given that Solvency is a primary concern, a more <strong>conservative lens</strong> is taken.</p>
 </li>
 </ul>
 <p>Another broad concept to understand is that IFRS17 is a <strong>Principle Based</strong> framework. It outlines the <strong>intended outcomes</strong> of the framework, giving insurers the <strong>flexibility to choose the method</strong> in which they achieve the outcome. As such, there are <strong>no prescriptive methods or amounts</strong> outlined as they view them as creating arbitrage opportunities.</p>
+<h2 id="scope"><strong>Scope</strong><a class="headerlink" href="#scope" title="Permanent link">&para;</a></h2>
+<p>IFRS17 is only applicable to <strong>Insurance Contracts</strong> - where the issuer (insurer) accepts <strong>significant insurance risk</strong> from another party (policyholder).</p>
+<p>Insurance contract definition &gt;&gt;
+Contract is an agreement between two or more parties with enforceable rights and obligations</p>
+<p>No longer required to provide coverage
+No right to renewal</p>
+<p>Discount rates</p>
 <h2 id="presentation"><strong>Presentation</strong><a class="headerlink" href="#presentation" title="Permanent link">&para;</a></h2>
 <p>IFRS17 adopts the view that an insurance should be treated as both a <strong>Financial Instrument</strong> and a <strong>Service Contract</strong>:</p>
 <ul>
@@ -608,24 +615,54 @@
 <p>Instead, insurance contracts are typically <strong>held till expiry</strong>, where insurers provide the stipulated benefits over time as agreed. Thus, it is also treated as a <strong>service contract</strong>, which is valued based on the <strong>insurance services provided</strong> over time. </p>
 </li>
 </ul>
-<p>Thus, the contract is typically split into two over-arching components:</p>
+<p>Thus, it splits the Income Statement into two key components:</p>
 <ul>
-<li><strong>Insurance Component</strong> - Flows into <strong>Insurance Service Results</strong> in the P&amp;L</li>
-<li><strong>Investment Component</strong> - Flows into <strong>Insurance Finance Income</strong> in the P&amp;L</li>
+<li><strong>Insurance Service Results</strong> = Insurance Revenue - Insurance Service Expenses</li>
+<li><strong>Investment Results</strong> = Investment Income - Insurance Finance Expenses</li>
+<li>
+<ul>
+<li>Allows external stakeholders to <strong>better understand the different drivers</strong> of the insurer's performance</li>
+</ul>
+</li>
 </ul>
 <!-- From FRG Risk -->
 <p><img alt="IFRS17_P&amp;L" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/IFRS17_P%26L.png" /></p>
-<p>This split allows external stakeholders to <strong>better understand the different aspects</strong> of the insurer's performance.</p>
+<p>Most life insurance contracts tend to have <strong>both an insurance and investment component</strong> of the contract (EG. Fund Value in Unit-Linked contract). Based on the above split, it is <strong>not appropriate</strong> to include items relating to the investment component in the insurance service results; thus they should be <strong>net out</strong>.</p>
+<p>However, the cashflows relating to insurance and investment components are often <strong>highly interrelated and difficult to seperate</strong>, thus IFRS17 defines them as:</p>
+<ul>
+<li><strong>Investment Component</strong> - Amount that the insurer has to pay even if the insured event <strong>does NOT occur</strong></li>
+<li><strong>Insurance Component</strong> - <em>Additional</em> amount the insurer has to pay when the insured event <strong>does occur</strong></li>
+</ul>
+<p>Investment Components only need to be seperated at the <strong>time of recognizing insurance revenue and expenses</strong> (income statement). They can be combined for the purposed of contract measurement.</p>
+<p>The intuition is that the investment component represents <strong>deposits</strong> that the insurer is <strong>investing on behalf of the policyholder</strong> that will eventually be returned to them, hence the amount <strong>should not impact the income statement</strong>. However, the <strong>charges</strong> set by the insurer for such investments does flow into the FCF and hence CSM/LC and <strong>does impact the income statement</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There are two types of investment components under IFRS17:</p>
+<ul>
+<li><strong>Distinct</strong> - <strong>Clearly seperated</strong> from insurance components. Investment component measured <strong>seperately under IFRS9</strong> </li>
+<li><strong>Non-Distinct</strong> - <strong>Highly Interrelated</strong> with insurance components. Measured <strong>together under IFRS17</strong></li>
+</ul>
+</div>
+<p>A key impact of the above concepts is that premiums are <strong>NOT considered under the insurance revenue</strong>:</p>
+<ul>
+<li>Insurance revenue is based on expected <strong>services provided</strong>, not when cash is received</li>
+<li>Most premiums also contain a <strong>non-distinct investment component</strong> that will be repaid regardless, which is difficult to split out</li>
+</ul>
+<p>Instead, the <strong>reduction in liability</strong></p>
 <h2 id="measurement"><strong>Measurement</strong><a class="headerlink" href="#measurement" title="Permanent link">&para;</a></h2>
-<h3 id="contractual-service-margin"><strong>Contractual Service Margin</strong><a class="headerlink" href="#contractual-service-margin" title="Permanent link">&para;</a></h3>
-<p>An insurance contract should be measured based on the <strong>Fulfilment Cashflows</strong> (FCF) of the contract, which incorporates the following components:</p>
+<p>IFRS17 uses the term <em>Measurement</em> when refering to the value of the contract. There are two key variations:</p>
+<ul>
+<li><strong>Initial Measurement</strong>: Contract valued <strong>at policy inception</strong></li>
+<li><strong>Subsequent Measurment</strong>: Contract valued <strong>post-inception</strong></li>
+</ul>
+<p>An insurance contract is measured based on the <strong>Fulfilment Cashflows</strong> (FCF) of the contract, which incorporates the following components:</p>
 <ul>
 <li>Unbiased estimate of the future cashflows (neither conservative nor optimistic)</li>
 <li>Adjustment for the time value of money</li>
 <li>Adjustment for non-financial risk(s)</li>
 <li>Adjustment for financial risk(s)</li>
 </ul>
-<p>The above can then be regrouped into three key components:</p>
+<p>The above can then be summarized into three key components:</p>
 <ol>
 <li>
 <p><strong>Best Estimate Liability</strong> (BEL) - Present value of the unbiased cashflows</p>
@@ -634,7 +671,7 @@
 <p><strong>Risk Adjustment</strong> (RA) - Present value of adjustment for non-financial (insurance) risks. It reflects the risk that actual experience might deviate from the best estimates.</p>
 </li>
 <li>
-<p><strong>Time Value of Options &amp; Guarantees</strong> (TVOG) - Present value of the adjustment for financial risk. It reflects the risk that financial variables might cause embedded options and guarantees in the product becomes <strong>in-the-money</strong>.</p>
+<p><strong>Cost of Guarantees</strong> (COG) - Present value of the adjustment for financial risk. It reflects the risk that financial variables might cause embedded options and guarantees in the product becomes <strong>in-the-money</strong>.</p>
 </li>
 </ol>
 <div class="admonition warning">
@@ -650,22 +687,28 @@
 <p>Financial Risks are typically <strong>accounted for implicitly</strong> in the cashflows or discount rates. TVOG is typically the <strong>only explicit adjustment</strong>, hence it is emphasized above.</p>
 </div>
 <div class="arithmatex">\[
-    \text{FCF} = \text{BEL} + \text{RA} + \text{TVOG}
+    \text{FCF} = \text{BEL} + \text{RA} + \text{COG}
 \]</div>
+<p>The below sections on CSM and LC will be based on the defualt measurement method, known as the <strong>General Measurement Approach</strong> (GMA). However, there are other measurement methods that may be used under certain conditions which will be covered after. Unless otherwise stated in those sections, the mechanism should follow the same as the GMA.</p>
+<h3 id="liability"><strong>Liability</strong><a class="headerlink" href="#liability" title="Permanent link">&para;</a></h3>
+<p>IFRS17 liability is split into two components:</p>
+<ul>
+<li>Liability for Remaining Coverage (LRC) - relating to <strong>future insurance services</strong></li>
+<li>Liability for Incurred Claims (LIC) - relating to <strong>past insurance services</strong></li>
+</ul>
+<p>On initial measurement, all FCFs will flow to LRC as the contract is newly established.</p>
+<p>On subsequent measurement, only changes to future FCFs (EG. assumption changes) will affect the LRC. Actual and expected FCFs that relate to past service (EG. most recent period) will flow in and out of the LIC.</p>
+<h3 id="contractual-service-margin"><strong>Contractual Service Margin</strong><a class="headerlink" href="#contractual-service-margin" title="Permanent link">&para;</a></h3>
 <p>On <strong>Initial Measurement</strong>, if the FCF is <strong>negative</strong>, the insurer expects a <strong>net inflow</strong>; the contract is expected to be <strong>profitable</strong>. In this case, the insurer will set up a positive <strong>Contractual Service Margin</strong> (CSM) under the LRC:</p>
 <div class="arithmatex">\[
     \text{LRC} = \text{FCF} + \text{CSM} = 0
 \]</div>
+<!-- Self Made -->
+<p><img alt="INITIAL_CSM" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/INITIAL_CSM.png" /></p>
 <p>The CSM effectively represents the <strong>excess of inflows over outflows</strong> and is a measure of the <strong>unearned profit</strong> of the contract. It is set-up to ensure that the expected profit from the contract is <strong>NOT recognized immediately</strong>. This follows the principle of a <strong>service</strong>, where profit should be <strong>recognized each period</strong> based on the amount of service provided. Thus, the <strong>CSM is amortized each period</strong>, released as <strong>revenue</strong> under the insurance service results.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>IFRS17 uses the term <em>Measurement</em> when refering to the value of the contract. There are two key variations:</p>
-<ul>
-<li><strong>Initial Measurement</strong>: Contract valued <strong>at policy inception</strong></li>
-<li><strong>Subsequent Measurment</strong>: Contract valued <strong>post-inception</strong></li>
-</ul>
-</div>
-<p>On <strong>Subsequent Measurement</strong>, the following effects must be accounted for:</p>
+<!-- Self Made -->
+<p><img alt="CSM_DIAGRAM" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/CSM_RELEASE.png" /></p>
+<p>On <strong>Subsequent Measurement</strong>, the CSM is adjusted BEFORE any release:</p>
 <ul>
 <li>
 <p><strong>CSM accretes interest</strong> based on the <strong>initial discount rate</strong>. This is to reflect the price of the service <strong>at the time it is fulfilled</strong> (time value effect). This is accounted for as an expense under investment results.</p>
@@ -681,31 +724,56 @@
 <p class="admonition-title">Note</p>
 <p>The CSM of a contract is essentially calculated using only the <strong>discount rate at inception</strong>, commonly referred to as the <strong>Locked-In Rate</strong> (LIR).</p>
 </div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>If subsequent measurement would cause the CSM balance to <strong>become negative</strong>, the CSM is instead <strong>floored at 0</strong> and any excess is set-up as a loss component instead.</p>
-<p>CSM is NOT allowed to be negative, except for reinsurance contracts held.</p>
-</div>
 <!-- Obtained from IFRS Org -->
 <p><img alt="CSM_ROLL_FORWARD" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/CSM_ROLL_FORWARD.png" /></p>
-<p>Liability for remaining coverage
-Liability for incurred claims</p>
 <h3 id="loss-component"><strong>Loss Component</strong><a class="headerlink" href="#loss-component" title="Permanent link">&para;</a></h3>
-<p>If on initial measurement, the <strong>FCF is positive</strong>, then the insurer expects to <strong>make a loss</strong> on the contract instead. In this scenario, the insurer will instead set-up a <strong>Loss Component</strong> (LC) in the LRC instead. Similar to CSM, the loss component is <strong>"amortized" (reversed)</strong> such that the <strong>LC becomes zero</strong> by the end of the contract.</p>
-<p>However, it is <strong>IMMEDIATELY</strong> recognized as an <strong>expense</strong> under the insurance service results. It is NOT a "negative CSM" that recognizes losses over time. This <strong>asymmetric</strong> treatment of profits and losses is a key concept in IFRS17.</p>
-<p>Unlike CSM, the reversal of the LC has <strong>NO impact on the total insurance service results</strong>, but is needed to ensure that the revenue and expenses presented are sensible. Without the reversal, the amounts will be overstated.</p>
+<p>If on initial measurement, the <strong>FCF is positive</strong>, then the insurer expects to <strong>make a loss</strong> on the contract instead. In this scenario, the insurer will instead set-up a <strong>Loss Component</strong> (LC) in the LRC instead. However, it is <strong>IMMEDIATELY</strong> recognized as an <strong>expense</strong> under the insurance service results. It is NOT a "negative CSM" that recognizes losses over time. This <strong>asymmetric</strong> treatment of profits and losses is a key concept in IFRS17.</p>
+<p>Unlike CSM, the LC does not smoothly fit into the LRC; it is carved out of the existing LRC:</p>
+<div class="arithmatex">\[
+    \text{LRC} = \text{LC} + \text{LRC excl LC}
+\]</div>
+<!-- Self Made -->
+<p><img alt="INITIAL_LC" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/INITIAL_LC.png" /></p>
+<p>The LC is subsequently <strong>reversed</strong> such that it becomes zero by the end of the contract term. While this sounds similar to CSM, the <strong>direction and mechanics</strong> of flow is different:</p>
+<ul>
+<li><strong>CSM Amortization</strong> - CSM <strong>released</strong> from B/S to revenue in P&amp;L</li>
+<li><strong>LC Reversal</strong> - Portion of revenue is <strong>re-allocated</strong> as an expense that will flow to B/S to reduce the LC  </li>
+</ul>
+<p>Unlike CSM, the reversal of the LC has <strong>NO impact on the total insurance service results</strong>. It reflects that the loss has already been <strong>incurred at inception</strong> and thus relevant items relating to it should be <strong>excluded in subsequent periods</strong>. It ensures that the revenue and expenses presented are <strong>sensible</strong>; otherwise, they will be <strong>overstated</strong>.</p>
 <ul>
 <li>The reversal reduces BOTH the revenue and expense (neutral impact)</li>
-<li>IFRS17 states that the reversal must be done <strong>systematically</strong>, with relation to the expected claims, expenses &amp; RA release (principle based)</li>
+<li>IFRS17 states that the reversal must be done <strong>systematically</strong>, with relation to the expected claims, expenses &amp; RA release</li>
 </ul>
+<!-- Obtained from 3Blocks -->
+<p><img alt="LC_REVERSAL" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/LC_REVERSAL_2.png" /></p>
 <!-- Self Made -->
-<p><img alt="LC_REVERSAL" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/LC_REVERSAL.png" /></p>
-<h3 id="variations"><strong>Variations</strong><a class="headerlink" href="#variations" title="Permanent link">&para;</a></h3>
-<p>The measurement above are all based on the defualt measurement method, known as the <strong>General Measurement Approach</strong>. However, there are two other measurement methods that may be used, should certain conditions be met:</p>
-<ul>
-<li><strong>Variable Fee Approach</strong></li>
-<li><strong>Premium Allocation Approach</strong></li>
-</ul>
+<p><img alt="LC_OVERSTATEMENT" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/LC_OVERSTATEMENT.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>A contract can switch between CSM and LC if its profitability changes. The initial CSM/LC must <strong>first be reduced to 0</strong> then any <strong>excess</strong> amount will be allocated to the new LC/CSM.</p>
+</div>
+<h3 id="variable-fee-approach"><strong>Variable Fee Approach</strong><a class="headerlink" href="#variable-fee-approach" title="Permanent link">&para;</a></h3>
+<p>The Variable Fee Approach (VFA) is allowed for <strong>Direct Participating Contracts</strong>, which have the following three key characteristics:</p>
+<ol>
+<li>Contract <strong>participates</strong> in the return of a <strong>clearly identified</strong> pool of assets</li>
+<li>Policyholders are expected to receive a <strong>substantial share of said return</strong></li>
+<li>Policyholders are expected to receive a <strong>substantial share of the variation</strong> of any change in asset return</li>
+</ol>
+<h3 id="modified-general-measurment-approach"><strong>Modified General Measurment Approach</strong><a class="headerlink" href="#modified-general-measurment-approach" title="Permanent link">&para;</a></h3>
+<p>IFRS17 typically covers the <strong>entity that issues</strong> the insurance contract; not the owner of the contract itself. Thus, Reinsurers also account for their reinsurance contracts using IFRS17 as they are the contract issuer. However, the <strong>owners of reinsurance contracts</strong> also have to account for them under IFRS17. These are known as <strong>Reinsurance Contracts Held</strong> (RCH).  </p>
+<p>RCH are considered <strong>seperate contracts</strong> from the underlying insurance contracts, thus are accounted for seperately from them as well. In other words, RCH <strong>does NOT reduce the liability</strong> of the underlying contract. The insurer is still <strong>fully liable for the services provided to the policyholders</strong>; RCH provide indemnity to the insurer for the services.</p>
+<p>IFRS1</p>
+<p>RI premium
+RI Ceding Commission  - Expense allowance for UW etc</p>
+<p>RCH is usually an sset and paying toRI</p>
+<p>Adjust for recits risk of the insurer</p>
+<p>RI is an asset w recoverable
+negative CSM
+reflecting ceded the deferred profit to the RI
+RI is an expense</p>
+<p>Reinsurance contracts held cannot be onerous
+Views them as a net cost or gain when buying insurance</p>
+<h3 id="premium-allocation-approach"><strong>Premium Allocation Approach</strong><a class="headerlink" href="#premium-allocation-approach" title="Permanent link">&para;</a></h3>
 <h3 id="aggregation">Aggregation<a class="headerlink" href="#aggregation" title="Permanent link">&para;</a></h3>
 <p>The fundamental principle of insurance is <strong>risk pooling</strong> - where the insurer issues a large number of <strong>similar contracts</strong>, where on average, the claims in any given period will be close to the expected value. Thus, contracts should be <strong>measured in groups</strong> to better reflect this.</p>
 <p>However, since profit and losses are treated <strong>asymetrically</strong>, it is important <strong>not to mix the two</strong> together as there might be offsetting effects where <strong>information is lost</strong>:</p>
@@ -714,6 +782,16 @@ Liability for incurred claims</p>
 <li><strong>Not onerous</strong> at recognition and <strong>no significant possibility</strong> of becoming onerous</li>
 <li><strong>Others</strong> - Not onerous but with possibility of becoming onerous</li>
 </ul>
+<p>The possibility of becoming onerous should be assessed internally based on:</p>
+<ul>
+<li><strong>Expected Profitability</strong> - Highly profitable contracts have a <strong>larger margin to absorb</strong> adverse changes</li>
+<li><strong>Sensitivity</strong> - Contracts <strong>sensitive to certain assumptions</strong> have a higher likelihood of turning onerous</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The profitability assessment can be done at an <strong>individual</strong> contract level or as a <strong>set</strong> of contracts.</p>
+<p>In order to take the simplified set approach, there must be sufficient <strong>reasonable supporting information</strong> to prove that all contracts in the set will have the <strong>same profitability</strong> (no offsetting effects).</p>
+</div>
 <p>In totality, there are <strong>three levels of aggregation</strong>:</p>
 <ul>
 <li><strong>Portfolio</strong> - Contracts with <strong>similar risks</strong> which are managed together (EG. Participating Whole Life, Universal Life)</li>
@@ -723,6 +801,7 @@ Liability for incurred claims</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Once the contracts are aggregated at initial recognition, <strong>no changes</strong> to the level of aggregation of the contract may be made - even if the contract subsequently changes profitability.</p>
+<p>The only exception is when there are <strong>changes to the contract itself</strong>, then the groupings for the contracts may be re-assessed.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
@@ -730,34 +809,7 @@ Liability for incurred claims</p>
 </div>
 <!-- Self Made -->
 <p><img alt="IFRS17_LOA" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/IFRS17_LOA.png" /></p>
-<p>CSM measured at a group level
-FCF can be at any level, typically most granular</p>
-<h2 id="scope"><strong>Scope</strong><a class="headerlink" href="#scope" title="Permanent link">&para;</a></h2>
-<h2 id="contract-boundary">Contract Boundary<a class="headerlink" href="#contract-boundary" title="Permanent link">&para;</a></h2>
-<p>Insurance contract definition &gt;&gt;
-Contract is an agreement between two or more parties with enforceable rights and obligations</p>
-<p>No longer required to provide coverage
-No right to renewal</p>
-<p>Discount rates</p>
-<h2 id="reinsurance"><strong>Reinsurance</strong><a class="headerlink" href="#reinsurance" title="Permanent link">&para;</a></h2>
-<p>IFRS17 typically covers the <strong>entity that issues</strong> the insurance contract; not the owner of the contract itself. Thus, Reinsurers also account for their reinsurance contracts using IFRS17 as they are the contract issuer. However, the <strong>owners of reinsurance contracts</strong> also have to account for them under IFRS17. These are known as <strong>Reinsurance Contracts Held</strong> (RCH).  </p>
-<p>RCH are considered <strong>seperate contracts</strong> from the underlying insurance contracts, thus are accounted for seperately from them as well. In other words, RCH <strong>does NOT reduce the liability</strong> of the underlying contract. The insurer is still <strong>fully liable for the services provided to the policyholders</strong>; RCH provide indemnity to the insurer for the services.</p>
-<p>RI premium
-RI Ceding Commission  - Expense allowance for UW etc</p>
-<p>RCH is usually an sset and paying toRI</p>
-<p>Adjust for recits risk of the insurer</p>
-<p>RI is an expense</p>
-<h2 id="revenue">Revenue<a class="headerlink" href="#revenue" title="Permanent link">&para;</a></h2>
-<p>Depicts revenue based on the amount service they expect to provide in the period</p>
-<p>Investment Component
-Amount that the entity is required to pay the policyholder even if the insured event does not occur
-If investment component is interlinked with an insurance component, both under IFRS17 rather than splitting
-Insurance component &gt; additional amount that an entity would pay if an insured event occurs</p>
-<p>Insurance finance expenses
-Time value of money
-Financial risk
-Inflation</p>
-<p>All in IFE or in OCI</p>
+<p>CSM, LC and other key components will be <strong>reported at the level of aggregation</strong> described above. The underlying FCF that is used for measurement can be done at any level, though it is typical to use the <strong>most granular contract level</strong> approach.</p>
 
 
 
