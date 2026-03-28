@@ -508,6 +508,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#contract-boundary" class="md-nav__link">
+    Contract Boundary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#liability" class="md-nav__link">
     Liability
   </a>
@@ -598,13 +605,42 @@
 </li>
 </ul>
 <p>Another broad concept to understand is that IFRS17 is a <strong>Principle Based</strong> framework. It outlines the <strong>intended outcomes</strong> of the framework, giving insurers the <strong>flexibility to choose the method</strong> in which they achieve the outcome. As such, there are <strong>no prescriptive methods or amounts</strong> outlined as they view them as creating arbitrage opportunities.</p>
+<p>Unless otherwise stated, all assessments and grouping of contracts under IFRS17 <strong>only occur once at inception</strong>, unless a modification to the contract have been made.</p>
 <h2 id="scope"><strong>Scope</strong><a class="headerlink" href="#scope" title="Permanent link">&para;</a></h2>
-<p>IFRS17 is only applicable to <strong>Insurance Contracts</strong> - where the issuer (insurer) accepts <strong>significant insurance risk</strong> from another party (policyholder).</p>
-<p>Insurance contract definition &gt;&gt;
-Contract is an agreement between two or more parties with enforceable rights and obligations</p>
-<p>No longer required to provide coverage
-No right to renewal</p>
-<p>Discount rates</p>
+<p>The main focus of IFRS17 are <strong>Insurance Contracts</strong> - Contract where the issuer accepts <strong>significant insurance risk</strong> from the policyholder by agreeing to compensate the policyholder if an <strong>insured event</strong> adversely affects the policyholder.</p>
+<ul>
+<li>
+<p><strong>Contract</strong> - Agreement between two or more entities that creates legally enforceable rights and obligations</p>
+</li>
+<li>
+<p><strong>Insurance Risk</strong> - <strong>Non-financial</strong> risk that is <strong>transferred</strong> from the policyholder to the issuer. The risk must be <strong>specific to the policyholder</strong> and <strong>already exist</strong>; risk arising from the contract is NOT insurance risk.</p>
+</li>
+<li>
+<p><strong>Insured Event</strong> - <strong>Uncertain</strong> future event covered by an insurance contract that creates insurance risk. Uncertainty could be in the form of <strong>probability/timing</strong> of the event, or <strong>how much</strong> the insurer will need to pay if the event occurs</p>
+</li>
+<li>
+<p><strong>Insurable Interest</strong> - Notion that the policyholder is <strong>adversely</strong> affected by the insured event</p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>There are contracts that may be legally considered insurance contracts, but do not fall under the above definition and thus are NOT covered under IFRS17.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Risks such as Expense and Lapse risk that arise from the contract are typically NOT insurance risk. However, these are considered insurance risks for the purposes of a <strong>reinsurance contract</strong> as they already exist before the reinsurance contract.</p>
+</div>
+<p>Insurance is deemed as significant if there is a <strong>scenario with commercial substance</strong>, where on a <strong>present value basis</strong>, the insurer could <strong>suffer a loss</strong> or pay a <strong>significantly more than</strong> if the insured event did not occur.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>This applies even if there <strong>at least ONE scenario</strong>, regardless of the likelihood of the event.</p>
+</div>
+<p>One key exception is for Investment Contracts with <strong>Discretionary Participating Features</strong> (DPFs). An entity may account for these policies under IFRS17 if the entity also issues insurance contracts (for simplicity to avoid scope creep).</p>
+<ul>
+<li>Discretionary amounts are expected to be a significant portion of all benefits</li>
+<li>Timing or Amount of payments are at the discretion of the entity</li>
+<li>Payments are linked to returns on a specified pool of contracts or assets, or the performance of the issuer</li>
+</ul>
 <h2 id="presentation"><strong>Presentation</strong><a class="headerlink" href="#presentation" title="Permanent link">&para;</a></h2>
 <p>IFRS17 adopts the view that an insurance should be treated as both a <strong>Financial Instrument</strong> and a <strong>Service Contract</strong>:</p>
 <ul>
@@ -662,6 +698,7 @@ No right to renewal</p>
 <li>Adjustment for non-financial risk(s)</li>
 <li>Adjustment for financial risk(s)</li>
 </ul>
+<p>Deposit cashflows</p>
 <p>The above can then be summarized into three key components:</p>
 <ol>
 <li>
@@ -690,6 +727,7 @@ No right to renewal</p>
     \text{FCF} = \text{BEL} + \text{RA} + \text{COG}
 \]</div>
 <p>The below sections on CSM and LC will be based on the defualt measurement method, known as the <strong>General Measurement Approach</strong> (GMA). However, there are other measurement methods that may be used under certain conditions which will be covered after. Unless otherwise stated in those sections, the mechanism should follow the same as the GMA.</p>
+<h3 id="contract-boundary"><strong>Contract Boundary</strong><a class="headerlink" href="#contract-boundary" title="Permanent link">&para;</a></h3>
 <h3 id="liability"><strong>Liability</strong><a class="headerlink" href="#liability" title="Permanent link">&para;</a></h3>
 <p>IFRS17 liability is split into two components:</p>
 <ul>
@@ -698,6 +736,13 @@ No right to renewal</p>
 </ul>
 <p>On initial measurement, all FCFs will flow to LRC as the contract is newly established.</p>
 <p>On subsequent measurement, only changes to future FCFs (EG. assumption changes) will affect the LRC. Actual and expected FCFs that relate to past service (EG. most recent period) will flow in and out of the LIC.</p>
+<p>It is important to remember that changes in the balance sheet come from two sources:</p>
+<ul>
+<li>Income Statement - Recognition of transactions</li>
+<li>Cashflow Statement - Actual transactions</li>
+<li>The two items are not always aligned. Thus, the net impact will change the holding liability.</li>
+</ul>
+<!--—- From IFRS Foundation —--->
 <h3 id="contractual-service-margin"><strong>Contractual Service Margin</strong><a class="headerlink" href="#contractual-service-margin" title="Permanent link">&para;</a></h3>
 <p>On <strong>Initial Measurement</strong>, if the FCF is <strong>negative</strong>, the insurer expects a <strong>net inflow</strong>; the contract is expected to be <strong>profitable</strong>. In this case, the insurer will set up a positive <strong>Contractual Service Margin</strong> (CSM) under the LRC:</p>
 <div class="arithmatex">\[
@@ -708,6 +753,10 @@ No right to renewal</p>
 <p>The CSM effectively represents the <strong>excess of inflows over outflows</strong> and is a measure of the <strong>unearned profit</strong> of the contract. It is set-up to ensure that the expected profit from the contract is <strong>NOT recognized immediately</strong>. This follows the principle of a <strong>service</strong>, where profit should be <strong>recognized each period</strong> based on the amount of service provided. Thus, the <strong>CSM is amortized each period</strong>, released as <strong>revenue</strong> under the insurance service results.</p>
 <!-- Self Made -->
 <p><img alt="CSM_DIAGRAM" class="center" src="../Assets/0_IFRS17_OVERVIEW.md/CSM_RELEASE.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The amortization of CSM is based on the <strong>Coverage Units</strong> of the contract. It is quantitative measure of the insurance services provided each period, serving as a <strong>systematic method</strong> of CSM amortization.</p>
+</div>
 <p>On <strong>Subsequent Measurement</strong>, the CSM is adjusted BEFORE any release:</p>
 <ul>
 <li>
@@ -753,28 +802,40 @@ No right to renewal</p>
 <p>A contract can switch between CSM and LC if its profitability changes. The initial CSM/LC must <strong>first be reduced to 0</strong> then any <strong>excess</strong> amount will be allocated to the new LC/CSM.</p>
 </div>
 <h3 id="variable-fee-approach"><strong>Variable Fee Approach</strong><a class="headerlink" href="#variable-fee-approach" title="Permanent link">&para;</a></h3>
-<p>The Variable Fee Approach (VFA) is allowed for <strong>Direct Participating Contracts</strong>, which have the following three key characteristics:</p>
+<p>The <strong>Variable Fee Approach</strong> (VFA) is allowed for <strong>Direct Participating Contracts</strong>, which have the following three key characteristics:</p>
 <ol>
 <li>Contract <strong>participates</strong> in the return of a <strong>clearly identified</strong> pool of assets</li>
-<li>Policyholders are expected to receive a <strong>substantial share of said return</strong></li>
+<li>Policyholders are expected to receive a <strong>substantial share of the return</strong></li>
 <li>Policyholders are expected to receive a <strong>substantial share of the variation</strong> of any change in asset return</li>
 </ol>
+<p>Insurance contracts that pass the above criteria typically charge a fee that varies with the return on the underlying pool of assets, known as the <strong>Variable Fee</strong>. The remainder of the return is passed onto the policyholder.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The insurer does NOT need to hold the pool of assets themselves.</p>
+<p>Note that an index is a reference benchmark and is NOT a pool of assets. Thus, indexed-linked products typically do not qualify for VFA.</p>
+</div>
+<p>There are two major changes when using VFA:</p>
+<ol>
+<li><strong>Changes in financial variables</strong> flow adjust the CSM, rather than flowing to insurance finance expenses</li>
+<li>CSM <strong>no longer accretes interest</strong> since the latest discount rate will be reflected in (1)</li>
+</ol>
+<p>The above changes reflect that the value of contracts under VFA <strong>depend heavily on financial variables</strong>, which is why they are now included in the CSM. This is also <strong>reduces volatility</strong> of earnings as changes in financial variables are capitalized rather than flowing through to the income statement immediately.</p>
 <h3 id="modified-general-measurment-approach"><strong>Modified General Measurment Approach</strong><a class="headerlink" href="#modified-general-measurment-approach" title="Permanent link">&para;</a></h3>
 <p>IFRS17 typically covers the <strong>entity that issues</strong> the insurance contract; not the owner of the contract itself. Thus, Reinsurers also account for their reinsurance contracts using IFRS17 as they are the contract issuer. However, the <strong>owners of reinsurance contracts</strong> also have to account for them under IFRS17. These are known as <strong>Reinsurance Contracts Held</strong> (RCH).  </p>
 <p>RCH are considered <strong>seperate contracts</strong> from the underlying insurance contracts, thus are accounted for seperately from them as well. In other words, RCH <strong>does NOT reduce the liability</strong> of the underlying contract. The insurer is still <strong>fully liable for the services provided to the policyholders</strong>; RCH provide indemnity to the insurer for the services.</p>
-<p>IFRS1</p>
-<p>RI premium
-RI Ceding Commission  - Expense allowance for UW etc</p>
-<p>RCH is usually an sset and paying toRI</p>
-<p>Adjust for recits risk of the insurer</p>
-<p>RI is an asset w recoverable
-negative CSM
-reflecting ceded the deferred profit to the RI
-RI is an expense</p>
-<p>Reinsurance contracts held cannot be onerous
-Views them as a net cost or gain when buying insurance</p>
+<p>Reinsurance is typically an <strong>asset</strong> to the direct insurer with a cost attached to it. As such, RCH is to be measured using GMA, with the exception that <strong>CSM can be negative</strong>:</p>
+<ul>
+<li>Negative CSM reflects part of the <strong>deferred profit ceded</strong> to the reinsruer</li>
+<li>RCH contracts <strong>cannot be onerous</strong>; it is viewed as either a <strong>net cost</strong> or net gain</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>RCH contracts CANNOT be measured using VFA. They may be allowed to use PAA - but the eligibility is determined seperately from the underlying contracts.</p>
+</div>
+<p>Additionally, RCH cashflows must consider <strong>expected credit losses</strong>. This is because there is a risk that the reinsurer <strong>default or dispute</strong> the payments. For the purposes of CSM, the credit rating of the reinsurer is considered a <strong>financial variable</strong>, thus any future changes will directly flow to insurance finance expenses.</p>
 <h3 id="premium-allocation-approach"><strong>Premium Allocation Approach</strong><a class="headerlink" href="#premium-allocation-approach" title="Permanent link">&para;</a></h3>
-<h3 id="aggregation">Aggregation<a class="headerlink" href="#aggregation" title="Permanent link">&para;</a></h3>
+<p>TBC</p>
+<h3 id="aggregation"><strong>Aggregation</strong><a class="headerlink" href="#aggregation" title="Permanent link">&para;</a></h3>
 <p>The fundamental principle of insurance is <strong>risk pooling</strong> - where the insurer issues a large number of <strong>similar contracts</strong>, where on average, the claims in any given period will be close to the expected value. Thus, contracts should be <strong>measured in groups</strong> to better reflect this.</p>
 <p>However, since profit and losses are treated <strong>asymetrically</strong>, it is important <strong>not to mix the two</strong> together as there might be offsetting effects where <strong>information is lost</strong>:</p>
 <ul>

@@ -106,7 +106,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/1_PRODUCTS/6_ANNUITIES/6_ANNUITIES/</loc>
+         <loc>https://example.com/1_PRODUCTS/6_ANNUITIES/0_OVERVIEW/</loc>
+         <lastmod>2026-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/1_PRODUCTS/6_ANNUITIES/1_FDA/</loc>
          <lastmod>2026-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
