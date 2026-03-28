@@ -26,6 +26,14 @@ Another broad concept to understand is that IFRS17 is a **Principle Based** fram
 IFRS17 is only applicable to **Insurance Contracts** - where the issuer (insurer) accepts **significant insurance risk** from another party (policyholder).
 
 
+There are a few key terms that need to be defined:
+
+* Contract
+
+* Insurance Risk
+
+* Significant  
+
 Insurance contract definition >>
 Contract is an agreement between two or more parties with enforceable rights and obligations
 
@@ -34,6 +42,7 @@ No right to renewal
 
 Discount rates
 
+It is important to understand the **Contract Boundary** as well.
 
 ## **Presentation**
 
@@ -91,6 +100,8 @@ An insurance contract is measured based on the **Fulfilment Cashflows** (FCF) of
 * Adjustment for non-financial risk(s)
 * Adjustment for financial risk(s)
 
+Deposit cashflows
+
 The above can then be summarized into three key components:
 
 1. **Best Estimate Liability** (BEL) - Present value of the unbiased cashflows
@@ -126,6 +137,14 @@ IFRS17 liability is split into two components:
 On initial measurement, all FCFs will flow to LRC as the contract is newly established.
 
 On subsequent measurement, only changes to future FCFs (EG. assumption changes) will affect the LRC. Actual and expected FCFs that relate to past service (EG. most recent period) will flow in and out of the LIC.
+
+It is important to remember that changes in the balance sheet come from two sources:
+
+* Income Statement - Recognition of transactions
+* Cashflow Statement - Actual transactions
+* The two items are not always aligned. Thus, the net impact will change the holding liability.
+
+<!—- From IFRS Foundation —-> 
 
 ### **Contractual Service Margin**
 
