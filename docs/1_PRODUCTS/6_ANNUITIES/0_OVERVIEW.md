@@ -1,13 +1,64 @@
+# **Overview**
 
-### **Life Annuities**
+An annuity is a contract that makes routine payments to the contract holder for a specified duration.
 
-A Life Annuity is a contract whereby the insurer will make **routine payments** to the insured for as long as they are alive during the payment period.
+* **Life Annuities** - Payments for as long as the contract holder remains alive
+* **Term Annuities** - Payments for a specified duration, regardless of the status of the contract holder
 
-Individuals who **live longer than expected** might not have sufficient financial resources to survive. Thus, the annuity payments are meant to **cover essential living expenses**, ensuring the insured is able to age gracefully.
+Naturally, the focus is on **Life Annuities**. They are meant to insure against **longevity risk**, which is the risk that we **live longer than expected**, outliving our financial resources. The annuity payments are meant to **cover living expenses**, ensuring that we are able to age gracefully. 
 
-!!! Info
+However, the policyholder now bears the **risk that the insurer goes insolvent** (credit risk) before the payments conclude, which is likely decades from the point of purchase. Given the strict insurance regulation, this risk is relatively low but still there nonetheless. Thus, purchasing annuity is akin to **trading longevity risk for credit risk**.
 
-	Life annuities are the natural complements to life insurance - one hedges the risk of dying too early while the other against the risk of dying too late.
+Life Annuities are the **natural hedge** to Life Insurance as they any given person can either:
+
+* Die too young - Mortality Risk
+* Live too long - Longevity Risk
+
+## **Types of Annuities**
+
+There are two main types of life annuities:
+
+|     **Immediate Annuity**      |             **Deferred Annuity**             |
+| :----------------------------: | :------------------------------------------: |
+|      Single premium only       |          Single or regular premium           |
+|  Payments start "immediately"  |          Payments start much later           |
+| Premium annuitized immediately | Premium is invested first before annuitizing |
+
+Deferred annuities can be understood as the insurer investing the premiums and then using the invested funds to purchase an immediate annuity at the point of annuitization.
+
+!!! Note
+
+	Immediate annuities do not pay immediately, but rather the **end of the month or year** that the policy is purchased. It is **virtually immediate**, hence it is called such.
+
+Annuities are positioned as a retirement planning tool for working individuals, thus **deferred annuities** are much more common as it allows individuals to make contributions while they are in the workforce and annuitize much later once in retirement.
+
+### **Immediate Annuities**
+
+
+
+### **Deferred Annuities**
+
+There are two main phases to a deferred annuity:
+
+* **Accumulation Phase** - Insurer will maintain an a
+* **Income Phase**
+
+There are four main variations of deferred annuities, all **deferring based on how the account grows** during the accumulation phase:
+
+* Fixed Deferred Annuities (FDA)
+* Variable Annuities (VA)
+* Fixed Index Annuities (FIA)
+* Registered Index Linked Annuities (RILA)
+
+|       **FDA**        |              **VA**              |       **FIA**        |         **RILA**          |
+| :------------------: | :------------------------------: | :------------------: | :-----------------------: |
+|   General Account    |         Seperate Account         |   General Account    |      General Account      |
+|       Notional       |              Actual              |       Notional       |         Notional          |
+|     Fixed growth     |         Variable growth          |   Variable growth    |      Variable growth      |
+|  Insurer discretion  | Based on underlying mutual funds |   Pegged to Index    |      Pegged to Index      |
+| Non-negative returns |    Possibly negative returns     | Non-negative returns | Possibly negative returns |
+
+The specific details of each of the above will be covered in the subsequent sections.
 
 ## How do Annuities work?
 
@@ -17,30 +68,17 @@ Policyholders will pay premiums during the accumulation period, where they will 
 
 Based on the accumulation value, the policy will then determine how much to pay out per month such that the fund value will be fully exhausted during the payment period.
 
-Thus, annuities are generally known as **Savings products** as policyholders will contribute to the Annuity fund periodically to receive later withdraw from it.
+## **Economics**
 
-They are typically (but not exclusively) used for retirement in the form of a *pension* where policyholders will make regular contributions to the fund while working and receive monthly payouts starting from retirement.
+### **Underwriting**
 
-Interesting Insights from Annuities
-No Underwriting Needed
-•	Typically, no underwriting is needed for Annuity products
-•	This is because the insurer prefers if you die earlier → Less annuity payments needed
-•	Thus, they do not bother to check for your health → Encourages people of poor health to purchase them as well
+From the insurer's perspective, they **stand to gain** if the life annuitant **dies earlier than expected** as they would need to **pay lesser than expected**. Thus, they typically **do not require medical underwriting** for annuities (**guaranteed issue**). This is the opposite of life insurance, where insurer's **stand to lose** if the life insured dies earlier than expected, hence medical underwriting is required. 
 
-Annuities as Pure Endowments
-•	A pure endowment (different from regular endowment insurance) is one that pays out a maturity benefit
-•	Purchasing an Annuity is akin to purchasing multiple pure endowments of different terms up to the policy term of the annuity
+Generally speaking, males have higher mortality rates than females; all else equal, males tend to live shorter than females. Based on actuarially fair values it means that men either **pay lower premiums** for the same pay out or **receive higher payouts** for the same premiums. This has sparked some debate around gender equality, which is why some states have thus **banned gender based pricing**.
 
-Male-Female Mortality Differences
-•	In general, Males have higher Mortality than Females
-o	Males tend to live shorter lives; Females tend to live longer lives
-•	All else equals, this means that:
-o	Males have a higher Mortality Risk and pay more insurance premiums
-o	Males have lower Longevity Risk and pay lower annuity premiums
-•	Highlights the difference between Insurance and Annuity style products
+### **Annuitization Puzzle**
 
-annuity is chaging longevity for credit risk
-because the insurer must be solvent throughout that period to receive the payments
+### **Premium Financing**
 
 
 Leveraged annuities
@@ -49,13 +87,3 @@ Second policy will make monthly payout afterwards to cover the interest cost of 
 Balance will be used as free cashflow
 Policy payout is flat but the interest is variable, typically SORA plus spread
 
-Singapore overnight rate average
-Volume weighted average of the overnight rate banks charge
-
-This is where most people can only speak theoretically at least for those who still not old enough to physically experience or be cognisant to changes in interest rates. And maybe investment environment completely different as it wasn’t as accessible as it is today.
-
-Since 2009/10, interest rates have been low. Prior to that it is much higher that’s why no mad rush for private properties, because hdb loan rates better than bank loans.
-
-Hence that’s why in 2011/12, we have a tiny “housing bubble” that cooling measures must be introduced.
-
-Either way, the RM definitely talking out of his/her league when she says that about things going south. This is where I don’t like. Nothing will ever go wrong, it’s so safe, etc. but people still got rug pulled by hyflux/Lehman brothers
