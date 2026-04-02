@@ -250,6 +250,10 @@ There are two major changes when using VFA:
 
 The above changes reflect that the value of contracts under VFA **depend heavily on financial variables**, which is why they are now included in the CSM. This is also **reduces volatility** of earnings as changes in financial variables are capitalized rather than flowing through to the income statement immediately.
 
+At inception, both GMM and VFA will result in the same initial valuation. The difference in methodology **affects subsequent measurement only**.
+
+Investement dpf
+
 ### **Modified General Measurment Approach**
 
 IFRS17 typically covers the **entity that issues** the insurance contract; not the owner of the contract itself. Thus, Reinsurers also account for their reinsurance contracts using IFRS17 as they are the contract issuer. However, the **owners of reinsurance contracts** also have to account for them under IFRS17. These are known as **Reinsurance Contracts Held** (RCH).  

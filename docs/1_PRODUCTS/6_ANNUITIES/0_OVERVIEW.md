@@ -40,8 +40,11 @@ Annuities are positioned as a retirement planning tool for working individuals, 
 
 There are two main phases to a deferred annuity:
 
-* **Accumulation Phase** - Insurer will maintain an a
-* **Income Phase**
+* **Accumulation Phase** - Insurer maintains an account for the policyholder to grow
+ 
+* **Income Phase** - Policyholder receives payments for as long as they are alive
+
+<!—-self made —>
 
 There are four main variations of deferred annuities, all **deferring based on how the account grows** during the accumulation phase:
 

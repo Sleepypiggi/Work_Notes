@@ -1,5 +1,12 @@
 # **Fixed Deferred Annuity** (FDA)
 
+## **Introduction**
+
+The most basic deferred annuity is known as the **Fixed Deferred Annuity**.
+
+During the accumulation phase, premiums are
+
+
 ## Interest Rates
 
 Singapore overnight rate average
