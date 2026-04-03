@@ -197,6 +197,39 @@ Premium charges **directly reduce the amount invested**, making it **less effici
 
 ## **No Lapse Guarantees**
 
+Universal Life was launched in the 1980s when interest rates, and thus projecting credited rates were high. As such, **premiums were lower compared to otherwise equivalent WL** policy, with the added benefit of flexibility.
+
+!!! Tip
+
+    This is why Universal Life has also been referred to as **Interest-Sensitive** life insurance.
+
+However, when interest rates became low down in the 1990s onwards, many of those policies issued in the 1980s ended up being **severely underfunded**, resulting in many account values to deteriorate 0, causing the policy to **lapse**.
+
+Naturally, this resulted in the outrage of many policyholders, with several insurers engaged in major lawsuits.
+
+This prompted a major change in product design, resulting in the creation of **No Lapse Guarantees** (NLG). If the conditions are met, it will allow polices to **remain in-force** even if the account value depletes to 0, **delinking** the policy status from the account value.
+
+If the guarantee is triggered, the UL policy **effectively becomes a term-to-100** as it provides protection with **no cash values** required. UL with NLG is often referred to as **protection** focused UL.
+
+!!! Note
+    
+    NLGs are also referred to as **Secondary Guarantees**.
+    
+    Some products may only provide NLG for a fixed number of years or till a certain age.
+
+NLGs are typically designed with one of the following designs:
+
+* **Minimum NLG Premium** - Policy will remain in-force as long as **cumulative premiums paid** are at least **as large as a specified NLG premium**
+
+* Shadow Account
+
+   Once the account value hits 0, the policyholder **must pay** the minimum NLG premium (on a cumulative basis) to keep the policy in-force. This premium will **NOT be used to build account value**; but any excess will.
+
+* **Shadow Account** - A separate account value is projected (known as the “Shadow Account”). As long the as the **shadow account balance is above 0**, the NLG remains active. 
+
+
+
+
 
 
 
