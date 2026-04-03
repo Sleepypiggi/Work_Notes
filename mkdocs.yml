@@ -8,13 +8,28 @@ theme:
 
 nav:
   - Life Insurance: Placeholder.md
+
   - Products:
-    - Term Life: 1_PRODUCTS/0_TERM_LIFE.md
-    - Whole Life: 1_PRODUCTS/1_WHOLE_LIFE.md
-    - Endowment: 1_PRODUCTS/2_ENDOWMENT.md
-    - Participating: 1_PRODUCTS/3_PARTICIPATING.md
-    - Universal Life: 1_PRODUCTS/4_UNIVERSAL_LIFE.md
-    - Investment Linked: 1_PRODUCTS/5_INVESTMENT_LINKED.md
+    - Non-Participating:
+      - Term Life: 1_PRODUCTS/0_TERM_LIFE.md
+      - Whole Life: 1_PRODUCTS/1_WHOLE_LIFE.md
+    - Participating:
+      - Overview: 1_PRODUCTS/3_PARTICIPATING.md
+    - Investment Linked:
+      - Overview: 1_PRODUCTS/2_UNIT_LINKED.md
+    - Universal Life:
+      - Overview:  1_PRODUCTS/3_UNIVERSAL_LIFE/0_OVERVIEW.md
+      - Traditional UL:  1_PRODUCTS/3_UNIVERSAL_LIFE/1_UL.md
+      - Indexed UL:  1_PRODUCTS/3_UNIVERSAL_LIFE/2_IUL.md
+    - Endowment: tbc.md
+    - Annuities:
+      - Overview: 1_PRODUCTS/5_ANNUITIES/0_OVERVIEW.md
+      - Fixed: 1_PRODUCTS/5_ANNUITIES/1_FDA.md
+      - Variable: 1_PRODUCTS/5_ANNUITIES/2_VA.md
+      - Indexed: 1_PRODUCTS/5_ANNUITIES/3_IA.md
+    - Health:
+      - Overview: TBC.MD
+
   - Valuation: Placeholder.md
   - Solvency:
     - Risk Based Capital: 3_SOLVENCY/0_RISK_BASED_CAPITAL.md

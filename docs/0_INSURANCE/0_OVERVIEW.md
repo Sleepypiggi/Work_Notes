@@ -11,3 +11,6 @@ It depends. Many people don’t consider the opportunity cost of investing the r
 Given your annualised monthly premium is 2% more than annual payment, you need at least 4.6% p.a. interest to earn positive cashflow if you pay monthly.
 
 Why 4.6% which is much higher than 2%? Because not the full sum will be earning the interest rate and principle decreases with each monthly premium payment.
+
+
+However, the policyholder now bears the **risk that the insurer goes insolvent** (credit risk) before the payments conclude, which is likely decades from the point of purchase. Given the strict insurance regulation, this risk is relatively low but still there nonetheless. Thus, purchasing annuity is akin to **trading longevity risk for credit risk**.
