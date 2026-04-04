@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://example.com/3_SOLVENCY/1_SG_RBC2/">
+        <link rel="canonical" href="https://example.com/5_EXP_STUDIES/DUMP/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
       
-        <title>**Singapore RBC2** - Work Notes</title>
+        <title>**Experience Studies** - Work Notes</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#singapore-rbc2" class="md-skip">
+        <a href="#experience-studies" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              **Singapore RBC2**
+              **Experience Studies**
             
           </span>
         </div>
@@ -659,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../0_RISK_BASED_CAPITAL/" class="md-nav__link">
+      <a href="../../3_SOLVENCY/0_RISK_BASED_CAPITAL.md" class="md-nav__link">
         Risk Based Capital
       </a>
     </li>
@@ -768,6 +768,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mortality" class="md-nav__link">
+    Mortality
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -781,159 +796,77 @@
                   
 
 
-<h1 id="singapore-rbc2"><strong>Singapore RBC2</strong><a class="headerlink" href="#singapore-rbc2" title="Permanent link">&para;</a></h1>
-<p>oVERALL Framework
-Stress Testing
-ORSA
-CAR</p>
-<p>Local valuation basis &gt;&gt; MCL
-CAR, FSR</p>
-<p>Component 1
-Component 2
-ORR/C3
-TRR
-FR</p>
-<p>Mas breach
-Fine
-Drop craft rating, pay more PPF &gt; more cost</p>
-<p>1 in 200 chance refers to 99.5% var ie 0.05% chance of shit hitting the fan</p>
-<p>MAS shocks are calibrated at this level</p>
-<p>1 in 200 is basically Z.norm.inv(0.995)</p>
-<p>In RBC2 world, there are actually only two funds:</p>
-<p>Total Company = SH Fund + Par Fund
-SH Fund = ILP Fund + NP Fund + Surplus Account</p>
-<p>For the purposes of RBC2, they consider total company CAR using the SH Fund</p>
-<p>But Par Fund Solvency is measured using Par Fund (Gated) + Surplus Account</p>
-<p>Intuition of CAR</p>
-<p>If there is a shock, can your assets support it</p>
-<p>Don’t let you count as FRA</p>
-<p>ILP not as capital intensive
-Par not also because it is subsidised by par fund</p>
-<p>SG wants to be a financial hub
-So MAS needs to meet the requirements of IMF etc
-Need to follow their international standard</p>
-<p>But they also want to exercise their own authority in their own basis
-They need to do stress test because the international standard is to stress test
-Can think of it as their KPI</p>
-<p>No value add for stat reporting</p>
-<p>There is a fixed format with a correct answer</p>
-<p>No changing messaging etc</p>
-<p>MAS have to be defensive
-Internal can be aggressive
-Different styles, different objectives
-MAS cannot be wrong</p>
-<p>Appointed Actuary &gt; Legal definition, deals with reporting and correspondence with MAS</p>
-<p>Chief Actuary &gt; Internal, EV Profit etc</p>
-<h1 id="valuation">Valuation<a class="headerlink" href="#valuation" title="Permanent link">&para;</a></h1>
-<h2 id="valuation-capital-stat-reserve">Valuation &amp; Capital (Stat Reserve)<a class="headerlink" href="#valuation-capital-stat-reserve" title="Permanent link">&para;</a></h2>
-<p>Best Estimate Liability (BEL) ** Solvency 2 term
-Minimum Condition Liability (MCL) ** Liability based on guaranteed benefits only, hence "minimum"
-** Regulation is used to describe a Par Product, but the term is used informally to refer to liability of NPAR and Non-Unit Reserve of ILP</p>
-<p>Provision for Adverse Deviation (PAD) ** "Buffer" for bad experience
-MCL = BEL + PAD
-Calculated by shocking the BE assumptions
-Assumptions are shocked ALL at once
-** Since some assumptions have shocks that go in conflicting directions, must consider all possible combinations
-** Typically has to do with Lapse &amp; Mortality
-** Lapse Up Mortality Up (LUMU), LUMD, LDMU, LDMD
-** Take the scenario which gives the highest liability</p>
-<p>Set PAD to 0 during bad times, as it is meant ot be a buffer</p>
-<h1 id="mas-notice-133-rbc2">MAS Notice 133 (RBC2)<a class="headerlink" href="#mas-notice-133-rbc2" title="Permanent link">&para;</a></h1>
-<p>Solvency Regulation ** ensure that the insurer is holding enough capital
-Total Company Level ** Capital Adequacy Ratio (CAR) ~135%
-Insurance Fund Level ** Fund Solvency Ratio (FSR) ~135%
-** 135 is the official amount, MAS usually requires more
-** If fail to hit this value, based on the severity, MAS will require management actions or takeover the company</p>
-<p>CAR/FSR = Capital/Total Risk Requirement
-** Required Capital is thus the minimum amount of capital needed to fulfil the requirements
-** The capital can only be backed by certain kinds of asset class (Gov Debt, Corporate Debt, Equity, Property)
-** The proportion of these assets are determined by the Strategic Asset Allocation (SAA)
-** It dictates the investment direction of the company (Proportion of assets, similar to Fund Prospectus)
-** Using the SAA, the RC can be broken down into the constituent components on how much Debt/Equity/Property the company must hold
-** Note that this will in turn affect C2, which changes TRR and hence the asset components again (Cycle)
-** Process is repeated iteratively until it reaches equilibrium</p>
-<p>Total Risk Requirement (TRR)
-** Three different categories
-** C1: Insurance Risk
-** C2: Economic Risk
-** Operational Risk Requirement (ORR)</p>
-<p>C1: Insurance Risk
-** Mortality, Longevity, Disability, Morbidity etc
-** Risk Requirement is calculated for each risk seperately ** C1 Mortality, C1 Longevity etc
-** It is calculated similarly to PAD: Individual C1 = Liability with individual assumption shocked - BEL
-** Unlike PAD which is determined internally, PAD is a prescribed shock that is the same for all companies (Calculated via industry wide study, based on confidence level. PAD is recommended to be somewhere lower than C1)
-** However, need to account for the possibility that some of these risks can occur simultaneously while others cannot &gt; Diversification Benefit
-** Calculated by using a correlation matrix with weights for each of the factors (+ve for items that can happen together &amp; -ve for things that cannot)
-** Total C1 risk requirement is thus known as the Diversified C1 Requirement
-** C1 RR is in excess of PAD ** Since already holding extra capital for insurance risk, dont need double hold</p>
-<div class="admonition both mcl and c1 rc must be rebased to the current nop">
-<p class="admonition-title">Both</p>
-</div>
-<p>** Both are calculated using shocked assumptions (Not true NOP)
-** Need to rebase to the true BE NOP
-** Divide by shocked NOP to get the "Per Policy MCL/C1" then multiply by the BE NOP to get BE C1/MCL</p>
-<p>Risk charge must be "rebased" to the current NOP
-Because the RC calculated using the shocked NOP is not the actual portfolio ** rebase to the BE NOP to reflect the actual number of policyholders</p>
-<p>(Liability/Basis_NOP)*BE_NOP </p>
-<p>C2: Economic Risk
-** Equity, interest etc
-** Unique to each risk, no universal way of calculation
-** Similar to C1, there is some diversification benefit as well</p>
-<p>Most C2 risk charges are not related to liabilities, except interest mismatch
-Two scenarios - Interest up and Interest down
-Shock the interest by the specified percentage and calculate the change in liability similar to C1</p>
-<p>Proxy Factors
-** Prophet does not have access to the correlation matrix or the asset data
-** Calculated using last months data and find a proxy factor based off MCL</p>
-<p>Operational Risk
-** Inherent risk in operating a large company
-** Larger company tends to have more operational lapses
-** Size of the company measured via top line (Premium)
-** Penalized based on that amount</p>
-<p>Total Risk Requirement
-** Diversification between C1 and C2
-** Diverisifcation within C1 among Life/Health/GI
-** TRR = Diversified C&frac12; + ORR</p>
-<p>Discount Rate
-** Rate that best reflects the underlying risk
-** Guaranteed Benefits &gt; Use RFR
-** Non-Guaranteed Benefits &gt; Use BEIR (Expected return on the policy assets)</p>
-<p>Risk Free Rate
-** Split into three segments
-** Segment 1: Valuation Date to Last Liquid Point (LLP), use Gov Bonds (20 years)
-** Segment 3: Beyond Convergence Point, use Ultimate Forward Rate (Prescribed = Real Interest + Real Inflation, 1.8 + 2 = 3.8%)
-** Segment 2: Extrapolated dufring convergence period 40 years between 1 &amp; 3 using the Smith Wilson Method
-** Alpha Parameter (Smoothness) chosen via trial and error, does not deviate more than 0.5 from UFR
-** Each currency different duration and UFR
-** Note that this is the TERM STRUCTURE of interest rates &gt; They represent the spot rates at each time period
-** If discounting one period at a time, then it is more appropriate to use the forward rates for each period
-** The spot rates can also be used, depending on the method of discounting</p>
-<p>RFR Adjustments</p>
-<h1 id="name">NAME?<a class="headerlink" href="#name" title="Permanent link">&para;</a></h1>
-<p>IP
-** Ill-liquid assets have higher rates of return, thus the insurer should be able to recognise this higher discount rate if they are holding them
-** Each type of asset is allocated an IP, overall IP is the weighted average of these IP
-** IP is applied as a parallel upward adjustment to the RFR
-** For the first 20 years up to the LLP, the insurer must use their own IP
-** 10 years after the LLP, the insurer must use an 'ultimate' IP of 10bps
-** For the 10 years following the LLP, the insurer must amortize/run off the IP such that is gradually reduces to the ultimate IP
-** The rate of amortization is prescribed
-** What is the reason behind this? Because the assets are maturing or allocation may change?</p>
-<p>RFR_IP = RFR + (IP - Ultimate IP) * Amortization + Ultimate IP
-** In early years before LLP, amortization is 100% thus the ultimate IP is cancelled out, only leaving the RFR + IP
-** In later years, once the rate is not 100%, it will no longer cancel out and gradually reduce to the ultimate IP</p>
-<p>New Business Strain is the negative profit in the first year</p>
-<p>Deaths assume to occur middle of month - 
-    LAPSE_TMING = 1 means Lapse EOM; die first then remaining ppl lapse
-    LAPSE_TMING = 0.5 means Lapse middle OM; compete with deaths</p>
-<p>LAPSE supported products
-Key difference between MRES_MCL_IF and MRES_MCL_POLLVL_IF is how the lapse is applied
-Some lapse are applied at the product level while some is at the policy level
-Happens for a few key variables.</p>
-<p>Financial Resource side: 
-Tier 1 &gt; Asset quality (Functionally hard cash)
-Tier 2 &gt; Shit
-Negative Reserve &gt; Future Profit, can recognise part of it</p>
+<h1 id="experience-studies"><strong>Experience Studies</strong><a class="headerlink" href="#experience-studies" title="Permanent link">&para;</a></h1>
+<h2 id="mortality"><strong>Mortality</strong><a class="headerlink" href="#mortality" title="Permanent link">&para;</a></h2>
+<p>Select Mortality
+For newly insured levels
+Must be lower than the average person because they must have been in good health to qualify initially
+Usually lasts for a short period (5 years) before moving on</p>
+<p>Ultimate Mortality
+After the select period is over 
+(True)
+Benefit of selection has faded
+Higher than select</p>
+<p>Aggrgeate Mortality
+Combining both, falls between both</p>
+<div class="highlight"><pre><span></span><code>For traditional policies, Lapse Rates tend to be highest in the first year of the policy as some people tend to regret their purchase
+
+After the Surrender Charge Period, Lapse Rates tend to increase again as people who were waiting for the first chance to leave without penalty
+</code></pre></div>
+<p>Jerram, [19/7/2022 3:42 PM]
+PA Policy Asset
+PL Policy Liability</p>
+<p>Jerram, [19/7/2022 3:52 PM]
+PPT is premium payment term</p>
+<p>Jerram, [19/7/2022 4:01 PM]
+Sales Channel increase lapse</p>
+<p>Jerram, [19/7/2022 4:04 PM]
+Cant keep changing assumptions also</p>
+<p>Jerram, [19/7/2022 4:04 PM]
+Experience, adjust credibility plus loading</p>
+<p>Jerram, [15/10/2022 9:53 AM]
+RBC2
+C1 - Liability Risk higher than expected
+C2 - Asset risk lower than expected</p>
+<p>Jerram, [15/10/2022 1:45 PM]
+Don’t eat faster than them</p>
+<p>Jerram, [15/10/2022 1:58 PM]
+Consulting is manager dependent</p>
+<p>Jerram, [15/10/2022 2:08 PM]
+Premium discount rather than rating</p>
+<p>Jerram, [15/10/2022 2:09 PM]
+Avoid rating using rare factors because although not wrong dw appear on news</p>
+<p>nOT MUch u can innovate with life related risks</p>
+<p>Valuation more technical</p>
+<p>Pricing needs to deal with a lot of other bullshit, talking to product team, marketing etc but is closer rly the bsuinesv</p>
+<p>Jerram, [13/10/2022 8:21 PM]
+Income is not profit driven</p>
+<p>Jerram, [13/10/2022 8:21 PM]
+Innovation gets you marketing and collaboration, not necessarily profits</p>
+<p>Jerram, [13/10/2022 8:21 PM]
+Profit driven and innovation are at odds</p>
+<p>Jerram, [13/10/2022 8:21 PM]
+Technicals</p>
+<p>Jerram, [11/10/2022 9:43 AM]
+Asia prefers life products with guaranteed</p>
+<p>Jerram, [11/10/2022 9:44 AM]
+Shareholders don’t like guaranteed, risky</p>
+<p>Jerram, [11/10/2022 10:06 AM]
+Error everywhere &gt; Likely you fked up</p>
+<p>Jerram, [11/10/2022 10:06 AM]
+Error in a specific place &gt; Not your fault</p>
+<p>Jerram, [11/10/2022 2:22 PM]
+Learn what is AVE</p>
+<p>us gaap, LDTI</p>
+<p>Jerram, [8/9/2022 10:12 AM]
+Asia market not very mature, older actuaries not there</p>
+<p>Jerram, [8/9/2022 10:31 AM]
+IFRS17 start date is different for different countries</p>
+<p>Jerram, [8/9/2022 10:31 AM]
+Consulting bid for clients</p>
+<p>Asset Liability Strategy Library</p>
+<p>Lapse is highly specific to companies and proiduct design
+Premium payment term is a key factor - longer PPP tends to experience higher lapses as the impact of lost premium is lower</p>
 
 
 

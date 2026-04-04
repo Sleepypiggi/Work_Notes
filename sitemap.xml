@@ -146,52 +146,52 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_SOLVENCY/0_RISK_BASED_CAPITAL/</loc>
+         <loc>https://example.com/2_VALUATION/1_SOLVENCY/0_RISK_BASED_CAPITAL/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_SOLVENCY/1_SG_RBC2/</loc>
+         <loc>https://example.com/2_VALUATION/1_SOLVENCY/1_SG_RBC2/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/3_SOLVENCY/5_Statutory_Reporting/</loc>
+         <loc>https://example.com/2_VALUATION/1_SOLVENCY/5_Statutory_Reporting/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/4_EV/6_Management_Reporting/</loc>
+         <loc>https://example.com/2_VALUATION/2_EV/6_Management_Reporting/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/4_EV/Dump/</loc>
+         <loc>https://example.com/2_VALUATION/2_EV/Dump/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/5_IFRS17/0_IFRS17_OVERVIEW/</loc>
+         <loc>https://example.com/2_VALUATION/3_IFRS17/0_IFRS17_OVERVIEW/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/5_IFRS17/DUMP/</loc>
+         <loc>https://example.com/2_VALUATION/3_IFRS17/DUMP/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/6_DISTRIBUTION/DUMP/</loc>
+         <loc>https://example.com/3_REINSURANCE/1_Reinsurance_Overview/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/7_EXP_STUDY/DUMP/</loc>
+         <loc>https://example.com/4_DISTRIBUTION/DUMP/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/97_REINSURANCE/1_Reinsurance_Overview/</loc>
+         <loc>https://example.com/5_EXP_STUDIES/DUMP/</loc>
          <lastmod>2026-04-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
