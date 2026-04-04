@@ -108,3 +108,5 @@ This makes a VL policy *potentially more attractive* than every other kind of po
 
 
 * **Variable UL**: Based on the performance of a specific mutual fund
+
+Registered index universal life
