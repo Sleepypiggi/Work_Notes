@@ -1,5 +1,12 @@
-# **Indexed Universal Life (IUL)**
+# **Indexed Universal Life**
 
+**Indexed Universal Life** (IUL) is the a variant of UL where the crediting rate is **proportionate** to the return of a **specified index** (EG. S&P500), subject to a minimum and maximum limit. IULs
+
+All other aspects of the product remain largely similar to a traditional UL.
+
+
+
+## 
 
 
 
@@ -101,20 +108,3 @@ This makes a VL policy *potentially more attractive* than every other kind of po
 
 
 * **Variable UL**: Based on the performance of a specific mutual fund
-
-HNW 1m
-UHMW 30m
-Self made professionals, entrepeneur or inherited
-Business succession is the most important and longevity
-High degree of personalization and established relationship
-Typically single premium UL
-White glove status > elite, solitaire 
-Typically non taxable
-Most important is the source of funds > Wher they get the money, is it money laundering or tax evasion
-Single point of contact, active case management, tailored approach with value added services, confidentiality, coutesy calls, flexible access to advanced healthcare etc
-
-
-Younger HMW > Aggressive wealth growth 
-Older HWN > Conservarive wealth preservation 
-
-Case size larger, underwriting more comprehensive
