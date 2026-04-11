@@ -76,7 +76,7 @@ The interest credited to the account is known as the **Crediting Rate** (CR). Mo
 
     It is possible that the crediting interest exceeds the amount of charges in a given period, resulting in a self-sustaining policy. However, this is usually short-lived as the cost of insurance increase exponentially.
 
-Similar to participating products, the CR is determined based on the **insurer's own investment experience** over the period, taking into account **other considerations** as well (EG. Smoothing, Competitiveness etc).
+Similar to participating products, the CR is **discretionary** and determined based on the **insurer's own investment experience** over the period, taking into account **other considerations** as well (EG. Smoothing, Competitiveness etc).
 
 The insurer effectively earns the difference between the actual investment return and the credited rate, known as the **Investment Spread**.
 
@@ -87,6 +87,12 @@ $$
 !!! Warning
 
     When returns are low, the investment spread will be **compressed** or even turn negative as the insurer still has to meet the minimum guaranteed rate. 
+
+There are three main variations of UL, differing based on their crediting rate:
+
+* **Traditional UL**: Discretionary
+* **Indexed UL**: Proportional to chosen index
+* **Variable UL**: Based on underlying mutual funds
 
 ### **Cost of Insurance**
 
@@ -245,7 +251,7 @@ NLG designs (especially shadow accounts) can go very deep and can technically be
 
 ## **Premium Financing**
 
-UL plans are very popular among the **high net worth market** given its flexibility, allowing them to be catered to the **complex and specific needs of this segment** that traditional mass market policies cannot. For instance, it is not uncommon to have UL policies with coverages in multiples of 10 million while traditional WL or term might not even have such options available.
+UL plans are very popular among the **high net worth market** given its flexibility, allowing them to be catered to the **complex and specific needs of this segment** that traditional mass market policies cannot. For instance, it is not uncommon to have UL policies with coverages in **multiples of 10 million** while traditional WL or term might not even have such options available.
 
 The unique aspect about the HNW market is that these individuals tend to be **asset rich**:
 
@@ -278,3 +284,9 @@ There are several risks involving with premium financing:
 
 3. If the policyholder **dies early**, the proceeds will first be used to **pay off the loan balance**, the remaining amount (if any at all) is left to the intended beneficiaries.
  
+ 
+!!! Note
+
+    Under a premium financing arrangement, the policy is assigned as collateral to the bank. They have limited rights over the policy but sufficient enough to be able to recover the loan amount.
+    
+    This is opposed to the more typical Absolute Assignment, where the assignee has full rights over the policy. 

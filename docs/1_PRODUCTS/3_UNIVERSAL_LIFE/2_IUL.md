@@ -1,41 +1,97 @@
 # **Indexed Universal Life**
 
-**Indexed Universal Life** (IUL) is the a variant of UL where the crediting rate is **proportionate** to the return of a **specified index** (EG. S&P500), subject to a minimum and maximum limit. IULs
+**Indexed Universal Life** (IUL) is the a variant of UL where the crediting rate is **proportionate** to the return of a **specified index** (EG. S&P500):
 
-All other aspects of the product remain largely similar to a traditional UL.
+* **Participation Rate** - Extent to which crediting rate follows the index return (%)
+ 
+* **Cap Rate** - Maximum credited interest, after participation
+ 
+* **Floor Rate** - Minimum credited interest, after participation
 
+$$
 
+$$
 
-## 
-
-
-
-Indexed Universal Life (IUL) is a variant of UL whose crediting rate follows the return of a specified underlying index (EG. S&P500). The extent to which the crediting rate follows the index is known as the **participation rate**.
-
-Most insurers offer a range of possible indices, thus policyholders can typically allocate funds into one or more indices. In such cases, the credited interest will be the sum of the interest earned in each index sub account.
-
-Apart from indices, allocation into the General Account (used for traditional UL policies) is also allowed. Thus, IULs can also be used to replicate a traditional UL policy by simply choosing to allocate 100% of the funds into the GA.
+<—- Self Made —>
+Insert picture
 
 !!! Note
 
-    IUL tends to be the most popular variation of UL as it tends to provide higher returns than traditional UL and less risk than variable UL.
+    The participation rate is typically non-guaranteed, but might have a minimum guaranteed level.
+    
+The expected crediting rate of IUL is **typically higher** than TUL due to the nature of underlying assets (Equity vs Bonds). All else equal, this also means that the **planned premium for IUL is lower**.
+
+All other aspects of the product remain largely similar to a traditional UL.
+
+## **Index Allocation**
+
+Firstly, policyholders can choose to allocate their funds between:
+
+* General Account (Same as UL)
+* Index Account
+
+!!! Note
+
+    If premiums are allocated entirely to the general account, the policy effectively becomes a UL policy. In practice, insurers often require a minimum index allocation. 
+
+The index account is then broken down into **multiple sub-accounts** depending on the policyholder’s chosen indices:
+
+* Index Sub Account 1
+* Index Sub Account 2
+* Index Sub Account 3
+
+!!! Note
+
+    Most insurers typically provide a range of indices to choose from to suit the various risk profiles.
+ 
+The crediting rate of each sub-account is based on the return of the corresponding index. In totality, the crediting rate on the entire index account is the **premium weighted average of the index returns**.
+
+Operationally, **Segments** are created to track the amount of premium tracking a particular index during each crediting cycle (~annually).
+
+Insert segment photo
+
+For operational simplicity, segments are typically created on the same days each month. Before segments are created, the premiums are held in a **holding account**. Interest is also credited to the holding account, typically at an **identical rate to that of the general account**.
+
+## **Index Return**
+
+There are two commonly used methods to determine the index return:
+
+* **Point-to-point** - Based on the return as at a specific start and end date (EG. 15 Jan 2026 to 15th Jan 2027)
+
+* **Average** - Based on the average index return over a specified duration (EG. Daily Average, Monthly Average)
+P
 
 ### **Hedging**
 
-The account of any UL policy is purely **notional**. The insurer does NOT actually purchase shares of the underlying index to support the policy. Recall that there is a crediting floor - if the insurer were to actually hold the assets and there was a loss, they would have to absorb the losses, exposing them to market volatility.
+In order to provide the IUL payoff, the insurer **does NOT actually buy a mutual fund** that tracks the index. Due to the crediting floor, if the actual return of the fund drops below the floor rate, the insurer would **recognize the difference as a loss**.
 
-Thus, the insurer purchases an **At the Money Call Option** (strike = current market price) to produce the desired levels of return:
+Thus, the insurer instead uses **Options to hedge** the payoff, ensuring that that regardless of market movements, the desired crediting payoff is achieved:
 
-* **Index Increases**: Exercise option to purchase at the strike and sell at the higher market price
-* **Index Decreases**: Do NOT exercise option
+* Buy ATM Call Option (Strike = Current Price)
+* Sell OTM Call Option (Strike = Max Return)
+* Combination is known as a Bull Call Spread
+
+!!! Note
+
+    When the Index Increases:
+    
+    1. Insurer will exercise their option to purchase at the initial level and sell at the current level
+  
+    2. Insurer is assigned to sell at the maximum level. If the market level is lower than the maximum, no assignment is made.
+ 
+    3.  Insurer thus earns the net difference between the maximum price (or current price) and the initial price
 
 <!—— Self Made —-> 
 
-However, notice that the option provides a payoff even beyond the crediting ceiling. Thus, in order to reduce the cost of the hedge, the insurer can sell a call option at the maximum crediting rate, creating a **Bull Call Spread** that provides a return **exactly between** the floor and ceiling:
+The cost of the purchased call will always be higher than the proceeds of the sold call, due to XXX. Thus, there will always be a **net cost** to build the hedge.
 
-<—— Self Made —->
+In order to fund the hedge, the insurer will invest the starting account value into a bond that matures at the next crediting cycle and use the return as their **Option Budget**:
 
-If the index decreases, the account value remains the same. Thus, the insurer may **simply hold the account value in cash** to ensure that they at least have that amount. However, this method incurs an **opportunity cost** - thus, they instead **invest less than the full amount** into a short term bond such that the bond matures with approximately the original account value on the crediting date.
+* Bond - Provides the starting account value on maturity 
+* Call Spread - Provides the credited interest on maturity
+
+
+
 
 The leftover cash after the purchase of the bond together with the account charges are used to fund the purchase of the call spread. The excess can be recognized as profit for the insurer.
 
