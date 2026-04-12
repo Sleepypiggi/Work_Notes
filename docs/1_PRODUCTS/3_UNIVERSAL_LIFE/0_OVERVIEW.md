@@ -78,15 +78,17 @@ The interest credited to the account is known as the **Crediting Rate** (CR). Mo
 
 Similar to participating products, the CR is **discretionary** and determined based on the **insurer's own investment experience** over the period, taking into account **other considerations** as well (EG. Smoothing, Competitiveness etc).
 
-The insurer effectively earns the difference between the actual investment return and the credited rate, known as the **Investment Spread**.
+The insurer effectively earns the difference between the actual investment return and the credited rate, known as the **Investment Spread**:
 
 $$
     \text{Investment Spread} = \text{Earned Rate} - \text{Credited Rate}
 $$
 
-!!! Warning
+When returns are low, the investment spread will be **compressed** or even turn **negative** as the insurer still has to meet the minimum guaranteed rate. Thus, insurers typically only recognize a **portion of the spread** as profit; the remaining amount is left as **buffer to smooth future** returns.
 
-    When returns are low, the investment spread will be **compressed** or even turn negative as the insurer still has to meet the minimum guaranteed rate. 
+!!! Note
+
+    Similar to Par, since the crediting rate is entirely discretionary, most jurisdictions require the insurer to have an **internal framework** to guide the crediting rate decision, ensuring that policyholder interests are protected. Most frameworks typically outline a **Target Spread** that the insurer aims to earn each period.
 
 There are three main variations of UL, differing based on their crediting rate:
 

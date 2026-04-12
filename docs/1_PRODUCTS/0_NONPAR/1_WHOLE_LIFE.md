@@ -16,6 +16,8 @@ Whole life insurance is typically suited for individuals who have financial obli
 
 ## **Cash Value**
 
+Tabular Cash Values
+
 The defining feature of whole life insurance is that it also offers a guaranteed **Cash Value**. Instead of a death benefit, the insurer can **surrender** (lapse) their policy to obtain the cash value, also known as the **surrender benefit**.
 
 Recall that under a level premium approach, the policyholder pre-pays for their future cost which is then **invested (saved)** to cover future costs. The cash value can thus be thought of as a **savings component** that reflects the above pre-payment. In practice, the **full amount is not made available** to the policyholder as it accounts for expenses, profits and other considerations, based on the **discretion of the insurer** (subject to any regulations). Cash values are typically **low for the first few years** (reflecting new business strain) and gradually increases to be **equal to the death benefit by the maturity age**.

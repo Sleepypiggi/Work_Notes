@@ -15,27 +15,23 @@ UL policies (like most other products) are typically backed by **fixed income se
 The **simplest method** to manage the crediting rate would be to credit the **actual investment return** of the insurer:
 
 * Roll a **short-term** fixed income asset **matching the frequency** of the crediting rate
-
 * Return on the asset reflects the **latest market return** and is directly passed on, less any spreads
 
 This approach is not taken for two primary reasons:
 
 1. **Short-term returns are low** - Insufficient to cover the guarantee, insufficient spreads
-
 2. **Short-term returns are volatile** - Not ideal for all stakeholders
-  
 3. Reinvestment risk
 
 Thus, insurers often purchase **long-term bonds** instead that can generate **higher and more stable returns**.
 
 ## **Smoothing**
 
-Management of the crediting rate is similar to the bonus of a participating product, since both are **discretionary**.
+Management of the crediting rate is similar to the bonus of a participating product, since both are **discretionary**
 
 Although returns are locked in using a long term asset, there is a need to manage PRE:
 
 * **Market Rate > Locked In Rate** - May need to credit higher rate to meet PRE (Loss)
-
 * **Market Rate < Locked In Rate** - Able to credit lower rates to create buffers (Gain)
 
 
@@ -52,12 +48,18 @@ When policyholders lapse, assets may need to be sold to fund the payout. However
 
 The risk of lapses during rising interest rate environments is commonly referred to as **Disintermediation Risk**.
 
-P
-
 !!! Tip
 
-    By buying such policies with an investment component, the policyholder is essentially engaging the insurer as an **intermediary to access the capital market**.
+    By buying such policies with an investment component, the policyholder is essentially engaging the insurer as an **intermediary to access the capital market**. When the policyholder withdraws the current policy to purchase a different one, they are essentially **dropping the current intermediary** for another one or even going direct themselves (dis-intermediating).
     
-    When the policyholder withdraws the current policy to purchase a different one, they are essentially **dropping the current intermediary** for another one or even going direct themselves (dis-intermediating).
-    
+    <!-- Self Made -->
+    ![DISINTERMEDIATION_ETYMOLOGY](Assets/1_UL.md/DISINTERMEDIATION_ETYMOLOGY.png)
+
     For UL policies, this behaviour is most expected to occur when interest rise. However, the term itself could be used in a wider variety of situations.
+
+Portfolio rates lag
+Rates fall, lapses slow down > Dont Asymettrical
+Rates fall, crediting falls slower
+Cannot let rates fall too low competition >> Peg to competition
+
+Dynamic Lapse Rates >> Pegged to ITM or competitor

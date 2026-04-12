@@ -267,3 +267,22 @@ Dividend take out rate
 
 INV expense = Fund expense (lower than AMC) + OH
 Fund manager gives rebate based on AUM/discsussion
+
+
+Distribution must be able to reach these ppl to sell
+
+Bundled product means can only buy if u but others
+
+From a projection perspective, for P/L Purposes, the Unit fund should have no surplus since it’s owned by the policyholder
+Surrender Charge is also a deterrence against bank run
+
+Need the funds to cover the future shortfall
+
+
+Potentially higher costs - VUL policies may be more expensive than other types of permanent insurance, such as Whole Life 
+
+
+lock your money up in all kinds of strange ways and do not compensate you for the illiquidity.
+
+
+This makes a VL policy *potentially more attractive* than every other kind of policy. However, this is only true if the wreturn on investments outpace both inflation and the investment return of the insurer. Although equity does earn substantially higher returns over a *long* period of time, **short term deviations** are inevitable and the policy value could drop substantially if the investments go bad.
