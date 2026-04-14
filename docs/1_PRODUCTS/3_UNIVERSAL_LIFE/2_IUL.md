@@ -48,8 +48,8 @@ Most insurers typically provide a range of indices, each with **their own floor,
 
 There are several considerations for **operational simplicity**:
 
-* Segments for **ALL policies** are typically created on the **same day each month**. Thus, if a policy incepts before the segment creation date, the premiums will be held in a **holding account**, which earns an **identical rate** to that of the general account.
-* Segments actually mature a **few days before** the next segment is created. During this period, the premiums will be held in the holding account as well.
+* Segments for **ALL policies** are typically created on the **same day each month**. Thus, if a policy incepts before the segment creation date, the premiums will be held in a **holding account**, which earns an **identical rate** to that of the general account
+* Segments actually mature a **few days before** the next segment is created. During this period, the premiums will be held in the holding account as well
 
 <!-- Self Made -->
 ![INDEX_HOLDING_ACCOUNT](Assets/2_IUL.md/INDEX_HOLDING_ACCOUNT.png){.center}
@@ -71,13 +71,18 @@ $$
     \text{PTP Return} = \frac{\text{Index End Value} - \text{Index Start Value}}{\text{Index Start Value}} - 1
 $$
 
-However, the above method is **exposed to volatility around the crediting date**, thus another common but **more complicated** alternative is to use the **Average** method, which takes the average daily or monthly index value over the segment period to determine the return:
+However, the above method is **exposed to volatility around the crediting date**, thus another common but **more complicated** alternative is to use the **Average** method, which takes the average daily or monthly **index value** over the segment period to determine the return:
 
 $$
     \text{Average Return} = \frac{\text{Average Index Value}}{\text{Index Start Value}} - 1
 $$
 
-The above two are the most common methods. There are many other (exotic) methods of determining the index return (EG. High watermark etc).
+Monthly sum? Volatility hurts average method more
+
+The above two are the most common methods. There are many other (exotic) methods of determining the index return:
+
+* **Binary Return** - If condition is met, fixed index credit, otherwise, 0
+* **High Watermark** - Return based on **highest** index level over the segment
 
 !!! Note
 
@@ -98,7 +103,7 @@ Thus, the insurer instead uses **Options to hedge** the payoff, ensuring that th
     When the Index Increases:
     
     1. Insurer will exercise their option to purchase at the initial level and sell at the current level
-    2. Insurer is assigned to sell at the maximum level. If the market level is lower than the maximum, no assignment is made.
+    2. Insurer is assigned to sell at the maximum level. If the market level is lower than the maximum, no assignment is made
     3. Insurer thus earns the net difference between the maximum price (or current price) and the initial price
 
 <!-- Self Made --> 
@@ -117,15 +122,24 @@ In order to **fund the hedge**, the insurer will invest the starting account val
 
 If the option budget is **higher than expected** (after investment spreads and smoothing considerations), the insurer can pass this down in the form of **higher participation rates or higher caps**.
 
+In practice, insurers might not hegde the entire index account; the extent of the hedge is known as the **Funding Ratio**. This is because some policyholders are **expected lapse**. However, this makes the hedging "lapse supported", which might cause strain if the assumed lapses do not materialize.
+
+## **Variations**
+
 ## **Volatility Controlled Indexes**
 
 Volatility Controlled Indexes (VCI) are synthetic indexes  that **automatically adjusts** the weight between an underlying specified index and a **low volatility asset class** (EG. Cash, Gold or Fixed Income) to achieve a target volatility level.
 
 The primary purpose of VCIs are to lower the implied volatility of the underlying index, making the position **cheaper to hedge**.
 
-
-
-
 * **Variable UL**: Based on the performance of a specific mutual fund
 
-Registered index universal life
+### **Registered Indices**
+
+Another variant of IUL is known a **Registered Index Universal Life** (RIUL).
+
+
+
+!!! Note
+
+    Given that the index crediting rate is allowed to be negative, it is possible for policyholders to **lose their principal**. Thus, US regulations require the product to be registered with the SEC, hence it is known as *registered* IUL.
