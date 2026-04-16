@@ -989,6 +989,10 @@
 <div class="arithmatex">\[
     \text{AV}_{t} = \left(\text{AV}_{t-1} + \text{Premium}_{t} - \text{Charges}_{t} \right) \cdot (1 + r)
 \]</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The account value can also be referred to as the <strong>premium balance</strong> of the policy, after policy charges.</p>
+</div>
 <p>Since premiums are not directly used to pay for the insurance, the policyholder is <strong>not required to pay future premiums</strong> to keep the policy in-force. The policy will <strong>automatically lapse</strong> if the account value has <strong>insufficient funds to cover the policy charges</strong> (ie account value is depleted). Policyholders can voluntarily pay additional premiums in any amounts at any time, providing <strong>premium flexibility</strong>.</p>
 <p>The policy also allows for the sum assured to be <strong>adjusted post-inception</strong> (subject to any required underwriting). This allows policyholders to effectively <strong>customize</strong> their policy to meet their <strong>specific needs</strong>, which is why it is known as <strong>Universal</strong> life.</p>
 <div class="admonition note">
@@ -1008,12 +1012,8 @@
 </ul>
 <p>The planned premium is typically <strong>calculated</strong> such that, on a best estimate basis, if all planned premiums are paid, then a <strong>specific objective</strong> is achieved (EG. Policy endows at age 100, AV = SA). Thus, it is also known as the <strong>Solved Premium</strong>.</p>
 <ul>
-<li>
-<p><strong>Positive Experience</strong> - Account values grows <strong>more than expected</strong> to cover costs each period. Policyholders <strong>no need to pay the premium</strong> and the policy will continue to grow ("vanishing premiums")</p>
-</li>
-<li>
-<p><strong>Negative Experience</strong> - Account value grows less than expected. Even if all the planned premiums are paid, the AV will be <strong>insufficient</strong> to reach the intended goal; policy will lapse earlier than expected. Insurers will typically <strong>send recommendations</strong> to the policy to fund the policy.s</p>
-</li>
+<li><strong>Positive Experience</strong> - Account values grows <strong>more than expected</strong> to cover costs each period. Policyholders <strong>no need to pay the premium</strong> and the policy will continue to grow ("vanishing premiums")</li>
+<li><strong>Negative Experience</strong> - Account value grows less than expected. Even if all the planned premiums are paid, the AV will be <strong>insufficient</strong> to reach the intended goal; policy will lapse earlier than expected. Insurers will typically <strong>send recommendations</strong> to the policy to fund the policy</li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -1022,12 +1022,8 @@
 </div>
 <p>Policyholders can also pay <strong>MORE than the total planned premium</strong> amount, typically known as <strong>Overfunding</strong> the policy. This will allow the account value to grow faster, allowing the policy to better sustain itself in the long-run. However, insurers typically set an <strong>overfunding limit</strong>:</p>
 <ul>
-<li>
-<p><strong>Insurer might be worse off</strong> - Higher account values means lower COI but higher expense charges; net effect dependent on pricing and mix</p>
-</li>
-<li>
-<p><strong>Legal Reasons</strong> - Certain jurisdictions might no longer consider it as an insurance contract and hence lose out on tax or other benefits</p>
-</li>
+<li><strong>Insurer might be worse off</strong> - Higher account values means lower COI but higher expense charges; net effect dependent on pricing and mix</li>
+<li><strong>Legal Reasons</strong> - Certain jurisdictions might no longer consider it as an insurance contract and hence lose out on tax or other benefits</li>
 </ul>
 <p>Distributors might be incentivized to encourage policyholders to overfund the policy in order to earn a higher commission. Thus, insurers typically set a maximum level (<strong>Target Premium</strong>), such that any premiums above this level (<strong>Excess Premium</strong>) earns commissions at a <strong>reduced rate</strong>. The target premium is typically set <strong>close to the planned premium amount</strong>.</p>
 <p>$$
@@ -1043,19 +1039,24 @@
 <p>In the past, planned premiums used to use the term "Target Premium", which may cause some confusion.</p>
 </div>
 <h3 id="crediting-rate"><strong>Crediting Rate</strong><a class="headerlink" href="#crediting-rate" title="Permanent link">&para;</a></h3>
-<p>The interest credited to the account is known as the <strong>Crediting Rate</strong> (CR). Most insurers provide a non-negative <strong>Minimum Guaranteed Rate</strong> (&gt;0), which ensures that the account value <strong>cannot go down</strong>.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>It is possible that the crediting interest exceeds the amount of charges in a given period, resulting in a self-sustaining policy. However, this is usually short-lived as the cost of insurance increase exponentially.</p>
-</div>
-<p>Similar to participating products, the CR is determined based on the <strong>insurer's own investment experience</strong> over the period, taking into account <strong>other considerations</strong> as well (EG. Smoothing, Competitiveness etc).</p>
-<p>The insurer effectively earns the difference between the actual investment return and the credited rate, known as the <strong>Investment Spread</strong>.</p>
+<p>The interest credited to the account is known as the <strong>Crediting Rate</strong> (CR):</p>
+<ul>
+<li>Typically declared <strong>in advance</strong> and then credited on a <strong>daily basis</strong> into the account throughout the <strong>Crediting Term</strong></li>
+<li>Non-negative <strong>Minimum Guaranteed Crediting Rate</strong>, ensuring that the account value will <strong>never go down</strong></li>
+</ul>
+<p>The <strong>insurer earns the difference</strong> between the actual investment return and the credited rate, known as the <strong>Investment Spread</strong>:</p>
 <div class="arithmatex">\[
     \text{Investment Spread} = \text{Earned Rate} - \text{Credited Rate}
 \]</div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>When returns are low, the investment spread will be <strong>compressed</strong> or even turn negative as the insurer still has to meet the minimum guaranteed rate. </p>
+<p>When returns are low, the investment spread will be <strong>compressed</strong> or even turn <strong>negative</strong> as the insurer still has to meet the minimum guaranteed rate. Thus, insurers typically only recognize a <strong>portion of the spread</strong> as profit; the remaining amount is left as <strong>buffer to smooth future</strong> returns.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Similar to Par, since the crediting rate is <strong>entirely discretionary</strong>, most jurisdictions require the insurer to have an <strong>internal framework</strong> to guide the crediting rate decision, ensuring a balance between business objectives and policyholder interests, which typically includes:</p>
+<ul>
+<li><strong>Target Spread</strong> that the insurer aims to earn</li>
+<li>Market Competitiveness</li>
+<li>Smoothing considerations</li>
+</ul>
 </div>
 <h3 id="cost-of-insurance"><strong>Cost of Insurance</strong><a class="headerlink" href="#cost-of-insurance" title="Permanent link">&para;</a></h3>
 <p>At any given time, the policy will <strong>either</strong> pay out the:</p>
@@ -1214,7 +1215,7 @@ TO UPDATE THIS SECTION
 SHITSHOW</p>
 </div>
 <h2 id="premium-financing"><strong>Premium Financing</strong><a class="headerlink" href="#premium-financing" title="Permanent link">&para;</a></h2>
-<p>UL plans are very popular among the <strong>high net worth market</strong> given its flexibility, allowing them to be catered to the <strong>complex and specific needs of this segment</strong> that traditional mass market policies cannot. For instance, it is not uncommon to have UL policies with coverages in multiples of 10 million while traditional WL or term might not even have such options available.</p>
+<p>UL plans are very popular among the <strong>high net worth market</strong> given its flexibility, allowing them to be catered to the <strong>complex and specific needs of this segment</strong> that traditional mass market policies cannot. For instance, it is not uncommon to have UL policies with coverages in <strong>multiples of 10 million</strong> while traditional WL or term might not even have such options available.</p>
 <p>The unique aspect about the HNW market is that these individuals tend to be <strong>asset rich</strong>:</p>
 <ul>
 <li>They require <strong>high levels of coverage</strong> to fully insure their wealth</li>
@@ -1249,6 +1250,11 @@ SHITSHOW</p>
 <p>If the policyholder <strong>dies early</strong>, the proceeds will first be used to <strong>pay off the loan balance</strong>, the remaining amount (if any at all) is left to the intended beneficiaries.</p>
 </li>
 </ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Under a premium financing arrangement, the policy is assigned as collateral to the bank. They have limited rights over the policy but sufficient enough to be able to recover the loan amount.</p>
+<p>This is opposed to the more typical Absolute Assignment, where the assignee has full rights over the policy. </p>
+</div>
 
 
 
