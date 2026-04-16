@@ -10,6 +10,10 @@ $$
     \text{AV}_{t} = \left(\text{AV}_{t-1} + \text{Premium}_{t} - \text{Charges}_{t} \right) \cdot (1 + r)
 $$
 
+!!! Tip
+
+    The account value can also be referred to as the **premium balance** of the policy, after policy charges.
+
 Since premiums are not directly used to pay for the insurance, the policyholder is **not required to pay future premiums** to keep the policy in-force. The policy will **automatically lapse** if the account value has **insufficient funds to cover the policy charges** (ie account value is depleted). Policyholders can voluntarily pay additional premiums in any amounts at any time, providing **premium flexibility**.
 
 The policy also allows for the sum assured to be **adjusted post-inception** (subject to any required underwriting). This allows policyholders to effectively **customize** their policy to meet their **specific needs**, which is why it is known as **Universal** life.
@@ -37,8 +41,7 @@ Given that there are **no strict premium obligations**, policyholders might unde
 The planned premium is typically **calculated** such that, on a best estimate basis, if all planned premiums are paid, then a **specific objective** is achieved (EG. Policy endows at age 100, AV = SA). Thus, it is also known as the **Solved Premium**.
 
 * **Positive Experience** - Account values grows **more than expected** to cover costs each period. Policyholders **no need to pay the premium** and the policy will continue to grow ("vanishing premiums")
-
-* **Negative Experience** - Account value grows less than expected. Even if all the planned premiums are paid, the AV will be **insufficient** to reach the intended goal; policy will lapse earlier than expected. Insurers will typically **send recommendations** to the policy to fund the policy.s
+* **Negative Experience** - Account value grows less than expected. Even if all the planned premiums are paid, the AV will be **insufficient** to reach the intended goal; policy will lapse earlier than expected. Insurers will typically **send recommendations** to the policy to fund the policy
 
 !!! Warning
 
@@ -49,7 +52,6 @@ The planned premium is typically **calculated** such that, on a best estimate ba
 Policyholders can also pay **MORE than the total planned premium** amount, typically known as **Overfunding** the policy. This will allow the account value to grow faster, allowing the policy to better sustain itself in the long-run. However, insurers typically set an **overfunding limit**:
 
 * **Insurer might be worse off** - Higher account values means lower COI but higher expense charges; net effect dependent on pricing and mix
-
 * **Legal Reasons** - Certain jurisdictions might no longer consider it as an insurance contract and hence lose out on tax or other benefits
 
 Distributors might be incentivized to encourage policyholders to overfund the policy in order to earn a higher commission. Thus, insurers typically set a maximum level (**Target Premium**), such that any premiums above this level (**Excess Premium**) earns commissions at a **reduced rate**. The target premium is typically set **close to the planned premium amount**.
@@ -70,15 +72,12 @@ $$
 
 ### **Crediting Rate**
 
-The interest credited to the account is known as the **Crediting Rate** (CR). Most insurers provide a non-negative **Minimum Guaranteed Rate** (>0), which ensures that the account value **cannot go down**.
+The interest credited to the account is known as the **Crediting Rate** (CR):
 
-!!! Tip
+* Typically declared **in advance** and then credited on a **daily basis** into the account throughout the **Crediting Term**
+* Non-negative **Minimum Guaranteed Crediting Rate**, ensuring that the account value will **never go down**
 
-    It is possible that the crediting interest exceeds the amount of charges in a given period, resulting in a self-sustaining policy. However, this is usually short-lived as the cost of insurance increase exponentially.
-
-Similar to participating products, the CR is **discretionary** and determined based on the **insurer's own investment experience** over the period, taking into account **other considerations** as well (EG. Smoothing, Competitiveness etc).
-
-The insurer effectively earns the difference between the actual investment return and the credited rate, known as the **Investment Spread**:
+The **insurer earns the difference** between the actual investment return and the credited rate, known as the **Investment Spread**:
 
 $$
     \text{Investment Spread} = \text{Earned Rate} - \text{Credited Rate}
@@ -88,13 +87,11 @@ When returns are low, the investment spread will be **compressed** or even turn 
 
 !!! Note
 
-    Similar to Par, since the crediting rate is entirely discretionary, most jurisdictions require the insurer to have an **internal framework** to guide the crediting rate decision, ensuring that policyholder interests are protected. Most frameworks typically outline a **Target Spread** that the insurer aims to earn each period.
+    Similar to Par, since the crediting rate is **entirely discretionary**, most jurisdictions require the insurer to have an **internal framework** to guide the crediting rate decision, ensuring a balance between business objectives and policyholder interests, which typically includes:
 
-There are three main variations of UL, differing based on their crediting rate:
-
-* **Traditional UL**: Discretionary
-* **Indexed UL**: Proportional to chosen index
-* **Variable UL**: Based on underlying mutual funds
+    * **Target Spread** that the insurer aims to earn
+    * Market Competitiveness
+    * Smoothing considerations
 
 ### **Cost of Insurance**
 
