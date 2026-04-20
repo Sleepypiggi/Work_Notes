@@ -1,10 +1,10 @@
 # **Overview**
 
-Universal Life Insurance is a form of **bundled** insurance that has a insurance and investment component:
+Universal Life is a form of insurance where premiums are paid into an **investment account**:
 
-* **Insurance** - Policy has a **sum assured**
-* **Investment** - Premiums are accumulated in an **account which grows with interest** 
-* The **Cost of Insurance** (COI) and any necessary **expense loadings** are deducted from the above account. The account balance is the **Cash Value** of the policy
+* The cost of insurance and any other expense charges are deducted from the account 
+* Interest is credited into the account by the insurer
+* Account value is the cash value of the policy
 
 $$
     \text{AV}_{t} = \left(\text{AV}_{t-1} + \text{Premium}_{t} - \text{Charges}_{t} \right) \cdot (1 + r)
