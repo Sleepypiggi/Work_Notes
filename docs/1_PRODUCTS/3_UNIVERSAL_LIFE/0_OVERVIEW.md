@@ -41,7 +41,7 @@ Given that there are **no strict premium obligations**, policyholders might unde
 The planned premium is typically **calculated** such that, on a best estimate basis, if all planned premiums are paid, then a **specific objective** is achieved (EG. Policy endows at age 100, AV = SA). Thus, it is also known as the **Solved Premium**.
 
 * **Positive Experience** - Account values grows **more than expected** to cover costs each period. Policyholders **no need to pay the premium** and the policy will continue to grow ("vanishing premiums")
-* **Negative Experience** - Account value grows less than expected. Even if all the planned premiums are paid, the AV will be **insufficient** to reach the intended goal; policy will lapse earlier than expected. Insurers will typically **send recommendations** to the policy to fund the policy
+* **Negative Experience** - Account value grows less than expected. Even if all the planned premiums are paid, the AV will be **insufficient** to reach the intended goal; policy will lapse earlier than expected. Insurers will typically ask the policyholder to **fund the policy** to prevent it from lapsing (know as a “premium call”)
 
 !!! Warning
 
@@ -128,6 +128,13 @@ The COI rates are based on the **current** age of the life insured (attained or 
 
 Some product designs do not charge an explicit COI but rather embedded the cost within the investment spread.
 
+The COI rates does not have to match the valuatio
+
+## **Expense Charges**
+
+Percentage of account value
+Common to be % of premiums paid instead
+
 ## **Sales Inducements**
 
 Sales Inducements are product features that **enhances the investment yield** to the policyholder (US SEC definition), intended to assist in the sales process. There are three main types:
@@ -198,11 +205,15 @@ Due to the **high costs** associated with setting up a policy, insurers need **s
 
 Premium charges allow the company to more **quickly recover** the costs on inception of the policy, thus are **less concerned** about early surrenders. On the other hand, surrender charges discourage early surrenders, **encouraging the policy to remain in-force** to allow the insurer to recover costs over time.
 
-Premium charges **directly reduce the amount invested**, making it **less efficient** for compounding (increasing the breakeven period), making it **less popular** among consumers these days who are generally much more financially literate. Surrender charges are thus much more common for modern product designs. It is also possible to have a combination of both loads (though each would be applied to a much smaller degree).
+Premium charges **directly reduce the amount invested**, making it **less efficient** for compounding (increasing the breakeven period), making it **less popular** among consumers these days who are generally much more financially literate. Surrender charges are thus much more common for modern product designs. It is also possible to have a combination of both loads.
 
 !!! Note
 
-    Surrender charges for regular premium plans can be as high as 100% in the first few years to fully discourage surrenders.
+    Surrender charges for regular premium plans can be **as high as 100%** in the first few years to fully discourage surrenders.
+    
+    
+
+
 
 ## **Policy Loans**
 
@@ -282,7 +293,6 @@ There are several risks involving with premium financing:
 2. If the policy performance is too poor or if the bank would like to exit the client, they can **force surrender** the policy to redeem the loan. If sufficient early in the policies lifetime, this will require the policyholder to **pay off the remaining loan balance**
 
 3. If the policyholder **dies early**, the proceeds will first be used to **pay off the loan balance**, the remaining amount (if any at all) is left to the intended beneficiaries.
- 
  
 !!! Note
 

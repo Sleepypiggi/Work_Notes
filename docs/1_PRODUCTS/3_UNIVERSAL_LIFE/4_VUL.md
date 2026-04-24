@@ -140,9 +140,6 @@ Top-ups are subject to premium allocation and premium charges, but may have a di
 
 ### Bonus
 
-Welcome
-Loyalty
-
 Welcome Bonus hits the unallocated premium, negative unalloc prem
 Cost of bonuses
 
