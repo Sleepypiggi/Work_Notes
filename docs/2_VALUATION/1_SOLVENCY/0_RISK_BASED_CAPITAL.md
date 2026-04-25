@@ -1,12 +1,16 @@
-# **Risk Based Capital**
+# **Risk Based Capital (RBC)**
 
 ## **Background**
 
 Given the **long-term** nature of life insurance where policy terms typically span over decades, the primary concern of policyholders is whether the insurer will still be operating at the time to make claim payments.
 
-Thus, a large portion of life insurance regulations exist to **minimize the risk** of claim payment defaults. This is done via stringent **capital requirements** which requires the insurer to *minimally* maintain a prescribed level of assets over liabilities, which should provide an adequate buffer against unexpected claims.
+Thus, a large portion of life insurance regulations exist to **minimize the risk** of claim payment defaults. This is done via stringent **capital requirements** which requires the insurer to *minimally* maintain a prescribed level of **assets over liabilities** (*capital*), which should provide an adequate **buffer against unexpected claims**.
 
-Note that regulations CANNOT completely prevent the failure or default of an insurer without also hindering their operations, thus the regulation does not seek to fully prevent insolvency, but rather to ensure that the insurer can fulfil their **financial obligations** to policyholders.
+Note that regulations **CANNOT completely prevent the failure or default** of an insurer without also hindering their operations, thus the regulation does not seek to fully prevent insolvency, but rather to ensure that the insurer can fulfil their **financial obligations** to policyholders.
+
+!!! Note
+
+    Capital and Surplus are often used interchangeably.
 
 ## **History**
 
@@ -17,6 +21,15 @@ From the birth of insurance to the late 20th century, such regulations involved 
     For instance, regulators could mandate that all insurers had to at least hold **50 million** in assets at all times.
 
 These regulations worked reasonably well till a large number of insolvency's in the late 20th century made it clear that it was **insufficient for modern life insurance** at the time. Thus, there was a push towards **Risk Based Capital** (RBC) requirements, where each insurer has a DIFFERENT capital requirement, **proportionate to their risk profile**.
+
+The major risk based capital approaches globally are:
+
+* US - National Association of Insurance Commissioners RBC (NAIC RBC)
+* Canada - Life Insurer Capital Adequacy Test (LICAT)
+* EU - Solvency II
+* Bermuda - Bermuda Solvency Capital Requirements (BSCR)
+* Hong Kong - HK RBC
+* Singapore - Singapore RBC2
 
 ## **Key Mechanics**
 
