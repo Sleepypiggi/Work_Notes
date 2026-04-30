@@ -6,6 +6,8 @@ Variable Annuities are **Unit-Linked** annuities, where the accumulation
 
 As previously covered, unit-linked plans often offer **some level guarantees** to limit the downside risks of the plan. For variable annuities, these guarantees are often optional in the form of **attachable riders**. They are called "Guaranteed Minimum XXX Benefit", which is why they are typically refered to as **GMxB riders**.
 
+rIDER OR EMBEDDED IN THE CONTRACT
+
 All the GMxBs function in a similar manner:
 
 * GMxBs create a **secondary guaranteed account**, also known as the **Benefit Base**
@@ -40,7 +42,13 @@ $$
 
 This is also referred to as a **Step-up Guarantee** (due to the shape if plotted) or a **Ratchet** (due to the adjustable nature).
 
+#### **Return of Premiums**
+
+
+
 #### **Roll-Up**
+
+rop adjusted for interest
 
 The benefit base **grows with interest** over time, adjusted for premiums and withdrawals:
 
@@ -61,11 +69,16 @@ $$
 
 
 
+
 ### **Guaranteed Minimum Maturity Benefit** (GMMB)
+
+Guaranteed maturiry value (av) on a specific date
 
 ### **Guaranteed Minimum Accumulation Benefit** (GMAB)
 
 This feature guarantees the **accumulation of account value**. If the **account value is smaller** than the benefit base at the time, the account value is **increased to match the benefit base** (ratchet to the benefit base).
+
+Series of GMMB = GMAV
 
 ### **Guaranteed Minimum Income Benefit** (GMIB)
 
@@ -93,6 +106,46 @@ This feature guarantees the **amount of (partial) withdrawals** that the policyh
     This feature is in relation to partial withdrawals, NOT the income post annuitization.
 
 GMWBs only start to cost the insurer when a withdrawal larger than the account value is made as the insurer has to fund the shortfall.
+
+GMWB ? GMIB cos dont lose the DB
+
+Lifetime > No more benefit base, can do forever
+
+Tax minimum distributiob
+qualified? swp?
+
+wthdraw more than required
+
+### **Modelling**
+
+These GMxBs can be thought of as an **Embedded Put Option** within the contract - the guarantee will be **exercised if the underlying investments fall in value**.
+
+Complex hard to price
+No closed form solution due to complexity
+Dynamic policyholder behaviour
+Dependent on interest rates and prior returns
+common to use stochastic projections
+Moneyeness utilization > MONEYENESS OF EMBEDDED OPTION
+
+might not always be efficient for various reasons
+
+### Hedging
+
+Buy put
+
+Risk to company is based on account value (market)
+Cannot aggregate many lives to diversify risk, need to explicitly hedge
+
+Reinsurance
+static hedging
+dynamic hedge - replicating portfolio
+create a portfolio with similar sensitivity in the short term
+when the underlying parameter moves, the portfolio moves together
+need to constantly rebalance to match
+need to balance transaction cost vs accuracy of hedge
+frequency of rebalancing vs tracking error
+
+
 
 
     

@@ -80,6 +80,10 @@ Earn spread
 
 ## Guarantees
 
+Suffer losses
+Risk adverse nature, companies offer some guarantees to boost sales
+although this was kinda the point
+
 ## **Trail Commissions**
 
 SP ILP poor persistency 
