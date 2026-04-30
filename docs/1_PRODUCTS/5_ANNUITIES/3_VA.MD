@@ -82,21 +82,15 @@ The annuitization of the policy will be based on the method (guaranteed or marke
 
 ### **Guaranteed Minimum Withdrawal Benefit** (GMWB)
 
-This feature guarantees the **amount of (partial) withdrawals** that the policyholder can make:
+This feature guarantees the **amount of (partial) withdrawals** that the policyholder can make, regardless of the account value:
 
-* Typically over a **specified time frame** (EG. Across 20 years)
-* Subject to a **maximum amount each year** (EG. 5% of initial premiums)
-* Each
-
-* Each withdrawal reduces both the benefit base and the account value
-* Guaranteed withdrawals can be a, regardless of the account value
-
+* Total withdrawals **up to the benefit base** (EG. 
+* Withdrawals are **capped each year** (EG. 5% of initial premium)
+* Guaranteed withdrawal STILL reduces the account value
 
 !!! Warning
 
     This feature is in relation to partial withdrawals, NOT the income post annuitization.
-
-
 
 GMWBs only start to cost the insurer when a withdrawal larger than the account value is made as the insurer has to fund the shortfall.
 
