@@ -11,14 +11,14 @@ nav:
 
   - Products:
     - Non-Participating:
-      - Term Life: 1_PRODUCTS/0_TERM_LIFE.md
-      - Whole Life: 1_PRODUCTS/1_WHOLE_LIFE.md
+      - Term Life: 1_PRODUCTS/0_NONPAR/0_TERM_LIFE.md
+      - Whole Life: 1_PRODUCTS/0_NONPAR/1_WHOLE_LIFE.md
     - Participating:
       - Par Overview: 1_PRODUCTS/3_PARTICIPATING.md
     - Universal Life:
-      - UL Overview:  1_PRODUCTS/3_UNIVERSAL_LIFE/0_UL_OVERVIEW.md
-      - Traditional UL:  1_PRODUCTS/3_UNIVERSAL_LIFE/1_UL.md
-      - Indexed UL:  1_PRODUCTS/3_UNIVERSAL_LIFE/2_IUL.md
+      - UL Overview:  1_PRODUCTS/2_UNIVERSAL_LIFE/0_UL_OVERVIEW.md
+      - Traditional UL:  1_PRODUCTS/2_UNIVERSAL_LIFE/1_UL.md
+      - Indexed UL:  1_PRODUCTS/2_UNIVERSAL_LIFE/2_IUL.md
     - Unit Linked:
       - Unit Linked Overview: 1_PRODUCTS/3_UNIT_LINKED/0_UNIT_LINKED_OVERVIEW.md
     - Endowment: tbc.md

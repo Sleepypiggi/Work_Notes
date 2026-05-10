@@ -59,41 +59,6 @@ There are three states that a policy can be in:
 
     However, reinstatement is **not guaranteed**. Some insurers may require the individual to go through **medical underwriting** again. In such cases, the terms of the policy may be adjusted if the insured's condition has worsened.
 
-### **Regular Premium (RP)**
-
-A **Regular Premium** policy must have premiums paid at **regular intervals** for the policy to remain in-force.
-
-From an
-
-Regardless which choice is chosen, the total premiums required are the **same from an actuarial perspective**. Thus, regular premiums tend to have the **smallest magnitude**.
-
-This option is suited for individuals who have a **steady stream of income** and are thus able to **spread the cost** of insurance over an extended period of time.
-
-### **Single Premium (SP)**
-
-A **Single Premium** policy only needs to have premium paid **once** on inception. The policy becomes **paid up** from that point on.
-
-Naturally, single premiums would have the **largest magnitude** as the entire premium is being paid upfront.
-
-This option is suited for individuals with a **large amount of liquid assets** (typically obtained via a windfall) and are thus able to **secure the insurance coverage** in a single payment.
-
-### **Limited Pay (LP)**
-
-A **Limited Pay** policy is a mixture of the above:
-
-* Premiums must be paid at **regular intervals for a fixed period**; premiums must be paid for the policy to remain in-force during this period
-* After that period, the policy is **paid up from that point on**
-* Premium size tends to be **significantly larger** than regular premiums
-
-The required period could be defined in two ways:
-
-1. **Explicit** - Payments required for a **fixed number of years** (EG. 20 years) 
-2. **Implicit** - Payments required **till a certain age** (EG. Till age 65)
-
-This option is suited for individuals who either:
-
-* Have **unreliable** streams of income; cannot afford to spread the cost
-* Have **high income**; can afford to pay the higher premiums
 
 ### **Premium Mode**
 
@@ -114,3 +79,6 @@ This is due to reflect the **higher cost** to accomodate more frequent payments:
     A common misconception is that paying a higher premium would contribute more to the cash value of the policy.
 
     The additional costs are entirely to reflect higher costs; **insurers are typically indifferent** between payment modes as the amount going to the insurance portion remains the same.
+
+
+    Even if the insured does not pay the required premiums on the payment date, the insurer usually offers a **Grace Period** (~1 Month) from that date where they will accept the required payment with **no other penalty or requirement**. If the insured still does not pay the premiums by the end of the grace period, then the policy will **Lapse** - it is no longer in effect and the insurer will not respond to any claims made.

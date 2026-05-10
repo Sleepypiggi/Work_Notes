@@ -12,6 +12,29 @@ If the insured event does NOT occur during the policy term, the policy will expi
 
 Term plans are best suited for individuals with financial obligations that only last for a **limited period of time**, such as during a loan repayment or till a child becomes financially independent.
 
+Sum Assured Pattern
+Level Term
+Decreasing
+Increasing
+
+Premium Payment Pattern
+Level
+Modified
+Increasing
+ART
+
+Level Premium for decreasing term is problematic because premium is very high for the coverage
+Decreasing premium scale
+
+Policy Size Impact
+Declining average costs
+
+Very competitive
+Need to price competitively for certain cells
+
+
+
+
 ## **Guaranteed Renewability**
 
 Term plans can offer **Guaranteed Renewability**. This allows the policyholder to **renew the term policy at expiration** to provide coverage again for the same duration. It is meant to provide flexibility for insureds with uncertain **long-term financial obligations** or for those with **difficulty affording** long-term coverage at the moment.
@@ -121,6 +144,8 @@ Term plans cans also offer non-level benefits, with the **ability for the benefi
 
     In Singapore, Mortgage Insurance is compulsory when purchasing a HDB, known as the **Home Protection Scheme**.
 
+
+
 ## **Return of Premium**
 
 Term plans can also offer a **Return of Premium** (ROP), where upon lapsing or expiration the policy, the insured is returned the **total amount of premiums paid till that point**, hence "returning" the premium paid back to them. The feature is typically only available after a specified duration in-force.
@@ -147,6 +172,15 @@ Convertibility tends to lead to **adverse selection** as insureds who are health
 
 <!-- Embedded option -->
 
+Same amount of coverage
+Commission may only be able on the discounted portion
+Promotes persistency, increases sales
+
+Costing
+Load only the time of exercise
+Load only for the people who want the option
+Load for all >> Equity issue because those who use it no longer pay for it, while those who use it still pay forit
+
 ## **Guaranteed Issuance/Insurability**
 
 Insurers also typically offer **Guaranteed Issue** policies which do NOT require medical underwriting, allowing any individual regardless of their health status to obtain coverage. However, there are typically **restrictions** such as lower coverage limits or waiting periods.
@@ -160,3 +194,26 @@ It is typically meant for insureds who have **pre-existing medical conditions** 
 Guaranteed Issuance could also refer to a feature which allows the policyholder to **increase the coverage** of the plan or **purchase a new life insurance plan** without medical underwriting when certain **key life events** occur (EG. Marriage, Child birth, Child Schooling).
 
 It is meant for insureds who are **unsure of their future financial obligations**, allowing them to **add coverage as and when** these milestones that typically increase financial obligations occur.
+
+Pricing Considerations
+
+ Lapse Supportability
+
+Lapse
+
+Premium scale and cells must be competitive
+Renewal lapse rates higher than WL
+
+Mortality
+
+Poor lives will convert to permanent
+Mortality will improve
+Buy and Sell term, usually under the recently underwritten
+
+eXPENSE
+
+Less protected against inflation due to the smaller rserves
+
+Option pricing
+
+Sensitive 
