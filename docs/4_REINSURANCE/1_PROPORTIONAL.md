@@ -1,26 +1,62 @@
 # **Proportional Reinsurance**
 
-## about the underlying assets
+This section will go over the specific structures of proportional reinsurane agreements:
 
-### **Sum at Risk**
+* Yearly Renewable Term
+* Co-Insurance
+* Modified Co-insurance
+* Funds Withhelds variants
+
+!!! Warning
+
+    Quota Share & Surplus are not reinsurance specific
+
+## **Yearly Renewable Term**
+
+Under the YRT structure, only **specific risks** (typically only Mortality/Morbidity) are ceded out to the reinsurer:
+
+* Cedant is **charged a seperate RI premium** for each ceded risk
+* Cedant **recovers the ceded proportion** of each claim under the ceded risks
+
+RI premiums are calculated using a **notional amount** known as the **RI SAR**, which is the amount at risk from the reinsurer's perspective:
+
+* Each ceded risk can have a **different ceding ratio**
+* Each ceded risk can have a **different RI premium rate**
+
+$$
+\begin{aligned}
+    \text{RI Premium} &= \sum \text{RI Premium per Benefit} \\
+    \text{RI Premium per Benefit} &= \text{Benefit RI SAR} \cdot \text{Benefit RI Premium Rate} \\
+    \text{Benefit RI SAR} &= \text{Benefit Ceding Ratio} \cdot (\text{Benefit SA} - \text{Gross of RI Reserves})
+\end{aligned}
+$$
+
+!!! Tip
+
+    The specific methodology to determine the RI SAR will vary for each arrangement:
+
+    * Some arrangements do not include the reserve in SAR
+    * Methodology and basis for determining the reserve must be agreed upon - reserves are jurisdiction specific, cedant and reinsurer likely operate in different jurisdictions
+
+!!! Warning
+
+    The arrangement is known as YRT as it involves the SAR for RI premium calculation. The arrangement itself is often NOT yearly renewable.
+
+Note on RI Premium rates:
+
+* Since there are typically **no other explicit charges**, the RI premium rates typically have the reinsurer's expense loading and profit margin embedded inside them
+* Modern arrangements typically involve **non-guaranteed rates** or ones that are only **guaranteed for an initial period**
 
 
 
-Calculated for each individual risk
 
 
-um at risk of the reinsurer
-Calculated at the benefit level for each individual benefit
-Calculated based on the amount ceded to reinsurer
+
 
 RI Premium = SAR * RI Premium Rate
 Insurer will clacualte SAR and the corresponding premium, send to Reinsurer to verify and check
 This is known as the Statement of Account
 
-The basis is agreed beforehand with the insurer on how to calcualte SAR
-Some SAR is complicated because some want/dont want to include SAR, because technically we are holding reserves for the benefits, nothing at risk to the reinsurer
-
-Problem is that if this the case, then need to align on the reserving basis with the resinurer, which is hard for both parties to agree
 
 ### **Coinsurance**
 

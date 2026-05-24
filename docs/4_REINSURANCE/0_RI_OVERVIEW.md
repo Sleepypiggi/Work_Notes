@@ -86,14 +86,12 @@ Complicated to manage
 
 Layers?
 
-
-
-
-
-
-
-
 ## Why Reinsruance
+
+## **Reinsurance Cashflows**
+
+
+RI Commissions >> Initially meant to compensate the insurer for expenses associated with writing business
 
 Protection in case of catastrophe
 Manage losses
@@ -112,7 +110,6 @@ Reinsurance is global in natrure, very easy to move capital around
 Reinsurance
 What is Reinsurance?
 
-RI Commissions >> Initially meant to compensate the insurer for expenses associated with writing business
 
 o	Important that Reinsurance companies do not eventually form a circular loop where a reinsurer is reinsuring part of themselves
 o	However, reinsurance may be provided for by another company in the corporate group. In this case, it is known as Captive Reinsurance
