@@ -1,15 +1,12 @@
 # **Proportional Reinsurance**
 
-This section will go over the specific structures of proportional reinsurane agreements:
+This section will go over the common structures of proportional reinsurane agreements:
 
 * Yearly Renewable Term
-* Co-Insurance
-* Modified Co-insurance
+* Co-Insurance & Modified Co-insurance
 * Funds Withhelds variants
 
-!!! Warning
-
-    Quota Share & Surplus are not reinsurance specific
+Note that Quota Share and Surplus are general terms that are only used to determine the **proportion** of risk sharing under each arrangement.
 
 ## **Yearly Renewable Term**
 
@@ -47,18 +44,14 @@ Note on RI Premium rates:
 * Since there are typically **no other explicit charges**, the RI premium rates typically have the reinsurer's expense loading and profit margin embedded inside them
 * Modern arrangements typically involve **non-guaranteed rates** or ones that are only **guaranteed for an initial period**
 
-
-
-
-
-
-
 RI Premium = SAR * RI Premium Rate
 Insurer will clacualte SAR and the corresponding premium, send to Reinsurer to verify and check
 This is known as the Statement of Account
 
 
 ### **Coinsurance**
+
+
 
 Reinsurer gets a proportionate share of the premiums and contributes to a proportionate share of the reserve and the benefits
 Proportion = Ceding ratio
