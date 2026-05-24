@@ -8,12 +8,12 @@ theme:
 
 nav:
   - Life Insurance: Placeholder.md
-
   - Products:
     - Non-Participating:
       - Term Life: 1_PRODUCTS/0_NONPAR/0_TERM_LIFE.md
       - Whole Life: 1_PRODUCTS/0_NONPAR/1_WHOLE_LIFE.md
     - Participating:
+<<<<<<< HEAD
       - Par Overview: 1_PRODUCTS/3_PARTICIPATING.md
     - Universal Life:
       - UL Overview:  1_PRODUCTS/2_UNIVERSAL_LIFE/0_UL_OVERVIEW.md
@@ -45,6 +45,36 @@ nav:
     - Dist Overview: 5_DISTRIBUTION/0_DIST_OVERVIEW.md
   - Asset Liability Mgmt:
     - ALM Overview: 6_ALM/0_ALM_OVERVIEW.md
+=======
+      - Overview: 1_PRODUCTS/3_PARTICIPATING.md
+    - Universal Life:
+      - Overview:  1_PRODUCTS/2_UNIVERSAL_LIFE/0_OVERVIEW.md
+      - Traditional:  1_PRODUCTS/2_UNIVERSAL_LIFE/1_UL.md
+      - Indexed:  1_PRODUCTS/2_UNIVERSAL_LIFE/2_IUL.md
+    - Unit Linked:
+      - Overview: 1_PRODUCTS/3_UNIT_LINKED\0_OVERVIEW.md
+    - Annuities:
+      - Overview: 1_PRODUCTS/5_ANNUITIES/0_OVERVIEW.md
+      - Fixed: 1_PRODUCTS/5_ANNUITIES/1_FA.md
+      - Indexed: 1_PRODUCTS/5_ANNUITIES/2_IA.md
+      - Variable: 1_PRODUCTS/5_ANNUITIES/3_VA.md
+    - Health:
+      - Overview: Placeholder.md
+    - Singapore: Placeholder.md
+  - Valuation:
+      - Solvency:
+        - Risk Based Capital: 3_SOLVENCY/0_RISK_BASED_CAPITAL.md
+        - Embedded Value: Placeholder.md
+        - IFRS17: Placeholder.md
+  - Reinsurance:
+    - Overview: Placeholder.md
+  - Distribution:
+    - Overview: Placeholder.md
+  - Experience Studies:
+    - Overview: Placeholder.md
+  - ALM:
+    - Overview: Placeholder.md
+>>>>>>> c5ba2e407f4958c8e3f2037ce5ea445be648ad7b
 
 markdown_extensions:
 
