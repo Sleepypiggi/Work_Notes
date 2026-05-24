@@ -2,38 +2,68 @@
 
 ## **Overview**
 
-The most basic type of life insurance is known as **Term Insurance**. As its name suggests, it provides an insurance cover ONLY for a **specific timeframe**, known as the **term** of the policy. Most insurers offer a term plans till a **specified age** OR for a **specified number of years** (usually in multiples of 5 or 10).
+**Term Life** Insurance provides coverage for a **specified duration**, known as the term of the policy:
 
-If the insured event does NOT occur during the policy term, the policy will expire and **NO benefits will be paid at all**. For this reason, term life insurance has the **lowest premiums** among other life insurance plan types with similar coverage.
+* **For specified period** - EG. Multiples of 5 or 10 years
+* **Till specified age** - EG. To age 65, 75, 85
+
+If the insured event does NOT occur during the policy term, the policy will expire and **NO benefits will be paid at all**. Thus, term plans are best suited for individuals with financial obligations that only last for a **limited period of time**.
+
+## **Benefit Patterns**
+
+The most common and basic term plan offers **level death benefits** that **do not change** over course of the policy.
+
+The next most common is a term plan with **decreasing death benefits** over time (typically annually). They are designed to meet specific financial obligations that are expected to decrease over time, such as housing mortgage where the **loan balance** decreases with each subsequent payment.
+
+However, decreasing term **typically levels off** at some point (EG. 20% of the starting amount). This is to ensure that the policyholder still has a reason to keep the policy in-force.
 
 !!! Note
 
-    The most basic term plan is one that only covers Death. It is easy to compare these plans across insurers, which makes it **price competitive**, which is another reason why it tends to be cheaper.
+    In Singapore, Mortgage Insurance is compulsory when purchasing a HDB, known as the **Home Protection Scheme**.
 
-Term plans are best suited for individuals with financial obligations that only last for a **limited period of time**, such as during a loan repayment or till a child becomes financially independent.
+The least common pattern is one with **increasing death benefits** over time. It is typically designed to increase based on an external index, such a the CPI, to cover for inflation.
 
-Sum Assured Pattern
-Level Term
-Decreasing
-Increasing
+!!! Note
 
-Premium Payment Pattern
-Level
-Modified
-Increasing
-ART
+    An increasing benefit term policy can be thought of as a combination of:
 
-Level Premium for decreasing term is problematic because premium is very high for the coverage
-Decreasing premium scale
+    1. Level benefit term plan equal to the starting benefit
+    2. Level benefit term plan "purchased" each period to account for the increase in coverage
 
-Policy Size Impact
-Declining average costs
+    For the (2), since the additional coverage is "purchased" each period, it uses the mortality cost at that age, which tends to **increase with age**. It is typically cheaper (on whole) if a level premium term was bought with the final coverage from the very beginning.
 
-Very competitive
-Need to price competitively for certain cells
+!!! Tip
 
+    Typically, any change to the benefit level made post-inception requires the insured to go through medical underwriting. However, an increasing benefit plan **guarantees** the increase, without the need for medical underwriting.
 
+<!-- Insert Self Made Diagram -->
 
+## **Premium payment Patterns**
+
+Similarly, **Level term** is the most common premium pattern, where policyholders pay a **constant premium** over the life of the policy, **regardless of their age** at the time. 
+
+The other end of the spectrum is known as **Yearly Renewable Term** (YRT), where the **premiums increase every year**, reflecting the increasing mortality with age.
+
+!!! Note
+
+    It is known as YRT as it is the equivalent price of a one year term insurance that is renewed or bought each year.
+
+It is important to understand the key differences between the two:
+
+* YRT is **significantly cheaper** than level term at younger ages and **significantly more expensive** at older ages
+* Individuals are **rarely able to afford** the high premiums at older ages, **forcing them to lapse** the policy when they are **most at risk of death**
+* Level term can thus be understood as **pre-paying** (front-loading) future premiums with the advantage of **accumulated with interest** over time, allowing relatively **small level premiums over a long duration** to cover high future mortality costs
+* It also provides a **smoothed premium**, allowing policyholders to easily keep the policy inforce, improving policy persistency
+
+<!-- Obtained from RP Wealth Management -->
+![YRT_VS_LEVEL](Assets/0_TERM_LIFE.md/YRT_VS_LEVEL.png){.center}
+
+There are several other premium patterns that are a combination of the two approaches:
+
+* **Modified Premium** - Premiums lower than level in the first 3-5 years, then subsequently higher afterwards
+* **Stepped Premium** - Premiums increasing every $n$ years
+
+<!-- Insert -->
 
 ## **Guaranteed Renewability**
 
@@ -55,24 +85,82 @@ However, such guaranteed renewability features might result in **Adverse Selecti
 
     Only select riders that are attachable to the plan can be renewed on a guaranteed basis.
 
-### **Yearly Renewable**
+## **Guaranteed Convertability**
 
-The most extreme version of renewability is for a plan with a **one year term** that is guaranteed renewable; typically known as **Yearly Renewable Term** (YRT). Pure YRTs are often not sold in practice, but serves as a **baseline** for understanding more complex products.
-
-The premiums for a YRT plan **increase every year**, reflecting the increasing mortality with age. Compared to an otherwise equal traditional level premium term plan, the YRT is **cheaper when young but is significantly more expensive when old**: 
-
-<!-- Obtained from RP Wealth Management -->
-![YRT_VS_LEVEL](Assets/0_TERM_LIFE.md/YRT_VS_LEVEL.png){.center}
-
-The key difference is that the level premium approach essentially **pre-pays** the premium ahead of time, allowing them to **accumulate with interest** to cover the high mortality costs at later ages, requiring only a reasonably small level premium.
-
-This is in contrast to YRT requires the individual to pay **equal to their mortality cost for that year**. At later ages, most individuals have little to no income, making them unable to afford coverage, forcing them to **lapse the policy when they are most at risk** of death.
-
-In the beginning of life insurance, YRTs were commonly used. However, due to affordability issues, they were phased out in favour of the **smoother level premium** approach that helped with persistency.
+Term plans can also offer the option to convert the term policy into **any type of whole life policy** within a specified time frame. The conversion is guaranteed, **regardless of the health** of the insured at the time of conversion. 
 
 !!! Note
 
-    The pre-payment of future mortality cost can also be known as "Front Loading" the mortality costs.
+    If the resulting whole life plan has **lower coverage** than the existing term plan, the term plan will **continue to be in-force** with the difference in coverage. In this scenario, it is known as a **Partial Conversion**. This ensures **no loss of coverage** during the conversion process.
+
+It is typically meant for insureds who wanted to purchase a whole life policy but **could not afford** to do so at the time. It could also be purchased by insureds who are **unsure of their future financial obligations**, thus would like the option to be able to convert.
+
+Convertibility tends to lead to **adverse selection** as insureds who are healthy have the ability to purchase a potentially cheaper whole life policy **from the market**. As a result, some insurers might offer incentives for these healthy individuals to convert, similar to re-entry.
+
+<!-- Embedded option -->
+
+Commission may only be able on the discounted portion
+Promotes persistency, increases sales
+
+Costing
+Load only the time of exercise
+Load only for the people who want the option
+Load for all >> Equity issue because those who use it no longer pay for it, while those who use it still pay forit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Level Premium for decreasing term is problematic because premium is very high for the coverage
+Decreasing premium scale
+
+Policy Size Impact
+Declining average costs
+
+Very competitive
+Need to price competitively for certain cells
+
+## **Pricing Considerations**
+
+### **Lapse & Mortality**
+
+Term products tend to be extremely **price competitive** due to the simplicity of the product, making it easy to compare across insurers. Coupled with the **already low cost**, policyholders tend to **shop around** for term insurance, even if they are already covered, resulting in **relatively higher lapses** compared to other product types. 
+
+Naturally, this option of shopping around is **only available to healthy insureds** who are still insurable at a reasonable rate (able to clear medical underwriting), thus leading to **Adverse Selection** which **negatively impacts mortality** of the remaining block.
+
+!!! Note
+
+    Price competitiveness **further drives down the prices** of term insurance as companies typically aim to **price certain model points more aggressively** (based on their targt market).
+
+Lapse
+
+Premium scale and cells must be competitive
+Renewal lapse rates higher than WL
+
+
+### **Mortality**
+
+All else equal, a term policy will have a higher SAR
+
+Due to the high lapses, term products are often prone to **Adverse Selection**:
+
+* Healthy lives are more likely to lapse when the financial obligation has passed (EG. At the end of the decreasing term)
+* Health lives who are confident in going through medical underwriting can afford to switch carriers when **premiums rise** (Shock Lapse) or competitors reduce premiums
+* All of these result in mainly **unhealthy lives** that remain in-force
+
+From another perspective,
+
+* Unhealthy lives are more likely to exercise conversion options to whole life, transferring the poor mortality to the whole life block instead
+* Due to the high turnover of term policies, most term policies still have the **selection effect**, which should have lower mortality
 
 ### **Lapse Supportability**
 
@@ -112,103 +200,9 @@ Unfortunately, lapse supported premiums tend to be lower, which **increases the 
 
 Although lapse supportability results in lower premiums, it represents a **conflict of interest** - policyholders aim to retain coverage while insurers gain from lapses. It is generally deemed unethical to design a product that induces lapses. Thus, it is generally viewed as a **taboo topic** among life insurers.
 
-## **Non-Level Benefits**
-
-Term plans cans also offer non-level benefits, with the **ability for the benefit to change** over the lifetime of the policy.
-
-**Increasing benefits** are suited for invididuals with financial obligations that are **expected to increase** over time:
-
-* **Inflation** will increase the price of goods and services over time
-* **Lifestyle inflation** where individuals tend to make more expensive lifestyle choices as their income grows
-* Parents with kids tend to have **large one-off expenses** due to University or Marriage that occur much later
-
-!!! Note
-
-    An increasing benefit term policy can be thought of as a combination of:
-
-    1. Level benefit term plan equal to the starting benefit
-    2. Level benefit term plan "purchased" each period to account for the increase in coverage
-
-    For the (2), since the additional coverage is "purchased" each period, it uses the mortality cost at that age, which tends to **increase with age**. It is typically cheaper (on whole) if a level premium term was bought with the final coverage from the very beginning.
-
-!!! Tip
-
-    Typically, any change to the benefit level made post-inception requires the insured to go through medical underwriting. However, an increasing benefit plan **guarantees** the increase, without the need for medical underwriting.
-
-**Decreasing benefits** are suited for individuals with financial obligations that are **expected to decrease** over time:
-
-* **Loan balance** decreases over time with each payment
-* Children **increasingly earn more income** as they enter the workforce, reducing their dependency on parents
-
-!!! Note
-
-    In Singapore, Mortgage Insurance is compulsory when purchasing a HDB, known as the **Home Protection Scheme**.
 
 
 
-## **Return of Premium**
-
-Term plans can also offer a **Return of Premium** (ROP), where upon lapsing or expiration the policy, the insured is returned the **total amount of premiums paid till that point**, hence "returning" the premium paid back to them. The feature is typically only available after a specified duration in-force.
-
-This feature is used to **attract customers** who view term insurance as a **waste** as they will not receive any benefit should the insured outlive the policy term. The feature essentially provides a **capital guarantee** on their purchase. It also helps in the **retention** of policyholders as they is **no risk** if they pay premiums; the premium will be returned to them.
-
-!!! Warning
-
-    From an ROI perspective, a ROP feature is actually **loss to the policyholder** as they could have earned interest on the amount had they not paid the premiums in first place.
-
-Life insurance is bought in the unfortunate event that the insured dies during the coverage period. ROP is bought in case the insured survives the coverage period. Thus, ROP as a feature is trying to cover both sides of the mortality-longevity risk. However, if longevity risk is the concern, then it is much better to purchase a **product that specializes in it rather than ROP**.
-
-## **Guaranteed Convertability**
-
-Term plans can also offer the option to convert the term policy into **any type of whole life policy** within a specified time frame. The conversion is guaranteed, **regardless of the health** of the insured at the time of conversion. 
-
-!!! Note
-
-    If the resulting whole life plan has **lower coverage** than the existing term plan, the term plan will **continue to be in-force** with the difference in coverage. In this scenario, it is known as a **Partial Conversion**. This ensures **no loss of coverage** during the conversion process.
-
-It is typically meant for insureds who wanted to purchase a whole life policy but **could not afford** to do so at the time. It could also be purchased by insureds who are **unsure of their future financial obligations**, thus would like the option to be able ti convert.
-
-Convertibility tends to lead to **adverse selection** as insureds who are healthy have the ability to purchase a potentially cheaper whole life policy **from the market**. As a result, some insurers might offer incentives for these healthy individuals to convert, similar to re-entry.
-
-<!-- Embedded option -->
-
-Same amount of coverage
-Commission may only be able on the discounted portion
-Promotes persistency, increases sales
-
-Costing
-Load only the time of exercise
-Load only for the people who want the option
-Load for all >> Equity issue because those who use it no longer pay for it, while those who use it still pay forit
-
-## **Guaranteed Issuance/Insurability**
-
-Insurers also typically offer **Guaranteed Issue** policies which do NOT require medical underwriting, allowing any individual regardless of their health status to obtain coverage. However, there are typically **restrictions** such as lower coverage limits or waiting periods.
-
-It is typically meant for insureds who have **pre-existing medical conditions** that would otherwise be denied coverage. These plans have already priced in the likely higher mortality thus are **more expensive** than an otherwise non-guaranteed plan with identical coverage.
-
-!!! Note
-
-    GIO is applicable to all forms of life insurance, not just term life. Investment policies may be issued on a guaranteed basis as their benefits are not sensitive to the life of the insured.
-
-Guaranteed Issuance could also refer to a feature which allows the policyholder to **increase the coverage** of the plan or **purchase a new life insurance plan** without medical underwriting when certain **key life events** occur (EG. Marriage, Child birth, Child Schooling).
-
-It is meant for insureds who are **unsure of their future financial obligations**, allowing them to **add coverage as and when** these milestones that typically increase financial obligations occur.
-
-Pricing Considerations
-
- Lapse Supportability
-
-Lapse
-
-Premium scale and cells must be competitive
-Renewal lapse rates higher than WL
-
-Mortality
-
-Poor lives will convert to permanent
-Mortality will improve
-Buy and Sell term, usually under the recently underwritten
 
 eXPENSE
 

@@ -36,12 +36,15 @@ nav:
     - Embedded Value: Placeholder.md
     - IFRS17:
       - IFRS17 Overview: 2_VALUATION/3_IFRS17/0_IFRS17_OVERVIEW.md
+  - Assumptions:
+    - Assmp Overview: 3_ASSUMPTIONS/0_ASSMP_OVERVIEW.md
   - Reinsurance:
-    - RI Overview: 3_REINSURANCE/0_RI_OVERVIEW.md
-    - Proportional: 3_REINSURANCE/1_PROPORTIONAL.md
-  - Distribution: Placeholder.md
-  - Experience Studies: Placeholder.md
-  - Asset Liability Mgmt: Placeholder.md
+    - RI Overview: 4_REINSURANCE/0_RI_OVERVIEW.md
+    - Proportional: 4_REINSURANCE/1_PROPORTIONAL.md
+  - Distribution:
+    - Dist Overview: 5_DISTRIBUTION/0_DIST_OVERVIEW.md
+  - Asset Liability Mgmt:
+    - ALM Overview: 6_ALM/0_ALM_OVERVIEW.md
 
 markdown_extensions:
 

@@ -2,11 +2,11 @@
 
 ## **Overview**
 
-**Whole Life** insurance refers to a plan which provides **virtually permanent coverage**, typically up to 100 or 120 years, which is when the insurer expects that all individuals will die:
+**Whole Life** insurance provides **virtually permanent coverage**, typically up to the 100th or 120th birthday of the insured, which is when the insurer expects that all individuals will die:
 
-* Insured dies before age 100 or 120: Plan pays a **Death Benefit**
-* Insured lives to age 100 or 120: Plan pays a **Maturity Benefit**
-* Since both are mutually exclusive, the policy will ALWAYS pay out a benefit
+* Dies before age 100 or 120: Plan pays a **Death Benefit**
+* Lives to age 100 or 120: Plan pays a **Maturity Benefit**
+* Both are **mutually exclusive**, the policy will ALWAYS pay out a benefit
 
 !!! Note
 
