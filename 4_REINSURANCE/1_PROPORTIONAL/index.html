@@ -898,19 +898,12 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-the-underlying-assets" class="md-nav__link">
-    about the underlying assets
+  <a href="#yearly-renewable-term" class="md-nav__link">
+    Yearly Renewable Term
   </a>
   
-    <nav class="md-nav" aria-label="about the underlying assets">
+    <nav class="md-nav" aria-label="Yearly Renewable Term">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sum-at-risk" class="md-nav__link">
-    Sum at Risk
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#coinsurance" class="md-nav__link">
@@ -1103,19 +1096,12 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-the-underlying-assets" class="md-nav__link">
-    about the underlying assets
+  <a href="#yearly-renewable-term" class="md-nav__link">
+    Yearly Renewable Term
   </a>
   
-    <nav class="md-nav" aria-label="about the underlying assets">
+    <nav class="md-nav" aria-label="Yearly Renewable Term">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sum-at-risk" class="md-nav__link">
-    Sum at Risk
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#coinsurance" class="md-nav__link">
@@ -1186,18 +1172,55 @@
 
 
 <h1 id="proportional-reinsurance"><strong>Proportional Reinsurance</strong><a class="headerlink" href="#proportional-reinsurance" title="Permanent link">&para;</a></h1>
-<h2 id="about-the-underlying-assets">about the underlying assets<a class="headerlink" href="#about-the-underlying-assets" title="Permanent link">&para;</a></h2>
-<h3 id="sum-at-risk"><strong>Sum at Risk</strong><a class="headerlink" href="#sum-at-risk" title="Permanent link">&para;</a></h3>
-<p>Calculated for each individual risk</p>
-<p>um at risk of the reinsurer
-Calculated at the benefit level for each individual benefit
-Calculated based on the amount ceded to reinsurer</p>
+<p>This section will go over the specific structures of proportional reinsurane agreements:</p>
+<ul>
+<li>Yearly Renewable Term</li>
+<li>Co-Insurance</li>
+<li>Modified Co-insurance</li>
+<li>Funds Withhelds variants</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Quota Share &amp; Surplus are not reinsurance specific</p>
+</div>
+<h2 id="yearly-renewable-term"><strong>Yearly Renewable Term</strong><a class="headerlink" href="#yearly-renewable-term" title="Permanent link">&para;</a></h2>
+<p>Under the YRT structure, only <strong>specific risks</strong> (typically only Mortality/Morbidity) are ceded out to the reinsurer:</p>
+<ul>
+<li>Cedant is <strong>charged a seperate RI premium</strong> for each ceded risk</li>
+<li>Cedant <strong>recovers the ceded proportion</strong> of each claim under the ceded risks</li>
+</ul>
+<p>RI premiums are calculated using a <strong>notional amount</strong> known as the <strong>RI SAR</strong>, which is the amount at risk from the reinsurer's perspective:</p>
+<ul>
+<li>Each ceded risk can have a <strong>different ceding ratio</strong></li>
+<li>Each ceded risk can have a <strong>different RI premium rate</strong></li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned}
+    \text{RI Premium} &amp;= \sum \text{RI Premium per Benefit} \\
+    \text{RI Premium per Benefit} &amp;= \text{Benefit RI SAR} \cdot \text{Benefit RI Premium Rate} \\
+    \text{Benefit RI SAR} &amp;= \text{Benefit Ceding Ratio} \cdot (\text{Benefit SA} - \text{Gross of RI Reserves})
+\end{aligned}
+\]</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The specific methodology to determine the RI SAR will vary for each arrangement:</p>
+<ul>
+<li>Some arrangements do not include the reserve in SAR</li>
+<li>Methodology and basis for determining the reserve must be agreed upon - reserves are jurisdiction specific, cedant and reinsurer likely operate in different jurisdictions</li>
+</ul>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The arrangement is known as YRT as it involves the SAR for RI premium calculation. The arrangement itself is often NOT yearly renewable.</p>
+</div>
+<p>Note on RI Premium rates:</p>
+<ul>
+<li>Since there are typically <strong>no other explicit charges</strong>, the RI premium rates typically have the reinsurer's expense loading and profit margin embedded inside them</li>
+<li>Modern arrangements typically involve <strong>non-guaranteed rates</strong> or ones that are only <strong>guaranteed for an initial period</strong></li>
+</ul>
 <p>RI Premium = SAR * RI Premium Rate
 Insurer will clacualte SAR and the corresponding premium, send to Reinsurer to verify and check
 This is known as the Statement of Account</p>
-<p>The basis is agreed beforehand with the insurer on how to calcualte SAR
-Some SAR is complicated because some want/dont want to include SAR, because technically we are holding reserves for the benefits, nothing at risk to the reinsurer</p>
-<p>Problem is that if this the case, then need to align on the reserving basis with the resinurer, which is hard for both parties to agree</p>
 <h3 id="coinsurance"><strong>Coinsurance</strong><a class="headerlink" href="#coinsurance" title="Permanent link">&para;</a></h3>
 <p>Reinsurer gets a proportionate share of the premiums and contributes to a proportionate share of the reserve and the benefits
 Proportion = Ceding ratio
