@@ -53,6 +53,10 @@ Insurers typically utilize both types in conjunction:
 * **Quota Share** - All risks share the **same ratio**
 * **Surplus** - Ratio is **determined seperately** for each risk
 
+!!! Tip
+
+    Proportional reinsurance is also referred to as **First Dollar Reinsurance** because there the coverage starts from the first dollar, no minimum requirements must be met.
+
 <!-- Self Made -->
 ![PROPORTIONAL_ILLUSTRATION](Assets/0_OVERVIEW.MD/PROPORTIONAL_ILLUSTRATION.png)
 
@@ -90,6 +94,13 @@ Layers?
 
 ## **Reinsurance Cashflows**
 
+There are four main reinsurance cashflows:
+
+
+1. Reinsurance Premium - Amount that the insurer pays to the reinsurer for the coverage
+2. Reinsurance Recoverable - Amount that the reinsurer indemnifies the insurer in the event of a claim
+3. Reinsurance Commission - Amount that the reinsurer gives to the insurer to offset 
+4. RI Profit Cm
 
 RI Commissions >> Initially meant to compensate the insurer for expenses associated with writing business
 
